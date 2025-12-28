@@ -1,0 +1,32 @@
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+
+# LangChain for data processing and chunking
+langchain>=0.1.0
+langchain-community>=0.0.20
+
+# Embeddings
+sentence-transformers>=2.3.0
+
+# Neo4j database
+neo4j>=5.14.0
+
+# Optional: Vector databases (alternative to Neo4j)
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+
+# Optional: PDF processing
+PyPDF2>=3.0.0
+
+# Optional: Advanced NLP
+# spacy>=3.7.0
+# transformers>=4.35.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
