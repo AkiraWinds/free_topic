@@ -519,7 +519,8 @@ class DatabaseManager:
     def _cosine_similarity(self, vec1: np.ndarray, vec2: np.ndarray) -> float:
         """Calculate cosine similarity between two vectors."""
         if len(vec1) != len(vec2):
-            return 0.0
+            logger.warning(f"Vector dimension mismatch: {len(vec1)} vs {len(vec2)}")
+            return None
         
         norm1 = np.linalg.norm(vec1)
         norm2 = np.linalg.norm(vec2)

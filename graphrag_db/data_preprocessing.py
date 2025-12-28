@@ -305,13 +305,14 @@ class DataPreprocessor:
         try:
             logger.info(f"Loading Hugging Face dataset from {hf_path}")
             
+            # Load JSONL data
+            df = pd.read_json(hf_path, lines=True)
+            
             # Special handling for Australian Legal Corpus
             if "open-australian-legal-corpus" in hf_path:
-                df = pd.read_json(hf_path, lines=True)
                 documents = self._convert_legal_corpus_to_documents(df)
             else:
                 # Generic JSONL loading
-                df = pd.read_json(hf_path, lines=True)
                 documents = self._convert_dataframe_to_documents(df)
             
             logger.info(f"Successfully loaded {len(documents)} documents from Hugging Face dataset")

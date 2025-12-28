@@ -231,8 +231,8 @@ class TextChunker:
             # Move start position with overlap
             start = end - self.chunk_overlap
             
-            # Prevent infinite loop
-            if start <= 0 and len(chunks) > 0:
+            # Prevent infinite loop - if we're not making progress, break
+            if start >= end or (len(chunks) > 0 and start >= len(text)):
                 break
         
         return chunks
