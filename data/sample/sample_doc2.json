@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Neo4j is a graph database management system that stores data as nodes and relationships. It's particularly well-suited for GraphRAG applications where understanding connections between entities is crucial.",
+    "metadata": {
+      "title": "Introduction to Neo4j",
+      "category": "database",
+      "tags": ["neo4j", "graph database", "nosql"]
+    }
+  },
+  {
+    "content": "LangChain is a framework for developing applications powered by language models. It provides tools for document loading, text splitting, and chaining operations together to build complex AI applications.",
+    "metadata": {
+      "title": "LangChain Framework",
+      "category": "framework",
+      "tags": ["langchain", "llm", "ai"]
+    }
+  },
+  {
+    "content": "Sentence transformers are models that can generate embeddings for sentences and paragraphs. These embeddings capture semantic meaning and can be used for similarity search, clustering, and more.",
+    "metadata": {
+      "title": "Sentence Transformers",
+      "category": "nlp",
+      "tags": ["embeddings", "transformers", "nlp"]
+    }
+  }
+]

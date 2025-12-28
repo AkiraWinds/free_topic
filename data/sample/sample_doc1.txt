@@ -1,0 +1,23 @@
+This is a sample text document for testing the GraphRAG database system.
+
+The GraphRAG system combines the power of knowledge graphs with retrieval-augmented generation (RAG) to create a comprehensive information retrieval and storage solution.
+
+Key features include:
+- Data preprocessing and validation
+- Text cleaning and normalization
+- Intelligent chunking strategies using LangChain
+- Vector embeddings generation
+- Knowledge graph construction with Neo4j
+- Metadata extraction and management
+
+This system is designed to handle various data sources including local files, databases, and remote datasets like the Australian Legal Corpus from Hugging Face.
+
+The pipeline processes documents through multiple stages:
+1. Loading and validation
+2. Cleaning and normalization
+3. Chunking into manageable pieces
+4. Generating embeddings
+5. Extracting metadata and entities
+6. Storing in a graph database
+
+Users can query the system using semantic search or explore the knowledge graph to discover relationships between entities.
