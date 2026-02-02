@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Env
+.env
+
+# Data & artifacts
+data/
+chunking/
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
