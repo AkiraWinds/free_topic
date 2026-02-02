@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_6",
+    "text_hash": "87f3de80ac449eb8992bdd2a99ec0fa9",
+    "text": "Amendment Schedule 1 has effect.",
+    "token_count": 9,
+    "char_count": 32,
+    "graph_stats": {
+      "total_nodes": 2,
+      "llm_extracted_nodes": 1,
+      "total_relationships": 2,
+      "llm_extracted_relationships": 1,
+      "mentions_relationships": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_6",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_6",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Amendment Schedule 1",
+      "type": "Entity",
+      "properties": {
+        "name": "Amendment Schedule 1",
+        "discourse_role": "SUBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Amendment Schedule 1",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Amendment Schedule 1",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Amendment Schedule 1",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

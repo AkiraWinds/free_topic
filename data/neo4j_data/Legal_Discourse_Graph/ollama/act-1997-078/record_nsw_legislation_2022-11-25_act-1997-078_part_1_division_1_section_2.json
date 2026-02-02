@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_2",
+    "text_hash": "dd2db30507fbb00f8b0e64eae7bf0a26",
+    "text": "Commencement This Act commences on a day or days to be appointed by proclamation.",
+    "token_count": 17,
+    "char_count": 81,
+    "graph_stats": {
+      "total_nodes": 3,
+      "llm_extracted_nodes": 2,
+      "total_relationships": 2,
+      "llm_extracted_relationships": 0,
+      "mentions_relationships": 2
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Commencement",
+      "type": "Entity",
+      "properties": {
+        "name": "Commencement",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "This Act",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Commencement",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

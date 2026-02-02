@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_10",
+    "text_hash": "0c25521b670359689e5f6d0a84dd20a1",
+    "text": "Police officer may request person to state name, age and address For the purposes of enabling a police officer to escort a person removed from a public place under this Division to a place referred to in section 22, the police officer may request the person to state— (a) his or her name and age, and (b) his or her parent's residential address or, if he or she has a carer, the address of his or her care residence.",
+    "token_count": 92,
+    "char_count": 416,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 8,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_10",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_10",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Person",
+      "type": "Entity",
+      "properties": {
+        "name": "person",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Request To State Name And Age",
+      "type": "Entity",
+      "properties": {
+        "name": "request to state name and age",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Request To State Parent'S Residential Address Or Carer'S Address",
+      "type": "Entity",
+      "properties": {
+        "name": "request to state parent's residential address or carer's address",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Request To State Name And Age",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Request To State Parent'S Residential Address Or Carer'S Address",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Request To State Name And Age",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Request To State Parent'S Residential Address Or Carer'S Address",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_10",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_10",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_10",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Request To State Name And Age",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_10",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Request To State Parent'S Residential Address Or Carer'S Address",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

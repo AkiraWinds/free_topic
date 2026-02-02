@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+    "text_hash": "3908664218bc683bcab02be34bf27c88",
+    "text": "Duration and revocation of approval (1) An approval of a draft local crime prevention plan, or local crime prevention plan adopted by a council, as a safer community compact remains in force (unless sooner revoked) for 3 years after it is given. (2) The Attorney General may revoke an approval by written notice given to the council concerned. (3) The Attorney General may revoke an approval— (a) if the Attorney General considers any provisions of the safer community compact are no longer suitable for the needs of the area to which it applies, or (b) if the Attorney General considers the safer community compact is not being implemented in a satisfactory manner, or (c) on any other ground the Attorney General considers appropriate.",
+    "token_count": 147,
+    "char_count": 737,
+    "graph_stats": {
+      "total_nodes": 11,
+      "llm_extracted_nodes": 10,
+      "total_relationships": 18,
+      "llm_extracted_relationships": 8,
+      "mentions_relationships": 10
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Approval Of A Draft Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "approval of a draft local crime prevention plan",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Local Crime Prevention Plan Adopted By A Council",
+      "type": "Entity",
+      "properties": {
+        "name": "local crime prevention plan adopted by a council",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "safer community compact",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "3 Years",
+      "type": "Entity",
+      "properties": {
+        "name": "3 years",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Written Notice",
+      "type": "Entity",
+      "properties": {
+        "name": "written notice",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Provisions Of The Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "provisions of the safer community compact",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Needs Of The Area",
+      "type": "Entity",
+      "properties": {
+        "name": "needs of the area",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Satisfactory Manner",
+      "type": "Entity",
+      "properties": {
+        "name": "satisfactory manner",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Any Other Ground",
+      "type": "Entity",
+      "properties": {
+        "name": "any other ground",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Approval Of A Draft Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan Adopted By A Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Safer Community Compact",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "3 Years",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Written Notice",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Attorney General",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Provisions Of The Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Attorney General",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Needs Of The Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Attorney General",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Satisfactory Manner",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Attorney General",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Any Other Ground",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approval Of A Draft Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Crime Prevention Plan Adopted By A Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "3 Years",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Written Notice",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Provisions Of The Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Needs Of The Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Satisfactory Manner",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Other Ground",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

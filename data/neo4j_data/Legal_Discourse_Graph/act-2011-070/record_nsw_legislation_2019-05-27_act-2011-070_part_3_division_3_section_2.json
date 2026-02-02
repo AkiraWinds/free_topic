@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_2",
+    "text_hash": "62102949c614bbfdafea360b6ae3d6d4",
+    "text": "Contravention of service approval An approved provider must not contravene a condition of a service approval for a State regulated education and care service. Maximum penalty: $10,000 in the case of an individual or $50,000 in any other case.",
+    "token_count": 52,
+    "char_count": 242,
+    "graph_stats": {
+      "total_nodes": 4,
+      "llm_extracted_nodes": 3,
+      "total_relationships": 5,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Approved Provider",
+      "type": "Entity",
+      "properties": {
+        "name": "approved provider",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Condition Of A Service Approval",
+      "type": "Entity",
+      "properties": {
+        "name": "condition of a service approval",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Must Not Contravene",
+      "type": "Entity",
+      "properties": {
+        "name": "must not contravene",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Must Not Contravene",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Approved Provider",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Condition Of A Service Approval",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Approved Provider",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approved Provider",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Condition Of A Service Approval",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Must Not Contravene",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

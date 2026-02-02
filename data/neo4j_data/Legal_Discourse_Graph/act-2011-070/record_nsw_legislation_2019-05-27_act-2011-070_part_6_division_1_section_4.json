@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_4",
+    "text_hash": "190d974d62cf42102f0f89f0b7d92c27",
+    "text": "Review of Act (1) The Minister is to review this Act to determine whether the policy objectives of the Act remain valid and whether the terms of the Act remain appropriate for securing those objectives. (2) The review is to be undertaken as soon as possible after the period of 5 years from the date of assent to this Act. (3) A report on the outcome of the review is to be tabled in each House of Parliament within 12 months after the end of the period of 5 years.",
+    "token_count": 103,
+    "char_count": 465,
+    "graph_stats": {
+      "total_nodes": 8,
+      "llm_extracted_nodes": 7,
+      "total_relationships": 13,
+      "llm_extracted_relationships": 6,
+      "mentions_relationships": 7
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Minister",
+      "type": "Entity",
+      "properties": {
+        "name": "The Minister",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Review",
+      "type": "Entity",
+      "properties": {
+        "name": "review",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "The Policy Objectives Of The Act Remain Valid",
+      "type": "Entity",
+      "properties": {
+        "name": "the policy objectives of the Act remain valid",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Terms Of The Act Remain Appropriate For Securing Those Objectives",
+      "type": "Entity",
+      "properties": {
+        "name": "the terms of the Act remain appropriate for securing those objectives",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "As Soon As Possible After The Period Of 5 Years From The Date Of Assent To This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "as soon as possible after the period of 5 years from the date of assent to this Act",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "A Report On The Outcome Of The Review Is To Be Tabled In Each House Of Parliament Within 12 Months After The End Of The Period Of 5 Years",
+      "type": "Entity",
+      "properties": {
+        "name": "A report on the outcome of the review is to be tabled in each House of Parliament within 12 months after the end of the period of 5 years",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Review",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "The Minister",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Review",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Policy Objectives Of The Act Remain Valid",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Review",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Terms Of The Act Remain Appropriate For Securing Those Objectives",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Review",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "As Soon As Possible After The Period Of 5 Years From The Date Of Assent To This Act",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Review",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Report On The Outcome Of The Review Is To Be Tabled In Each House Of Parliament Within 12 Months After The End Of The Period Of 5 Years",
+      "source_type": "Entity",
+      "type": "FOLLOWED_BY",
+      "target_id": "Review",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Minister",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Review",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Policy Objectives Of The Act Remain Valid",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Terms Of The Act Remain Appropriate For Securing Those Objectives",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "As Soon As Possible After The Period Of 5 Years From The Date Of Assent To This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Report On The Outcome Of The Review Is To Be Tabled In Each House Of Parliament Within 12 Months After The End Of The Period Of 5 Years",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

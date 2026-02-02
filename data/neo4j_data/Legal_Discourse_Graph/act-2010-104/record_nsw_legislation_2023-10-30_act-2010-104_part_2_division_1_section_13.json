@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_13",
+    "text_hash": "9d17650d305cff6ec4c42fb3c5192cc9",
+    "text": "Penalty at end of provision In the Children (Education and Care Services) National Law (NSW), a penalty specified at the end of a provision indicates that a contravention of the provision is punishable on conviction by a penalty not more than the specified penalty.",
+    "token_count": 53,
+    "char_count": 265,
+    "graph_stats": {
+      "total_nodes": 4,
+      "llm_extracted_nodes": 3,
+      "total_relationships": 5,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_13",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_13",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Penalty",
+      "type": "Entity",
+      "properties": {
+        "name": "penalty",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Provision",
+      "type": "Entity",
+      "properties": {
+        "name": "provision",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Contravention Of The Provision",
+      "type": "Entity",
+      "properties": {
+        "name": "contravention of the provision",
+        "discourse_role": "TEST"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Contravention Of The Provision",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Provision",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Provision",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Penalty",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_13",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Penalty",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_13",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Provision",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_13",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Contravention Of The Provision",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

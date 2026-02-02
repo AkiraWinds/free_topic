@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_1",
+    "text_hash": "84e9f26449d5e91e35fe3fb747b438dc",
+    "text": "Service approvals The National Law Alignment Provisions provide for the grant of service approvals for State regulated education and care services and other matters relating to service approvals.",
+    "token_count": 30,
+    "char_count": 195,
+    "graph_stats": {
+      "total_nodes": 4,
+      "llm_extracted_nodes": 3,
+      "total_relationships": 5,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Service Approvals",
+      "type": "Entity",
+      "properties": {
+        "name": "Service approvals",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "The National Law Alignment Provisions",
+        "discourse_role": "DEFINITION"
+      }
+    },
+    {
+      "id": "The Grant Of Service Approvals For State Regulated Education And Care Services And Other Matters Relating To Service Approvals",
+      "type": "Entity",
+      "properties": {
+        "name": "the grant of service approvals for State regulated education and care services and other matters relating to service approvals",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The National Law Alignment Provisions",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Service Approvals",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Service Approvals",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "The Grant Of Service Approvals For State Regulated Education And Care Services And Other Matters Relating To Service Approvals",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service Approvals",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Grant Of Service Approvals For State Regulated Education And Care Services And Other Matters Relating To Service Approvals",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

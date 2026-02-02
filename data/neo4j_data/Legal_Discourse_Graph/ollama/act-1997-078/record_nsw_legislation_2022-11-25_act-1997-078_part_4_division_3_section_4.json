@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+    "text_hash": "3908664218bc683bcab02be34bf27c88",
+    "text": "Duration and revocation of approval (1) An approval of a draft local crime prevention plan, or local crime prevention plan adopted by a council, as a safer community compact remains in force (unless sooner revoked) for 3 years after it is given. (2) The Attorney General may revoke an approval by written notice given to the council concerned. (3) The Attorney General may revoke an approval— (a) if the Attorney General considers any provisions of the safer community compact are no longer suitable for the needs of the area to which it applies, or (b) if the Attorney General considers the safer community compact is not being implemented in a satisfactory manner, or (c) on any other ground the Attorney General considers appropriate.",
+    "token_count": 147,
+    "char_count": 737,
+    "graph_stats": {
+      "total_nodes": 12,
+      "llm_extracted_nodes": 11,
+      "total_relationships": 13,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 11
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Approval",
+      "type": "Entity",
+      "properties": {
+        "name": "approval",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "safer community compact",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Council",
+      "type": "Entity",
+      "properties": {
+        "name": "council",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "3 Years",
+      "type": "Entity",
+      "properties": {
+        "name": "3 years",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Written Notice",
+      "type": "Entity",
+      "properties": {
+        "name": "written notice",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Approval Revocation",
+      "type": "Entity",
+      "properties": {
+        "name": "approval revocation",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Safer Community Compact Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "safer community compact provisions",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Area Needs",
+      "type": "Entity",
+      "properties": {
+        "name": "area needs",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Implementation",
+      "type": "Entity",
+      "properties": {
+        "name": "implementation",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Definition Of Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "definition of safer community compact",
+        "discourse_role": "DEFINITION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Safer Community Compact Provisions",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Area Needs",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Definition Of Safer Community Compact",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approval",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "3 Years",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Written Notice",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approval Revocation",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Safer Community Compact Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Area Needs",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Implementation",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Definition Of Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+    "text_hash": "e98b532e44a8264ff3b9b451a9675495",
+    "text": "Operation of Act (1) This Act does not affect any functions (including functions of a court or police officer) that may be exercised apart from this Act. (2) This Act extends to acts, matters and things occurring, and proceedings instituted, before the commencement of this section.",
+    "token_count": 57,
+    "char_count": 282,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "This Act",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Does Not Affect Any Functions",
+      "type": "Entity",
+      "properties": {
+        "name": "does not affect any functions",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Functions Of A Court Or Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "functions of a court or police officer",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "May Be Exercised Apart From This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "may be exercised apart from this Act",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Extends To Acts, Matters And Things Occurring, And Proceedings Instituted, Before The Commencement Of This Section",
+      "type": "Entity",
+      "properties": {
+        "name": "extends to acts, matters and things occurring, and proceedings instituted, before the commencement of this section",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Does Not Affect Any Functions",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Functions Of A Court Or Police Officer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "This Act",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Does Not Affect Any Functions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "May Be Exercised Apart From This Act",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Does Not Affect Any Functions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "This Act",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Extends To Acts, Matters And Things Occurring, And Proceedings Instituted, Before The Commencement Of This Section",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Does Not Affect Any Functions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Functions Of A Court Or Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "May Be Exercised Apart From This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Extends To Acts, Matters And Things Occurring, And Proceedings Instituted, Before The Commencement Of This Section",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

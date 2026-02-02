@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+    "text_hash": "32339fd8e8bc031f772431bd7e718b89",
+    "text": "Operational area (1) The council for an area may request the Attorney General to declare the area to be an operational area for the purposes of Division 2 of this Part. (2) The Attorney General may, by order, declare an area described in the order to be an operational area for the purposes of Division 2 of this Part in accordance with a request under subsection (1), or may declare a portion only of that area to be an operational area. (3) The Attorney General must not make an order declaring an area (or portion of an area) to be an operational area unless the Attorney General is satisfied that adequate crime prevention or youth support initiatives will be available in the area before the order takes effect. (4) In considering a request under subsection (1) to declare an area (or a portion of an area) to be an operational area, the Attorney General is to have regard to the following— (a) whether the council has adequately informed and consulted with the local community concerned, including young people and the Aboriginal community, and the views expressed, (b) the extent and nature of crime in the area, (c) the nature of any crime prevention or youth support initiatives that have been undertaken in the area, including whether any local crime prevention plan or safer community compact is in force for the area, or is in the course of being prepared by the council for the area, and the contents or proposed contents of that plan or compact, (d) the effect of making the declaration on young people in the area, including the availability of safe and appropriate recreational amenities for young people in the area, (e) the practicality of applying Division 2 of this Part in the area, including (but not limited to) any advice given by the Commissioner of Police relating to the operational capacity of police to carry out functions under the Division in the area, (f) without limiting paragraph (e), whether appropriate arrangements have been made, or are able to be made, to cater for the needs of young people who are removed from public places in the area under Division 2 of this Part and who are not able to be taken home, including culturally appropriate arrangements for Aboriginal and Torres Strait Islander young people, (g) whether the council has undertaken steps to include young people's needs in its local planning processes. (5) The Attorney General is to consult with the Minister for Community Services and the Minister for Police before declaring an area (or a portion of an area) to be an operational area.",
+    "token_count": 506,
+    "char_count": 2545,
+    "graph_stats": {
+      "total_nodes": 13,
+      "llm_extracted_nodes": 12,
+      "total_relationships": 23,
+      "llm_extracted_relationships": 11,
+      "mentions_relationships": 12
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Council",
+      "type": "Entity",
+      "properties": {
+        "name": "council",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Declare An Area To Be An Operational Area",
+      "type": "Entity",
+      "properties": {
+        "name": "declare an area to be an operational area",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Adequate Crime Prevention Or Youth Support Initiatives Will Be Available",
+      "type": "Entity",
+      "properties": {
+        "name": "adequate crime prevention or youth support initiatives will be available",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Whether The Council Has Adequately Informed And Consulted With The Local Community",
+      "type": "Entity",
+      "properties": {
+        "name": "whether the council has adequately informed and consulted with the local community",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Extent And Nature Of Crime In The Area",
+      "type": "Entity",
+      "properties": {
+        "name": "the extent and nature of crime in the area",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Nature Of Any Crime Prevention Or Youth Support Initiatives",
+      "type": "Entity",
+      "properties": {
+        "name": "the nature of any crime prevention or youth support initiatives",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Effect Of Making The Declaration On Young People In The Area",
+      "type": "Entity",
+      "properties": {
+        "name": "the effect of making the declaration on young people in the area",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Practicality Of Applying Division 2 Of This Part In The Area",
+      "type": "Entity",
+      "properties": {
+        "name": "the practicality of applying Division 2 of this Part in the area",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Whether Appropriate Arrangements Have Been Made To Cater For The Needs Of Young People",
+      "type": "Entity",
+      "properties": {
+        "name": "whether appropriate arrangements have been made to cater for the needs of young people",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Whether The Council Has Undertaken Steps To Include Young People'S Needs In Its Local Planning Processes",
+      "type": "Entity",
+      "properties": {
+        "name": "whether the council has undertaken steps to include young people's needs in its local planning processes",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Consult With The Minister For Community Services And The Minister For Police",
+      "type": "Entity",
+      "properties": {
+        "name": "consult with the Minister for Community Services and the Minister for Police",
+        "discourse_role": "TEST"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Adequate Crime Prevention Or Youth Support Initiatives Will Be Available",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Whether The Council Has Adequately Informed And Consulted With The Local Community",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Extent And Nature Of Crime In The Area",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Nature Of Any Crime Prevention Or Youth Support Initiatives",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Effect Of Making The Declaration On Young People In The Area",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Practicality Of Applying Division 2 Of This Part In The Area",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Whether Appropriate Arrangements Have Been Made To Cater For The Needs Of Young People",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Whether The Council Has Undertaken Steps To Include Young People'S Needs In Its Local Planning Processes",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Consult With The Minister For Community Services And The Minister For Police",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Declare An Area To Be An Operational Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Adequate Crime Prevention Or Youth Support Initiatives Will Be Available",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Whether The Council Has Adequately Informed And Consulted With The Local Community",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Extent And Nature Of Crime In The Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Nature Of Any Crime Prevention Or Youth Support Initiatives",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Effect Of Making The Declaration On Young People In The Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Practicality Of Applying Division 2 Of This Part In The Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Whether Appropriate Arrangements Have Been Made To Cater For The Needs Of Young People",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Whether The Council Has Undertaken Steps To Include Young People'S Needs In Its Local Planning Processes",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Consult With The Minister For Community Services And The Minister For Police",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

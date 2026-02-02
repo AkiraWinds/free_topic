@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_2",
+    "text_hash": "231e6dcbe75b3aad638b0c0ce6fe90f4",
+    "text": "Monitoring of complaints from community The council of an area or portion of an area that is declared to be an operational area or for which a safer community compact is in force is, if requested to do so by the Attorney General, to monitor, identify and advise the Attorney General on trends in complaints relating to action taken in the operational area under this Act or under the compact.",
+    "token_count": 74,
+    "char_count": 392,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Monitoring Of Complaints From Community",
+      "type": "Entity",
+      "properties": {
+        "name": "Monitoring of complaints from community",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Council Of An Area Or Portion Of An Area That Is Declared To Be An Operational Area Or For Which A Safer Community Compact Is In Force",
+      "type": "Entity",
+      "properties": {
+        "name": "The council of an area or portion of an area that is declared to be an operational area or for which a safer community compact is in force",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "The Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "the Attorney General",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "Trends In Complaints Relating To Action Taken In The Operational Area Under This Act Or Under The Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "trends in complaints relating to action taken in the operational area under this Act or under the compact",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Action Taken In The Operational Area Under This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "action taken in the operational area under this Act",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "This Act Or Under The Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "this Act or under the compact",
+        "discourse_role": "EXCEPTION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Monitoring Of Complaints From Community",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Action Taken In The Operational Area Under This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Council Of An Area Or Portion Of An Area That Is Declared To Be An Operational Area Or For Which A Safer Community Compact Is In Force",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Trends In Complaints Relating To Action Taken In The Operational Area Under This Act Or Under The Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Attorney General",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Monitoring Of Complaints From Community",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Monitoring Of Complaints From Community",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Council Of An Area Or Portion Of An Area That Is Declared To Be An Operational Area Or For Which A Safer Community Compact Is In Force",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Trends In Complaints Relating To Action Taken In The Operational Area Under This Act Or Under The Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Action Taken In The Operational Area Under This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act Or Under The Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

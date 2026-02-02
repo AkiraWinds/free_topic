@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_4_section_2",
+    "text_hash": "c1eee336d0c0e990305e54e7049982ba",
+    "text": "Authorised officers (1) A person who is authorised to be an authorised officer by the Regulatory Authority of this jurisdiction under Part 9 of the National Law is taken to be an authorised officer for the purposes of Part 9 of the National Law Alignment Provisions. (2) An identity card issued to the authorised officer under the National Law is taken to be an identity card identifying the authorised officer as an authorised officer authorised by the Regulatory Authority under this Act. (3) This section does not prevent the issue of a separate identity card by the Regulatory Authority for the purposes of this Act.",
+    "token_count": 118,
+    "char_count": 620,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 10,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_4_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_4_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a person",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Authorised Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "authorised officer",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Authorised By The Regulatory Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "authorised by the Regulatory Authority",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Identity Card",
+      "type": "Entity",
+      "properties": {
+        "name": "identity card",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Issued Under The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "issued under the National Law",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Separate Identity Card",
+      "type": "Entity",
+      "properties": {
+        "name": "separate identity card",
+        "discourse_role": "EXCEPTION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "A Person",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Authorised Officer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Authorised Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Authorised By The Regulatory Authority",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Identity Card",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Issued Under The National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Separate Identity Card",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Identity Card",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_4_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_4_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Authorised Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_4_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Authorised By The Regulatory Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_4_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Identity Card",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_4_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Issued Under The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_4_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Separate Identity Card",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

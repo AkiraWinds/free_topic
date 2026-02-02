@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_15",
+    "text_hash": "7879864b43b73bd185d24df078047111",
+    "text": "Modification of transitional provisions Section 316 of the Children (Education and Care Services) National Law (NSW) is taken to include the following provision, inserted as section 316(3)— (3) Subsection (1) also ceases to apply if— (a) the approved provider for the service does not nominate a declared nominated supervisor as the sole nominated supervisor for the education and care service within a time specified by the Regulatory Authority after being requested in writing to do so by the Regulatory Authority, or (b) the approved provider for the service nominates another declared nominated supervisor as the sole nominated supervisor for the education and care service within a time specified by the Regulatory Authority after being requested in writing to do so by the Regulatory Authority.",
+    "token_count": 149,
+    "char_count": 800,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 7,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_15",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_15",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Subsection (1)",
+      "type": "Entity",
+      "properties": {
+        "name": "Subsection (1)",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Ceases To Apply",
+      "type": "Entity",
+      "properties": {
+        "name": "ceases to apply",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Approved Provider For The Service Does Not Nominate A Declared Nominated Supervisor As The Sole Nominated Supervisor For The Education And Care Service Within A Time Specified By The Regulatory Authority After Being Requested In Writing To Do So By The Regulatory Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "approved provider for the service does not nominate a declared nominated supervisor as the sole nominated supervisor for the education and care service within a time specified by the Regulatory Authority after being requested in writing to do so by the Regulatory Authority",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Approved Provider For The Service Nominates Another Declared Nominated Supervisor As The Sole Nominated Supervisor For The Education And Care Service Within A Time Specified By The Regulatory Authority After Being Requested In Writing To Do So By The Regulatory Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "approved provider for the service nominates another declared nominated supervisor as the sole nominated supervisor for the education and care service within a time specified by the Regulatory Authority after being requested in writing to do so by the Regulatory Authority",
+        "discourse_role": "TEST"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Approved Provider For The Service Does Not Nominate A Declared Nominated Supervisor As The Sole Nominated Supervisor For The Education And Care Service Within A Time Specified By The Regulatory Authority After Being Requested In Writing To Do So By The Regulatory Authority",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Subsection (1)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Approved Provider For The Service Nominates Another Declared Nominated Supervisor As The Sole Nominated Supervisor For The Education And Care Service Within A Time Specified By The Regulatory Authority After Being Requested In Writing To Do So By The Regulatory Authority",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Subsection (1)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Subsection (1)",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Ceases To Apply",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_15",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Subsection (1)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_15",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Ceases To Apply",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_15",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approved Provider For The Service Does Not Nominate A Declared Nominated Supervisor As The Sole Nominated Supervisor For The Education And Care Service Within A Time Specified By The Regulatory Authority After Being Requested In Writing To Do So By The Regulatory Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_15",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approved Provider For The Service Nominates Another Declared Nominated Supervisor As The Sole Nominated Supervisor For The Education And Care Service Within A Time Specified By The Regulatory Authority After Being Requested In Writing To Do So By The Regulatory Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

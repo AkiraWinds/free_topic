@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+    "text_hash": "a11645be08efdc5c9c9dacc8bd4da3c6",
+    "text": "Review of Act (1) The Attorney General is to review this Act to determine whether the policy objectives of the Act remain valid and whether the terms of the Act remain appropriate for securing those objectives. (2) The review is to be undertaken as soon as possible after the period of 3 years from the date of assent to this Act. (3) A report on the outcome of the review is to be tabled in each House of Parliament within 12 months after the end of the period of 3 years. Schedule 1 Amendment (Section 48) Community Welfare Act 1987 No 52 Section 5 Delegation Omit section 5 (3). Insert instead— (3) In this section, a reference to the community welfare legislation includes a reference to each of the following Acts (and to any instrument under the Act) even though the Act may not be administered by the Minister within the Department— Children (Criminal Proceedings) Act 1987 Children (Protection and Parental Responsibility) Act 1997 Schedule 2 Savings, transitional and other provisions (Section 49)",
+    "token_count": 221,
+    "char_count": 1006,
+    "graph_stats": {
+      "total_nodes": 12,
+      "llm_extracted_nodes": 11,
+      "total_relationships": 19,
+      "llm_extracted_relationships": 8,
+      "mentions_relationships": 11
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Review This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "review this Act",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Policy Objectives Of The Act",
+      "type": "Entity",
+      "properties": {
+        "name": "policy objectives of the Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Terms Of The Act",
+      "type": "Entity",
+      "properties": {
+        "name": "terms of the Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "3 Years From The Date Of Assent To This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "3 years from the date of assent to this Act",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Report On The Outcome Of The Review",
+      "type": "Entity",
+      "properties": {
+        "name": "report on the outcome of the review",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Tabled In Each House Of Parliament",
+      "type": "Entity",
+      "properties": {
+        "name": "tabled in each House of Parliament",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "12 Months After The End Of The Period Of 3 Years",
+      "type": "Entity",
+      "properties": {
+        "name": "12 months after the end of the period of 3 years",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Community Welfare Legislation",
+      "type": "Entity",
+      "properties": {
+        "name": "community welfare legislation",
+        "discourse_role": "DEFINITION",
+        "definition": "a reference to each of the following Acts (and to any instrument under the Act) even though the Act may not be administered by the Minister within the Department"
+      }
+    },
+    {
+      "id": "Children (Criminal Proceedings) Act 1987",
+      "type": "Entity",
+      "properties": {
+        "name": "Children (Criminal Proceedings) Act 1987",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Children (Protection And Parental Responsibility) Act 1997",
+      "type": "Entity",
+      "properties": {
+        "name": "Children (Protection and Parental Responsibility) Act 1997",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Review This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Review This Act",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Policy Objectives Of The Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Review This Act",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Terms Of The Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "3 Years From The Date Of Assent To This Act",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Review This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Report On The Outcome Of The Review",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Tabled In Each House Of Parliament",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "12 Months After The End Of The Period Of 3 Years",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Tabled In Each House Of Parliament",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Community Welfare Legislation",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Children (Criminal Proceedings) Act 1987",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Community Welfare Legislation",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Children (Protection And Parental Responsibility) Act 1997",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Review This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Policy Objectives Of The Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Terms Of The Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "3 Years From The Date Of Assent To This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Report On The Outcome Of The Review",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Tabled In Each House Of Parliament",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "12 Months After The End Of The Period Of 3 Years",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Community Welfare Legislation",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children (Criminal Proceedings) Act 1987",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children (Protection And Parental Responsibility) Act 1997",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

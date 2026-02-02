@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+    "text_hash": "60b34f92955337db1d55e42fdd6f8a51",
+    "text": "Use of force A police officer may use reasonable force for the purpose of removing a person from a public place under this Division or escorting the person under section 22.",
+    "token_count": 34,
+    "char_count": 173,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 7,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Use Reasonable Force",
+      "type": "Entity",
+      "properties": {
+        "name": "use reasonable force",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Removing A Person From A Public Place",
+      "type": "Entity",
+      "properties": {
+        "name": "removing a person from a public place",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Escorting The Person Under Section 22",
+      "type": "Entity",
+      "properties": {
+        "name": "escorting the person under section 22",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Use Reasonable Force",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Use Reasonable Force",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Removing A Person From A Public Place",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Use Reasonable Force",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Escorting The Person Under Section 22",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Use Reasonable Force",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Removing A Person From A Public Place",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Escorting The Person Under Section 22",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

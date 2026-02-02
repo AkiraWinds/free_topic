@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_1",
+    "text_hash": "7c369d0828951e5deedcfad3ecb23949",
+    "text": "Delegation The Attorney General may delegate any of his or her functions under this Act (other than this power of delegation) or the regulations to any officer of the Department.",
+    "token_count": 34,
+    "char_count": 178,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 5,
+      "llm_extracted_relationships": 1,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "The Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Any Of His Or Her Functions Under This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "any of his or her functions under this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "This Power Of Delegation",
+      "type": "Entity",
+      "properties": {
+        "name": "this power of delegation",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Any Officer Of The Department",
+      "type": "Entity",
+      "properties": {
+        "name": "any officer of the Department",
+        "discourse_role": "PROBE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Any Of His Or Her Functions Under This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Of His Or Her Functions Under This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Power Of Delegation",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Officer Of The Department",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

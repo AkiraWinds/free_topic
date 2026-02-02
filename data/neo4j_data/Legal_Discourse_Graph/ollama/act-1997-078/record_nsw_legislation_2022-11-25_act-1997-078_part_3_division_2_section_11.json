@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+    "text_hash": "60b34f92955337db1d55e42fdd6f8a51",
+    "text": "Use of force A police officer may use reasonable force for the purpose of removing a person from a public place under this Division or escorting the person under section 22.",
+    "token_count": 34,
+    "char_count": 173,
+    "graph_stats": {
+      "total_nodes": 3,
+      "llm_extracted_nodes": 2,
+      "total_relationships": 4,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 2
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Person",
+      "type": "Entity",
+      "properties": {
+        "name": "person",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Reasonable Force",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

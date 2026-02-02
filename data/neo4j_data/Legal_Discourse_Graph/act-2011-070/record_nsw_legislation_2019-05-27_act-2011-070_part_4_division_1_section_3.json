@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_3",
+    "text_hash": "100a14e0cc6aa2542ca4da2b7ccc1266",
+    "text": "Application of Interpretation Act 1987 The Interpretation Act 1987 does not apply in respect of the National Law Alignment Provisions. Note— Schedule 1 to the National Law provides for interpretation of the provisions of the National Law. Those provisions also apply to the National Law Alignment Provisions.",
+    "token_count": 58,
+    "char_count": 308,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 7,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Interpretation Act 1987",
+      "type": "Entity",
+      "properties": {
+        "name": "Interpretation Act 1987",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Schedule 1 To The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "Schedule 1 to the National Law",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Interpretation Of The Provisions Of The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "interpretation of the provisions of the National Law",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Interpretation Act 1987",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Schedule 1 To The National Law",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Interpretation Of The Provisions Of The National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Interpretation Of The Provisions Of The National Law",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Interpretation Act 1987",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Schedule 1 To The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Interpretation Of The Provisions Of The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

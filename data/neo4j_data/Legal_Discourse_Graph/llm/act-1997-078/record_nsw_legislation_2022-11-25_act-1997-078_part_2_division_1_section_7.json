@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+    "text_hash": "d57c9cc0fa3f32f9d2394b8c34719ddd",
+    "text": "Ancillary provisions (1) Rules of court may be made for or with respect to the attendance of parents and children required under this Act to attend a place and undertakings required to be given under this Part. (2) (Repealed) (3) Without affecting the generality of subsection (1), the provisions of Parts 3 and 4 of Chapter 4 of the Criminal Procedure Act 1986 relating to warrants and subpoenas for the attendance of witnesses in proceedings before the Local Court for offences punishable on summary conviction apply to the attendance of any person required under this Act to attend (before the Local Court or the Children's Court) at a place in the same way as those provisions apply to the attendance of witnesses in proceedings for such offences. (4) A court may exercise all or any one or more of the functions under sections 7, 8, 9 and 10 in any particular matter.",
+    "token_count": 186,
+    "char_count": 872,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 10,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Rules Of Court",
+      "type": "Entity",
+      "properties": {
+        "name": "Rules of court",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Attendance Of Parents And Children",
+      "type": "Entity",
+      "properties": {
+        "name": "attendance of parents and children",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Undertakings Required To Be Given",
+      "type": "Entity",
+      "properties": {
+        "name": "undertakings required to be given",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Attendance Of Any Person Required Under This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "attendance of any person required under this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Exercise Functions Under Sections 7, 8, 9 And 10",
+      "type": "Entity",
+      "properties": {
+        "name": "exercise functions under sections 7, 8, 9 and 10",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Rules Of Court",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Attendance Of Parents And Children",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Rules Of Court",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Undertakings Required To Be Given",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Attendance Of Any Person Required Under This Act",
+      "source_type": "Entity",
+      "type": "SAME_CLASS",
+      "target_id": "Attendance Of Parents And Children",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Attendance Of Any Person Required Under This Act",
+      "source_type": "Entity",
+      "type": "SAME_CLASS",
+      "target_id": "Undertakings Required To Be Given",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Rules Of Court",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Exercise Functions Under Sections 7, 8, 9 And 10",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Rules Of Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attendance Of Parents And Children",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Undertakings Required To Be Given",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attendance Of Any Person Required Under This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Exercise Functions Under Sections 7, 8, 9 And 10",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

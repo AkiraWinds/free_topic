@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+    "text_hash": "baff63d5e46d7692a69db1ac73a11c85",
+    "text": "References to National Quality Framework and National Quality Standard (1) A reference in the National Law to the National Quality Framework is to be read, for the purpose of the National Law Alignment Provisions, as a reference to the following: (a) this Act (including the National Law Alignment Provisions), (b) the regulations under this Act, (c) the National Quality Standard, (d) the rating system provided for by the regulations under this Act. (2) A reference in the National Law to the National Quality Standard is to be read, for the purpose of the National Law Alignment Provisions, as a reference to the National Quality Standard approved by the Ministerial Council under the National Law as in force from time to time. (3) The regulations may make further provision for the application of the National Quality Standard to State regulated education and care services, including by modifying the National Quality Standard as it applies to those services.",
+    "token_count": 187,
+    "char_count": 965,
+    "graph_stats": {
+      "total_nodes": 10,
+      "llm_extracted_nodes": 9,
+      "total_relationships": 18,
+      "llm_extracted_relationships": 9,
+      "mentions_relationships": 9
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "National Quality Framework",
+      "type": "Entity",
+      "properties": {
+        "name": "National Quality Framework",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Regulations Under This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "regulations under this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "National Quality Standard",
+      "type": "Entity",
+      "properties": {
+        "name": "National Quality Standard",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Rating System",
+      "type": "Entity",
+      "properties": {
+        "name": "rating system",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "National Quality Standard Approved By The Ministerial Council",
+      "type": "Entity",
+      "properties": {
+        "name": "National Quality Standard approved by the Ministerial Council",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "State Regulated Education And Care Services",
+      "type": "Entity",
+      "properties": {
+        "name": "State regulated education and care services",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "National Law",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "National Quality Framework",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Quality Framework",
+      "source_type": "Entity",
+      "type": "OR",
+      "target_id": "This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Quality Framework",
+      "source_type": "Entity",
+      "type": "OR",
+      "target_id": "Regulations Under This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Quality Framework",
+      "source_type": "Entity",
+      "type": "OR",
+      "target_id": "National Quality Standard",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Quality Framework",
+      "source_type": "Entity",
+      "type": "OR",
+      "target_id": "Rating System",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Law",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "National Quality Standard",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Quality Standard",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "National Quality Standard Approved By The Ministerial Council",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Regulations Under This Act",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "National Quality Standard",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Quality Standard",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Quality Framework",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regulations Under This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Quality Standard",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Rating System",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Quality Standard Approved By The Ministerial Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

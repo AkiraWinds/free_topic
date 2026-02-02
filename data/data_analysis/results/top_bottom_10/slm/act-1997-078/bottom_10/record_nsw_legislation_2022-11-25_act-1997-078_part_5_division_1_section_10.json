@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_10",
+    "text_hash": "ec4e32a53b62f9e4b5c11cfdb24398bf",
+    "text": "(Repealed)",
+    "token_count": 4,
+    "char_count": 10,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_10",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_10",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a person",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Holds A Valid Driver'S License",
+      "type": "Entity",
+      "properties": {
+        "name": "holds a valid driver's license",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "May Operate A Motor Vehicle",
+      "type": "Entity",
+      "properties": {
+        "name": "may operate a motor vehicle",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Is Under 18 Years Old",
+      "type": "Entity",
+      "properties": {
+        "name": "is under 18 years old",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Driver",
+      "type": "Entity",
+      "properties": {
+        "name": "driver",
+        "discourse_role": "DEFINITION",
+        "definition": "a person authorized to operate a vehicle"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Holds A Valid Driver'S License",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Person",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "May Operate A Motor Vehicle",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Is Under 18 Years Old",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "May Operate A Motor Vehicle",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Driver",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_10",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_10",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Holds A Valid Driver'S License",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_10",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "May Operate A Motor Vehicle",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_10",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Is Under 18 Years Old",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_10",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Driver",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

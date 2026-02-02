@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+    "text_hash": "e98b532e44a8264ff3b9b451a9675495",
+    "text": "Operation of Act (1) This Act does not affect any functions (including functions of a court or police officer) that may be exercised apart from this Act. (2) This Act extends to acts, matters and things occurring, and proceedings instituted, before the commencement of this section.",
+    "token_count": 57,
+    "char_count": 282,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 7,
+      "llm_extracted_relationships": 1,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Operation Of Act",
+      "type": "Entity",
+      "properties": {
+        "name": "Operation of Act",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Functions",
+      "type": "Entity",
+      "properties": {
+        "name": "functions",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Court Or Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "court or police officer",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "This Act",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Acts, Matters And Things Occurring",
+      "type": "Entity",
+      "properties": {
+        "name": "acts, matters and things occurring",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Proceedings Instituted",
+      "type": "Entity",
+      "properties": {
+        "name": "proceedings instituted",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "This Act",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Functions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Operation Of Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Functions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Court Or Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Acts, Matters And Things Occurring",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Proceedings Instituted",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

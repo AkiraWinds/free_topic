@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_5",
+    "text_hash": "93734cb0a20d4bb1c36fabf4aa25612a",
+    "text": "Notes Notes included in this Act do not form part of this Act.",
+    "token_count": 14,
+    "char_count": 62,
+    "graph_stats": {
+      "total_nodes": 2,
+      "llm_extracted_nodes": 1,
+      "total_relationships": 1,
+      "llm_extracted_relationships": 0,
+      "mentions_relationships": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_5",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_5",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Notes",
+      "type": "Entity",
+      "properties": {
+        "name": "Notes",
+        "discourse_role": "DEFINITION",
+        "definition": "Notes included in this Act do not form part of this Act."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Notes",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

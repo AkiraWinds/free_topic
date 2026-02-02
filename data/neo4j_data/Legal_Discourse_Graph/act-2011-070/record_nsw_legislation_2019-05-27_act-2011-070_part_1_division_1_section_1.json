@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_1",
+    "text_hash": "1a9da8a42204c620451364ac7c4f38de",
+    "text": "Name of Act This Act is the Children (Education and Care Services) Supplementary Provisions Act 2011.",
+    "token_count": 23,
+    "char_count": 101,
+    "graph_stats": {
+      "total_nodes": 2,
+      "llm_extracted_nodes": 1,
+      "total_relationships": 1,
+      "llm_extracted_relationships": 0,
+      "mentions_relationships": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Children (Education And Care Services) Supplementary Provisions Act 2011",
+      "type": "Entity",
+      "properties": {
+        "name": "Children (Education and Care Services) Supplementary Provisions Act 2011",
+        "discourse_role": "DEFINITION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children (Education And Care Services) Supplementary Provisions Act 2011",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

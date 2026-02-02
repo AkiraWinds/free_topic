@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+    "text_hash": "5be54117f620fb831bbc92d4d1cbe6ab",
+    "text": "Guiding principles when taking action under this Division (1) A police officer who removes a person to whom this Division applies from a public place under this Division is to use his or her best endeavours to escort the person to the home of a parent, relative or other person who is responsible for caring for the person and to leave the person in the care of the parent, relative or other responsible person. (2) Despite subsection (1), the police officer's paramount duty is to ensure that any action taken in respect of a person to whom this Division applies who is removed from a public place under this Division is in the best interests of the person and the police officer is to take such action as the police officer considers appropriate in the circumstances to promote the person's best interests.",
+    "token_count": 155,
+    "char_count": 808,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a person",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Public Place",
+      "type": "Entity",
+      "properties": {
+        "name": "public place",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Home Of A Parent, Relative Or Other Responsible Person",
+      "type": "Entity",
+      "properties": {
+        "name": "home of a parent, relative or other responsible person",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Best Interests Of The Person",
+      "type": "Entity",
+      "properties": {
+        "name": "best interests of the person",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Public Place",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Person",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Home Of A Parent, Relative Or Other Responsible Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Person",
+      "source_type": "Entity",
+      "type": "CONDITIONAL_CONSEQUENCE",
+      "target_id": "Best Interests Of The Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Public Place",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Home Of A Parent, Relative Or Other Responsible Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Best Interests Of The Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

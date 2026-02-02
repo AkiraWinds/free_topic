@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+    "text_hash": "f350fa68004effbfe60dbceff87a262b",
+    "text": "Parents contributing to children's offences (1) A parent who, by wilful default, has contributed directly or in a material respect to the commission of an offence of which the child has been found guilty, is guilty of an offence. Maximum penalty—10 penalty units. (2) The court may require a parent convicted of an offence under subsection (1) to undergo counselling or do such other things that would in the opinion of the court advance the welfare and best interests of the child instead of, or in addition to, imposing a penalty.",
+    "token_count": 108,
+    "char_count": 532,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 11,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Parent",
+      "type": "Entity",
+      "properties": {
+        "name": "a parent",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Wilful Default",
+      "type": "Entity",
+      "properties": {
+        "name": "wilful default",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Contributed Directly Or In A Material Respect To The Commission Of An Offence",
+      "type": "Entity",
+      "properties": {
+        "name": "contributed directly or in a material respect to the commission of an offence",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "The Child",
+      "type": "Entity",
+      "properties": {
+        "name": "the child",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Undergo Counselling Or Do Such Other Things That Would Advance The Welfare And Best Interests Of The Child",
+      "type": "Entity",
+      "properties": {
+        "name": "undergo counselling or do such other things that would advance the welfare and best interests of the child",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Imposing A Penalty",
+      "type": "Entity",
+      "properties": {
+        "name": "imposing a penalty",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Wilful Default",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Parent",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Parent",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Contributed Directly Or In A Material Respect To The Commission Of An Offence",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Contributed Directly Or In A Material Respect To The Commission Of An Offence",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "The Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Parent",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Undergo Counselling Or Do Such Other Things That Would Advance The Welfare And Best Interests Of The Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Parent",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Imposing A Penalty",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Parent",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Wilful Default",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Contributed Directly Or In A Material Respect To The Commission Of An Offence",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Undergo Counselling Or Do Such Other Things That Would Advance The Welfare And Best Interests Of The Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Imposing A Penalty",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_4_section_1",
+    "text_hash": "1a7457e91a6671a84a654e515a41134f",
+    "text": "Assessment and rating of State regulated education and care services (1) The National Law Alignment Provisions provide for the assessment by the Regulatory Authority of State regulated education and care services and the determination of rating levels (other than the highest rating level) for the services. (2) The regulations may make provision for the award of the highest rating level to State regulated education and care services. (3) Subsection (2) does not prevent the Regulatory Authority from entering into arrangements with the National Authority for the assessment of State regulated education and care services and the award of the highest rating level to those services by the National Authority.",
+    "token_count": 124,
+    "char_count": 710,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 12,
+      "llm_extracted_relationships": 6,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_4_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_4_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Assessment By The Regulatory Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "assessment by the Regulatory Authority",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "State Regulated Education And Care Services",
+      "type": "Entity",
+      "properties": {
+        "name": "State regulated education and care services",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Determination Of Rating Levels",
+      "type": "Entity",
+      "properties": {
+        "name": "determination of rating levels",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Award Of The Highest Rating Level",
+      "type": "Entity",
+      "properties": {
+        "name": "award of the highest rating level",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Arrangements With The National Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "arrangements with the National Authority",
+        "discourse_role": "EXCEPTION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "National Law Alignment Provisions",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Assessment By The Regulatory Authority",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Law Alignment Provisions",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Determination Of Rating Levels",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Assessment By The Regulatory Authority",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Determination Of Rating Levels",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Award Of The Highest Rating Level",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Arrangements With The National Authority",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Award Of The Highest Rating Level",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_4_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_4_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Assessment By The Regulatory Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_4_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_4_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Determination Of Rating Levels",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_4_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Award Of The Highest Rating Level",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_4_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Arrangements With The National Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

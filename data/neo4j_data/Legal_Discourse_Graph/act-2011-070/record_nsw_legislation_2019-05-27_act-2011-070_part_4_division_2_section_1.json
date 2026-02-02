@@ -1,0 +1,588 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+    "text_hash": "5dbedd81a140e21e960c9f2ae196b840",
+    "text": "Excluded provisions (1) For the purposes of the National Law Alignment Provisions, the following provisions of the National Law are to be disregarded: (a) sections 1, 2 and 3 (1) and (2) (d) (preliminary matters), (b) section 7 (Single national entity), (c) section 11 (a) (which dictates the jurisdiction in which an application for a provider approval must be made), (d) section 19 (4) (offence of contravening conditions of provider approval), (e) section 42 (Exercise of powers by another Regulatory Authority), (f) section 44 (1) (a) (which dictates the jurisdiction in which an application for a service approval must be made), (g) section 51 (8) (offence of contravening conditions of service approval), (h), (i) (Repealed) (j) section 101 (Exercise of powers by another Regulatory Authority—family day care services), (k) section 102 (Application of Law to associated children's services), (l) section 103 (Offence to provide an education and care service without service approval), (m) section 104 (Offence to advertise education and care service without service approval), (n)–(s) (Repealed) (t) section 134 (2) and Divisions 4–6 of Part 5 (which relate to certain assessment and rating functions of the National Authority), (u) section 169 (7) and (8) (which relate to determinations of equivalent qualifications by the National Authority), (v) (Repealed) (w) section 198 (National Authority representative may enter service premises in company with Regulatory Authority), (x) (Repealed) (y) Part 10 (Ministerial Council), (z) Part 11 (Australian Children's Education and Care Quality Authority), (aa) Part 13 (Information, records and privacy), except sections 267 (1)–(4), 270, 271, 272 (1) and 273, (ab), (ac) (Repealed) (ad) Divisions 1 to 3 and 8 of Part 14 (Miscellaneous), (ae) Part 15 (Transitional provisions). (2) This section is subject to any modifications provided for by the regulations.",
+    "token_count": 492,
+    "char_count": 1912,
+    "graph_stats": {
+      "total_nodes": 25,
+      "llm_extracted_nodes": 24,
+      "total_relationships": 46,
+      "llm_extracted_relationships": 22,
+      "mentions_relationships": 24
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Provisions Of The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "provisions of the National Law",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "To Be Disregarded",
+      "type": "Entity",
+      "properties": {
+        "name": "to be disregarded",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Sections 1, 2 And 3 (1) And (2) (D)",
+      "type": "Entity",
+      "properties": {
+        "name": "sections 1, 2 and 3 (1) and (2) (d)",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 7",
+      "type": "Entity",
+      "properties": {
+        "name": "section 7",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 11 (A)",
+      "type": "Entity",
+      "properties": {
+        "name": "section 11 (a)",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 19 (4)",
+      "type": "Entity",
+      "properties": {
+        "name": "section 19 (4)",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 42",
+      "type": "Entity",
+      "properties": {
+        "name": "section 42",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 44 (1) (A)",
+      "type": "Entity",
+      "properties": {
+        "name": "section 44 (1) (a)",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 51 (8)",
+      "type": "Entity",
+      "properties": {
+        "name": "section 51 (8)",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 101",
+      "type": "Entity",
+      "properties": {
+        "name": "section 101",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 102",
+      "type": "Entity",
+      "properties": {
+        "name": "section 102",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 103",
+      "type": "Entity",
+      "properties": {
+        "name": "section 103",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 104",
+      "type": "Entity",
+      "properties": {
+        "name": "section 104",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 134 (2) And Divisions 4–6 Of Part 5",
+      "type": "Entity",
+      "properties": {
+        "name": "section 134 (2) and Divisions 4–6 of Part 5",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 169 (7) And (8)",
+      "type": "Entity",
+      "properties": {
+        "name": "section 169 (7) and (8)",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 198",
+      "type": "Entity",
+      "properties": {
+        "name": "section 198",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Part 10",
+      "type": "Entity",
+      "properties": {
+        "name": "Part 10",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Part 11",
+      "type": "Entity",
+      "properties": {
+        "name": "Part 11",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Part 13",
+      "type": "Entity",
+      "properties": {
+        "name": "Part 13",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Sections 267 (1)–(4), 270, 271, 272 (1) And 273",
+      "type": "Entity",
+      "properties": {
+        "name": "sections 267 (1)–(4), 270, 271, 272 (1) and 273",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Divisions 1 To 3 And 8 Of Part 14",
+      "type": "Entity",
+      "properties": {
+        "name": "Divisions 1 to 3 and 8 of Part 14",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Part 15",
+      "type": "Entity",
+      "properties": {
+        "name": "Part 15",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Modifications Provided For By The Regulations",
+      "type": "Entity",
+      "properties": {
+        "name": "modifications provided for by the regulations",
+        "discourse_role": "EXCEPTION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Provisions Of The National Law",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "To Be Disregarded",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Sections 1, 2 And 3 (1) And (2) (D)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 7",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 11 (A)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 19 (4)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 42",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 44 (1) (A)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 51 (8)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 101",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 102",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 103",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 104",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 134 (2) And Divisions 4–6 Of Part 5",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 169 (7) And (8)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Section 198",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Part 10",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Part 11",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Part 13",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Sections 267 (1)–(4), 270, 271, 272 (1) And 273",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Divisions 1 To 3 And 8 Of Part 14",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Part 15",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "To Be Disregarded",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Modifications Provided For By The Regulations",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Provisions Of The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "To Be Disregarded",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Sections 1, 2 And 3 (1) And (2) (D)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 7",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 11 (A)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 19 (4)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 42",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 44 (1) (A)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 51 (8)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 101",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 102",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 103",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 104",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 134 (2) And Divisions 4–6 Of Part 5",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 169 (7) And (8)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 198",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Part 10",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Part 11",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Part 13",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Sections 267 (1)–(4), 270, 271, 272 (1) And 273",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Divisions 1 To 3 And 8 Of Part 14",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Part 15",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Modifications Provided For By The Regulations",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

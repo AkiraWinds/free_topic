@@ -1,0 +1,87 @@
+[
+  {
+    "file": "act-1997-078_chunked.json",
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_1",
+    "tokens": 672
+  },
+  {
+    "file": "act-1997-078_chunked.json",
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_2",
+    "tokens": 1394
+  },
+  {
+    "file": "act-1997-078_chunked.json",
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3",
+    "tokens": 3191
+  },
+  {
+    "file": "act-1997-078_chunked.json",
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4",
+    "tokens": 1572
+  },
+  {
+    "file": "act-1997-078_chunked.json",
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5",
+    "tokens": 873
+  },
+  {
+    "file": "act-1997-078_normalized.json",
+    "record_id": "record_0",
+    "tokens": 7980
+  },
+  {
+    "file": "act-2010-104_chunked.json",
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_1",
+    "tokens": 190
+  },
+  {
+    "file": "act-2010-104_chunked.json",
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2",
+    "tokens": 2616
+  },
+  {
+    "file": "act-2010-104_chunked.json",
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_3",
+    "tokens": 395
+  },
+  {
+    "file": "act-2010-104_normalized.json",
+    "record_id": "record_0",
+    "tokens": 3297
+  },
+  {
+    "file": "act-2011-070_chunked.json",
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_1",
+    "tokens": 1216
+  },
+  {
+    "file": "act-2011-070_chunked.json",
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_2",
+    "tokens": 10
+  },
+  {
+    "file": "act-2011-070_chunked.json",
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_3",
+    "tokens": 976
+  },
+  {
+    "file": "act-2011-070_chunked.json",
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4",
+    "tokens": 2424
+  },
+  {
+    "file": "act-2011-070_chunked.json",
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_5",
+    "tokens": 12
+  },
+  {
+    "file": "act-2011-070_chunked.json",
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_6",
+    "tokens": 589
+  },
+  {
+    "file": "act-2011-070_normalized.json",
+    "record_id": "record_0",
+    "tokens": 5383
+  }
+]

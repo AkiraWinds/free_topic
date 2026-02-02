@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_4",
+    "text_hash": "ca6a9a7b69d9e462b7830a60ffe6356a",
+    "text": "References to Regulatory Authority (1) For the purposes of the National Law Alignment Provisions, a reference in the National Law to the Regulatory Authority is a reference to the Regulatory Authority for this jurisdiction. Note— Under section 9 of the Children (Education and Care Services National Law Application) Act 2010, the Regulatory Authority for this jurisdiction is the Secretary of the Department of Education. (2) The National Law Alignment Provisions do not confer a power to grant provider approvals and service approvals in respect of State regulated education and care services, or confer any other functions with respect to those services, on the Regulatory Authority for another jurisdiction under the National Law. (3) For the purpose of the National Law Alignment Provisions, references in the National Law to provider approvals or service approvals granted under the law of another jurisdiction are to be disregarded. (4) This section does not affect the operation of Division 3. Note—",
+    "token_count": 186,
+    "char_count": 1007,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 11,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Regulatory Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "Regulatory Authority",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "Provider Approvals And Service Approvals",
+      "type": "Entity",
+      "properties": {
+        "name": "provider approvals and service approvals",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "State Regulated Education And Care Services",
+      "type": "Entity",
+      "properties": {
+        "name": "State regulated education and care services",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Grant Provider Approvals And Service Approvals",
+      "type": "Entity",
+      "properties": {
+        "name": "grant provider approvals and service approvals",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "References In The National Law To Provider Approvals Or Service Approvals Granted Under The Law Of Another Jurisdiction",
+      "type": "Entity",
+      "properties": {
+        "name": "references in the National Law to provider approvals or service approvals granted under the law of another jurisdiction",
+        "discourse_role": "EXCEPTION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "National Law Alignment Provisions",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Regulatory Authority",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Regulatory Authority",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Grant Provider Approvals And Service Approvals",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Grant Provider Approvals And Service Approvals",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Provider Approvals And Service Approvals",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Grant Provider Approvals And Service Approvals",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "References In The National Law To Provider Approvals Or Service Approvals Granted Under The Law Of Another Jurisdiction",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Grant Provider Approvals And Service Approvals",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regulatory Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Provider Approvals And Service Approvals",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Grant Provider Approvals And Service Approvals",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "References In The National Law To Provider Approvals Or Service Approvals Granted Under The Law Of Another Jurisdiction",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

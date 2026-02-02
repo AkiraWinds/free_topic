@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_7",
+    "text_hash": "52763ed800fc2b47848b698c45748a3f",
+    "text": "Amendment or revocation of local crime prevention plan (1) The council may, at any time, amend or revoke a local crime prevention plan adopted by it. (2) The council may, but is not required to, publicly exhibit any proposed amendment to the plan before adopting the amendment.",
+    "token_count": 60,
+    "char_count": 277,
+    "graph_stats": {
+      "total_nodes": 4,
+      "llm_extracted_nodes": 3,
+      "total_relationships": 6,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_7",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_7",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Council",
+      "type": "Entity",
+      "properties": {
+        "name": "the council",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Amend Or Revoke A Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "amend or revoke a local crime prevention plan",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Publicly Exhibit Any Proposed Amendment To The Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "publicly exhibit any proposed amendment to the plan",
+        "discourse_role": "TEST"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Amend Or Revoke A Local Crime Prevention Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Publicly Exhibit Any Proposed Amendment To The Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Publicly Exhibit Any Proposed Amendment To The Plan",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "The Council",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Amend Or Revoke A Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Publicly Exhibit Any Proposed Amendment To The Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

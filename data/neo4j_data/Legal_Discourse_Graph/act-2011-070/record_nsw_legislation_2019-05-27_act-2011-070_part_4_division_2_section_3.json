@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_3",
+    "text_hash": "e0bee60cb0d3daac85b8de8f74a1e03b",
+    "text": "References to National Law (1) For the purposes of the National Law Alignment Provisions, a reference in the National Law to the National Law itself (such as a reference to \"this Law\") is to be read as a reference to this Act (including the National Law Alignment Provisions) and the regulations under this Act. (2) A reference in the National Law to a specific provision of the National Law is to be read as a reference to the corresponding provision of the National Law Alignment Provisions.",
+    "token_count": 101,
+    "char_count": 493,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 10,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Regulations Under This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "regulations under this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Specific Provision Of The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "specific provision of the National Law",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Corresponding Provision Of The National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "corresponding provision of the National Law Alignment Provisions",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "National Law",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Law",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Law",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "Regulations Under This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Specific Provision Of The National Law",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "Corresponding Provision Of The National Law Alignment Provisions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regulations Under This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Specific Provision Of The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Corresponding Provision Of The National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+    "text_hash": "531387e01e335f340b624b0fd3511396",
+    "text": "Exempt premises (1) The regulations may prescribe any class of premises as exempt premises for the purposes of this Act. (2) The Minister may, by order published in the Gazette, declare any premises to be exempt premises for the purposes of specified provisions of this Act. (3) A reference in this Act to exempt premises is a reference to: (a) any premises belonging to a class of premises prescribed by the regulations as exempt premises, and (b) in relation to any provision of this Act, any premises declared to be exempt premises for the purposes of that provision by an order of the Minister under this section, being an order that is in force.",
+    "token_count": 134,
+    "char_count": 650,
+    "graph_stats": {
+      "total_nodes": 11,
+      "llm_extracted_nodes": 10,
+      "total_relationships": 15,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 10
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Exempt Premises",
+      "type": "Entity",
+      "properties": {
+        "name": "exempt premises",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Regulations",
+      "type": "Entity",
+      "properties": {
+        "name": "regulations",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Class Of Premises",
+      "type": "Entity",
+      "properties": {
+        "name": "class of premises",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Minister",
+      "type": "Entity",
+      "properties": {
+        "name": "Minister",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Order Published In The Gazette",
+      "type": "Entity",
+      "properties": {
+        "name": "order published in the Gazette",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Premises",
+      "type": "Entity",
+      "properties": {
+        "name": "premises",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Specified Provisions Of This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "specified provisions of this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Reference In This Act To Exempt Premises",
+      "type": "Entity",
+      "properties": {
+        "name": "reference in this Act to exempt premises",
+        "discourse_role": "DEFINITION"
+      }
+    },
+    {
+      "id": "Premises Belonging To A Class Of Premises Prescribed By The Regulations As Exempt Premises",
+      "type": "Entity",
+      "properties": {
+        "name": "premises belonging to a class of premises prescribed by the regulations as exempt premises",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Premises Declared To Be Exempt Premises For The Purposes Of That Provision By An Order Of The Minister Under This Section, Being An Order That Is In Force",
+      "type": "Entity",
+      "properties": {
+        "name": "premises declared to be exempt premises for the purposes of that provision by an order of the Minister under this section, being an order that is in force",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Regulations",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Class Of Premises",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Minister",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Premises",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Minister",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Order Published In The Gazette",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Reference In This Act To Exempt Premises",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Premises Belonging To A Class Of Premises Prescribed By The Regulations As Exempt Premises",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Reference In This Act To Exempt Premises",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Premises Declared To Be Exempt Premises For The Purposes Of That Provision By An Order Of The Minister Under This Section, Being An Order That Is In Force",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Exempt Premises",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regulations",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Class Of Premises",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Minister",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Order Published In The Gazette",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Premises",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Specified Provisions Of This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Reference In This Act To Exempt Premises",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Premises Belonging To A Class Of Premises Prescribed By The Regulations As Exempt Premises",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Premises Declared To Be Exempt Premises For The Purposes Of That Provision By An Order Of The Minister Under This Section, Being An Order That Is In Force",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

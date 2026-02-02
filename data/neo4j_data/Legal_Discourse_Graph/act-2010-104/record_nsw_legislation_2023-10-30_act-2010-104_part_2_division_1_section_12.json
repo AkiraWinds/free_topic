@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_12",
+    "text_hash": "da548400ceec76944695d7fced4647f1",
+    "text": "Working with children law For the purposes of the definition of working with children law in section 5 of the Children (Education and Care Services) National Law (NSW), the Child Protection (Working with Children) Act 2012 and the regulations made under that Act are declared to be a working with children law for the purposes of the Children (Education and Care Services) National Law (NSW).",
+    "token_count": 80,
+    "char_count": 392,
+    "graph_stats": {
+      "total_nodes": 2,
+      "llm_extracted_nodes": 1,
+      "total_relationships": 1,
+      "llm_extracted_relationships": 0,
+      "mentions_relationships": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_12",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_12",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Working With Children Law",
+      "type": "Entity",
+      "properties": {
+        "name": "working with children law",
+        "discourse_role": "DEFINITION",
+        "definition": "the Child Protection (Working with Children) Act 2012 and the regulations made under that Act are declared to be a working with children law for the purposes of the Children (Education and Care Services) National Law (NSW)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_12",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Working With Children Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

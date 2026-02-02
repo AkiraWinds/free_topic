@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_4",
+    "text_hash": "7dba2e21bb508b40db8c42ee3ef54550",
+    "text": "Specific variations (1) A reference in section 168 of the National Law to an approved learning framework is to be read, for the purpose of the National Law Alignment Provisions, as a reference to the learning framework approved by the Ministerial Council under the National Law as in force from time to time. (2) A reference in the National Law to qualifications required or approved under that Law includes, for the purpose of the National Law Alignment Provisions, a reference to any qualifications that have been determined by the National Authority to be equivalent to the qualifications required by the regulations under the National Law. (3) A reference in section 201 of the National Law to section 103 of the National Law is to be read, for the purpose of the National Law Alignment Provisions, as a reference to section 8 of this Act. Note— Accordingly the power to enter premises under section 201 of the National Law where a contravention of section 103 of the National Law is suspected is, for the purposes of the National Law Alignment Provisions, a power to enter premises where a contravention of section 8 of this Act is suspected.",
+    "token_count": 231,
+    "char_count": 1147,
+    "graph_stats": {
+      "total_nodes": 9,
+      "llm_extracted_nodes": 8,
+      "total_relationships": 12,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 8
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Approved Learning Framework",
+      "type": "Entity",
+      "properties": {
+        "name": "approved learning framework",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Learning Framework Approved By The Ministerial Council",
+      "type": "Entity",
+      "properties": {
+        "name": "learning framework approved by the Ministerial Council",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Qualifications Required Or Approved Under The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "qualifications required or approved under the National Law",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Qualifications Determined By The National Authority To Be Equivalent",
+      "type": "Entity",
+      "properties": {
+        "name": "qualifications determined by the National Authority to be equivalent",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Section 103 Of The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "section 103 of the National Law",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Section 8 Of This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "section 8 of this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Power To Enter Premises Under Section 201 Of The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "power to enter premises under section 201 of the National Law",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Power To Enter Premises Where A Contravention Of Section 8 Of This Act Is Suspected",
+      "type": "Entity",
+      "properties": {
+        "name": "power to enter premises where a contravention of section 8 of this Act is suspected",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Approved Learning Framework",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "Learning Framework Approved By The Ministerial Council",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Qualifications Required Or Approved Under The National Law",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "Qualifications Determined By The National Authority To Be Equivalent",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Section 103 Of The National Law",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "Section 8 Of This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Power To Enter Premises Under Section 201 Of The National Law",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "Power To Enter Premises Where A Contravention Of Section 8 Of This Act Is Suspected",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approved Learning Framework",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Learning Framework Approved By The Ministerial Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Qualifications Required Or Approved Under The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Qualifications Determined By The National Authority To Be Equivalent",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 103 Of The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 8 Of This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Power To Enter Premises Under Section 201 Of The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Power To Enter Premises Where A Contravention Of Section 8 Of This Act Is Suspected",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

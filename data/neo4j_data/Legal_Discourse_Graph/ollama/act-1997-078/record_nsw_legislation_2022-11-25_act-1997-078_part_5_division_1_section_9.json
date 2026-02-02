@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+    "text_hash": "6f0664e45c2bede9e8cb52288cebc997",
+    "text": "Regulations (1) The regulations may contain provisions of a savings or transitional nature consequent on the enactment of the following Acts— this Act (2) Any such provision may, if the regulations so provide, take effect from the date of assent to the Act concerned or a later date. (3) To the extent to which any such provision takes effect from a date that is earlier than the date of its publication in the Gazette, the provision does not operate so as— (a) to affect, in a manner prejudicial to any person (other than the State or an authority of the State), the rights of that person existing before the date of its publication, or (b) to impose liabilities on any person (other than the State or an authority of the State) in respect of anything done or omitted to be done before the date of its publication.",
+    "token_count": 173,
+    "char_count": 815,
+    "graph_stats": {
+      "total_nodes": 10,
+      "llm_extracted_nodes": 9,
+      "total_relationships": 12,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 9
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Regulations",
+      "type": "Entity",
+      "properties": {
+        "name": "The regulations",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Provisions Of A Savings Or Transitional Nature Consequent On The Enactment Of The Following Acts— This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "provisions of a savings or transitional nature consequent on the enactment of the following Acts— this Act",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Any Such Provision",
+      "type": "Entity",
+      "properties": {
+        "name": "Any such provision",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Date Of Assent To The Act Concerned Or A Later Date",
+      "type": "Entity",
+      "properties": {
+        "name": "the date of assent to the Act concerned or a later date",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "To The Extent To Which Any Such Provision Takes Effect From A Date That Is Earlier Than The Date Of Its Publication In The Gazette",
+      "type": "Entity",
+      "properties": {
+        "name": "To the extent to which any such provision takes effect from a date that is earlier than the date of its publication in the Gazette",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "The Rights Of That Person Existing Before The Date Of Its Publication",
+      "type": "Entity",
+      "properties": {
+        "name": "the rights of that person existing before the date of its publication",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Liabilities On Any Person (Other Than The State Or An Authority Of The State) In Respect Of Anything Done Or Omitted To Be Done Before The Date Of Its Publication",
+      "type": "Entity",
+      "properties": {
+        "name": "liabilities on any person (other than the State or an authority of the State) in respect of anything done or omitted to be done before the date of its publication",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "The State Or An Authority Of The State",
+      "type": "Entity",
+      "properties": {
+        "name": "the State or an authority of the State",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "this Act",
+        "discourse_role": "DEFINITION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Regulations",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Provisions Of A Savings Or Transitional Nature Consequent On The Enactment Of The Following Acts— This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Any Such Provision",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "The Date Of Assent To The Act Concerned Or A Later Date",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "This Act",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "The Regulations",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Regulations",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Provisions Of A Savings Or Transitional Nature Consequent On The Enactment Of The Following Acts— This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Such Provision",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Date Of Assent To The Act Concerned Or A Later Date",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "To The Extent To Which Any Such Provision Takes Effect From A Date That Is Earlier Than The Date Of Its Publication In The Gazette",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Rights Of That Person Existing Before The Date Of Its Publication",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Liabilities On Any Person (Other Than The State Or An Authority Of The State) In Respect Of Anything Done Or Omitted To Be Done Before The Date Of Its Publication",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The State Or An Authority Of The State",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

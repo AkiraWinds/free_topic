@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_7",
+    "text_hash": "8c873170139dffede21e1d2a27c29acc",
+    "text": "Savings, transitional and other provisions Schedule 2 has effect.",
+    "token_count": 12,
+    "char_count": 65,
+    "graph_stats": {
+      "total_nodes": 3,
+      "llm_extracted_nodes": 2,
+      "total_relationships": 3,
+      "llm_extracted_relationships": 1,
+      "mentions_relationships": 2
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_7",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_7",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Savings, Transitional And Other Provisions Schedule 2",
+      "type": "Entity",
+      "properties": {
+        "name": "Savings, transitional and other provisions Schedule 2",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Has Effect",
+      "type": "Entity",
+      "properties": {
+        "name": "has effect",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Savings, Transitional And Other Provisions Schedule 2",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Has Effect",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Savings, Transitional And Other Provisions Schedule 2",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Has Effect",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

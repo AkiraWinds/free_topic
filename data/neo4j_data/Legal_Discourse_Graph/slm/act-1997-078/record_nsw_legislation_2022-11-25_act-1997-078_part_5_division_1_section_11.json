@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+    "text_hash": "c4f840e6b5853fbbb862b96419f06d4e",
+    "text": "Saving of pilot scheme in Orange Any part of the area of Orange in which Part 3 of the Children (Parental Responsibility) Act 1994 applied immediately before the repeal of that Act is taken to be an area declared by order to be an operational area for the purposes of Part 3 of this Act until 31 December 1998, or until an order is made under section 16 revoking the order, whichever first occurs.",
+    "token_count": 89,
+    "char_count": 397,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 11,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Part 3 Of The Children (Parental Responsibility) Act 1994",
+      "type": "Entity",
+      "properties": {
+        "name": "part 3 of the Children (Parental Responsibility) Act 1994",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Area Of Orange",
+      "type": "Entity",
+      "properties": {
+        "name": "area of Orange",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Operational Area",
+      "type": "Entity",
+      "properties": {
+        "name": "operational area",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Order",
+      "type": "Entity",
+      "properties": {
+        "name": "order",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "31 December 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "31 December 1998",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Section 16",
+      "type": "Entity",
+      "properties": {
+        "name": "section 16",
+        "discourse_role": "TEST"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Part 3 Of The Children (Parental Responsibility) Act 1994",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Area Of Orange",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Area Of Orange",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Order",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "31 December 1998",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Order",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Section 16",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Order",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Part 3 Of The Children (Parental Responsibility) Act 1994",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Area Of Orange",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Operational Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Order",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "31 December 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 16",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+    "text_hash": "cb31a4550f09b417caf0fb4e9e33f7af",
+    "text": "Advertising of unauthorised education and care service (1) A person must not advertise or hold out that the person is willing to provide a State regulated education and care service unless: (a) the person is an approved provider in respect of the service concerned, and (b) the particular service being advertised is an approved education and care service. Maximum penalty: $550. (2) A person must not knowingly publish any advertisement inviting the attendance of children at a State regulated education and care service that is not an approved education and care service. Maximum penalty: $550. (3) A person is not guilty of an offence under subsection (1) or (2) if: (a) the State regulated education and care service is a service that is proposed to be provided in the future, and (b) the person has duly applied for any provider approval or service approval required to authorise the person to provide the proposed State regulated education and care service, and (c) the application has not been finally determined. (4) A person must not advertise or hold out that the person is willing to provide a State regulated education and care service for which an application for any provider approval or service approval required to authorise the person to provide the proposed service is pending unless it is made clear that the service will be provided only after any such approval has been granted. Maximum penalty: $550.",
+    "token_count": 280,
+    "char_count": 1422,
+    "graph_stats": {
+      "total_nodes": 11,
+      "llm_extracted_nodes": 10,
+      "total_relationships": 13,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 10
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a person",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Advertise Or Hold Out Willingness To Provide A State Regulated Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "advertise or hold out willingness to provide a State regulated education and care service",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Approved Provider In Respect Of The Service Concerned",
+      "type": "Entity",
+      "properties": {
+        "name": "approved provider in respect of the service concerned",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Particular Service Being Advertised Is An Approved Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "particular service being advertised is an approved education and care service",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Knowingly Publish Any Advertisement Inviting The Attendance Of Children At A State Regulated Education And Care Service That Is Not An Approved Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "knowingly publish any advertisement inviting the attendance of children at a State regulated education and care service that is not an approved education and care service",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "State Regulated Education And Care Service Is A Service That Is Proposed To Be Provided In The Future",
+      "type": "Entity",
+      "properties": {
+        "name": "State regulated education and care service is a service that is proposed to be provided in the future",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Person Has Duly Applied For Any Provider Approval Or Service Approval Required To Authorise The Person To Provide The Proposed State Regulated Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "person has duly applied for any provider approval or service approval required to authorise the person to provide the proposed State regulated education and care service",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Application Has Not Been Finally Determined",
+      "type": "Entity",
+      "properties": {
+        "name": "application has not been finally determined",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Advertise Or Hold Out Willingness To Provide A State Regulated Education And Care Service For Which An Application For Any Provider Approval Or Service Approval Required To Authorise The Person To Provide The Proposed Service Is Pending",
+      "type": "Entity",
+      "properties": {
+        "name": "advertise or hold out willingness to provide a State regulated education and care service for which an application for any provider approval or service approval required to authorise the person to provide the proposed service is pending",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Service Will Be Provided Only After Any Such Approval Has Been Granted",
+      "type": "Entity",
+      "properties": {
+        "name": "service will be provided only after any such approval has been granted",
+        "discourse_role": "EXCEPTION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Advertise Or Hold Out Willingness To Provide A State Regulated Education And Care Service",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Knowingly Publish Any Advertisement Inviting The Attendance Of Children At A State Regulated Education And Care Service That Is Not An Approved Education And Care Service",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Advertise Or Hold Out Willingness To Provide A State Regulated Education And Care Service For Which An Application For Any Provider Approval Or Service Approval Required To Authorise The Person To Provide The Proposed Service Is Pending",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Advertise Or Hold Out Willingness To Provide A State Regulated Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approved Provider In Respect Of The Service Concerned",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Particular Service Being Advertised Is An Approved Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Knowingly Publish Any Advertisement Inviting The Attendance Of Children At A State Regulated Education And Care Service That Is Not An Approved Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Regulated Education And Care Service Is A Service That Is Proposed To Be Provided In The Future",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Person Has Duly Applied For Any Provider Approval Or Service Approval Required To Authorise The Person To Provide The Proposed State Regulated Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Application Has Not Been Finally Determined",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Advertise Or Hold Out Willingness To Provide A State Regulated Education And Care Service For Which An Application For Any Provider Approval Or Service Approval Required To Authorise The Person To Provide The Proposed Service Is Pending",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service Will Be Provided Only After Any Such Approval Has Been Granted",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

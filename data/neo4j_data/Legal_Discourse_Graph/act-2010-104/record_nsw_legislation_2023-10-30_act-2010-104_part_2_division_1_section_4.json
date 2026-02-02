@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_4",
+    "text_hash": "38f468192aedfdf1e7f1e4d025af9623",
+    "text": "Meaning of generic terms in Education and Care Services National Law for the purposes of this jurisdiction In the Children (Education and Care Services) National Law (NSW)— child protection law means the following— (a) the Children and Young Persons (Care and Protection) Act 1998 and regulations made under that Act, (b) the Children's Guardian Act 2019, Parts 6 and 8 and regulations made under the parts. de facto relationship means a relationship between 2 persons who are de facto partners of each other within the meaning of section 21C of the Interpretation Act 1987. local authority means a council within the meaning of the Local Government Act 1993. magistrate means a Magistrate appointed under the Local Court Act 2007. public authority means a public authority of the State, and includes a State owned corporation within the meaning of the State Owned Corporations Act 1989 and a subsidiary of a public authority or State owned corporation, but does not include a council, county council or joint organisation within the meaning of the Local Government Act 1993. registered teacher means a teacher who is accredited under the Institute of Teachers Act 2004. superior court means the Supreme Court of New South Wales. this jurisdiction means New South Wales.",
+    "token_count": 255,
+    "char_count": 1270,
+    "graph_stats": {
+      "total_nodes": 9,
+      "llm_extracted_nodes": 8,
+      "total_relationships": 16,
+      "llm_extracted_relationships": 8,
+      "mentions_relationships": 8
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Child Protection Law",
+      "type": "Entity",
+      "properties": {
+        "name": "child protection law",
+        "discourse_role": "DEFINITION",
+        "definition": "the Children and Young Persons (Care and Protection) Act 1998 and regulations made under that Act, the Children's Guardian Act 2019, Parts 6 and 8 and regulations made under the parts"
+      }
+    },
+    {
+      "id": "De Facto Relationship",
+      "type": "Entity",
+      "properties": {
+        "name": "de facto relationship",
+        "discourse_role": "DEFINITION",
+        "definition": "a relationship between 2 persons who are de facto partners of each other within the meaning of section 21C of the Interpretation Act 1987"
+      }
+    },
+    {
+      "id": "Local Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "local authority",
+        "discourse_role": "DEFINITION",
+        "definition": "a council within the meaning of the Local Government Act 1993"
+      }
+    },
+    {
+      "id": "Magistrate",
+      "type": "Entity",
+      "properties": {
+        "name": "magistrate",
+        "discourse_role": "DEFINITION",
+        "definition": "a Magistrate appointed under the Local Court Act 2007"
+      }
+    },
+    {
+      "id": "Public Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "public authority",
+        "discourse_role": "DEFINITION",
+        "definition": "a public authority of the State, and includes a State owned corporation within the meaning of the State Owned Corporations Act 1989 and a subsidiary of a public authority or State owned corporation, but does not include a council, county council or joint organisation within the meaning of the Local Government Act 1993"
+      }
+    },
+    {
+      "id": "Registered Teacher",
+      "type": "Entity",
+      "properties": {
+        "name": "registered teacher",
+        "discourse_role": "DEFINITION",
+        "definition": "a teacher who is accredited under the Institute of Teachers Act 2004"
+      }
+    },
+    {
+      "id": "Superior Court",
+      "type": "Entity",
+      "properties": {
+        "name": "superior court",
+        "discourse_role": "DEFINITION",
+        "definition": "the Supreme Court of New South Wales"
+      }
+    },
+    {
+      "id": "This Jurisdiction",
+      "type": "Entity",
+      "properties": {
+        "name": "this jurisdiction",
+        "discourse_role": "DEFINITION",
+        "definition": "New South Wales"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Child Protection Law",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "The Children And Young Persons (Care And Protection) Act 1998 And Regulations Made Under That Act, The Children'S Guardian Act 2019, Parts 6 And 8 And Regulations Made Under The Parts",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "De Facto Relationship",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Relationship Between 2 Persons Who Are De Facto Partners Of Each Other Within The Meaning Of Section 21C Of The Interpretation Act 1987",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Authority",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Council Within The Meaning Of The Local Government Act 1993",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Magistrate",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Magistrate Appointed Under The Local Court Act 2007",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Public Authority",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Public Authority Of The State, And Includes A State Owned Corporation Within The Meaning Of The State Owned Corporations Act 1989 And A Subsidiary Of A Public Authority Or State Owned Corporation, But Does Not Include A Council, County Council Or Joint Organisation Within The Meaning Of The Local Government Act 1993",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Registered Teacher",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Teacher Who Is Accredited Under The Institute Of Teachers Act 2004",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Superior Court",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "The Supreme Court Of New South Wales",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "This Jurisdiction",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "New South Wales",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Child Protection Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "De Facto Relationship",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Magistrate",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Public Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Registered Teacher",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Superior Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Jurisdiction",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

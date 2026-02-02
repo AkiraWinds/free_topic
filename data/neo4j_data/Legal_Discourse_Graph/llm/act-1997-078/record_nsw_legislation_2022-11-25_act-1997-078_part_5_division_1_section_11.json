@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+    "text_hash": "c4f840e6b5853fbbb862b96419f06d4e",
+    "text": "Saving of pilot scheme in Orange Any part of the area of Orange in which Part 3 of the Children (Parental Responsibility) Act 1994 applied immediately before the repeal of that Act is taken to be an area declared by order to be an operational area for the purposes of Part 3 of this Act until 31 December 1998, or until an order is made under section 16 revoking the order, whichever first occurs.",
+    "token_count": 89,
+    "char_count": 397,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 7,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Any Part Of The Area Of Orange",
+      "type": "Entity",
+      "properties": {
+        "name": "any part of the area of Orange",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Part 3 Of The Children (Parental Responsibility) Act 1994",
+      "type": "Entity",
+      "properties": {
+        "name": "Part 3 of the Children (Parental Responsibility) Act 1994",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "An Area Declared By Order To Be An Operational Area For The Purposes Of Part 3 Of This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "an area declared by order to be an operational area for the purposes of Part 3 of this Act",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Until 31 December 1998, Or Until An Order Is Made Under Section 16 Revoking The Order, Whichever First Occurs",
+      "type": "Entity",
+      "properties": {
+        "name": "until 31 December 1998, or until an order is made under section 16 revoking the order, whichever first occurs",
+        "discourse_role": "EXCEPTION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Part 3 Of The Children (Parental Responsibility) Act 1994",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Any Part Of The Area Of Orange",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Any Part Of The Area Of Orange",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "An Area Declared By Order To Be An Operational Area For The Purposes Of Part 3 Of This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Until 31 December 1998, Or Until An Order Is Made Under Section 16 Revoking The Order, Whichever First Occurs",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "An Area Declared By Order To Be An Operational Area For The Purposes Of Part 3 Of This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Part Of The Area Of Orange",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Part 3 Of The Children (Parental Responsibility) Act 1994",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "An Area Declared By Order To Be An Operational Area For The Purposes Of Part 3 Of This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_11",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Until 31 December 1998, Or Until An Order Is Made Under Section 16 Revoking The Order, Whichever First Occurs",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

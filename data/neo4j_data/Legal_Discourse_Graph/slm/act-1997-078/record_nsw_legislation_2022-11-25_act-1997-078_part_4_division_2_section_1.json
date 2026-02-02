@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_1",
+    "text_hash": "7cb63b275641bbad84f5bfd989c41124",
+    "text": "Preparation of draft local crime prevention plans (1) A council for an area may prepare a draft local crime prevention plan for the area. Note— Area is defined in section 3 to include part of an area. (2) The Attorney General may, at the request of a council, give the council assistance in preparing a draft local crime prevention plan. (3) The council for an area may take such steps as it considers appropriate or necessary to publicise its intention to prepare a draft local crime prevention plan and may seek and consider submissions from members of the community of the area and the public generally.",
+    "token_count": 121,
+    "char_count": 606,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 8,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Council For An Area",
+      "type": "Entity",
+      "properties": {
+        "name": "council for an area",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Draft Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "draft local crime prevention plan",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Assistance In Preparing A Draft Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "assistance in preparing a draft local crime prevention plan",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Submissions From Members Of The Community",
+      "type": "Entity",
+      "properties": {
+        "name": "submissions from members of the community",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Council For An Area",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Draft Local Crime Prevention Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Council For An Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Council For An Area",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Submissions From Members Of The Community",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Council For An Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Draft Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Assistance In Preparing A Draft Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Submissions From Members Of The Community",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

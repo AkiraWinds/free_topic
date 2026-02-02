@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_1",
+    "text_hash": "2cf593d13f9012b1a2d7c5ff4feaeb9c",
+    "text": "Adoption of Education and Care Services National Law The Education and Care Services National Law, as in force from time to time, set out in the Schedule to the Education and Care Services National Law Act 2010 of Victoria— (a) applies as a law of this jurisdiction, and (b) as so applying may be referred to as the Children (Education and Care Services) National Law (NSW), and (c) so applies as if it were part of this Act.",
+    "token_count": 97,
+    "char_count": 425,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 7,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Education And Care Services National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "Education and Care Services National Law",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Law Of This Jurisdiction",
+      "type": "Entity",
+      "properties": {
+        "name": "law of this jurisdiction",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Children (Education And Care Services) National Law (Nsw)",
+      "type": "Entity",
+      "properties": {
+        "name": "Children (Education and Care Services) National Law (NSW)",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "Part Of This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "part of this Act",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Education And Care Services National Law",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Law Of This Jurisdiction",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Education And Care Services National Law",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Education And Care Services National Law",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Part Of This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Education And Care Services National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Law Of This Jurisdiction",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Part Of This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

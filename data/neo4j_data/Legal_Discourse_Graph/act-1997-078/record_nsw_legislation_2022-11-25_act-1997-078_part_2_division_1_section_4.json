@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+    "text_hash": "a3b5f9d48be27c8d6fb22cf6c31dcc5c",
+    "text": "Undertakings by parents (1) A court that finds a child guilty of an offence may, instead of dealing with the child in any other way permitted by law, release the child on condition— (a) that one or more parents of the child give an undertaking with or without conditions to do or refrain from doing the act or acts specified in the undertaking for a period not exceeding 6 months, or in exceptional circumstances 12 months, but in no case extending beyond the child's eighteenth birthday, or (b) that one or more parents of the child give a supplementary undertaking to the court— (i) to guarantee the child's compliance with any undertaking given under section 8, and (ii) to take specified action to assist the child's development and to guard against the commission by the child of any further offences, and (iii) to report at intervals stated in the supplementary undertaking on the child's progress, or (c) that one or more parents of the child give security (whether by deposit of money or otherwise) for the good behaviour of the child for a period not exceeding 6 months, or in exceptional circumstances 12 months, but in no case extending beyond the child's eighteenth birthday. (2) No security is to be required from a parent under this section unless the parent has been required to attend before the court and has had an opportunity to be heard. (3) A court must not take any action against a child for the failure of a parent of the child to comply with an undertaking under this section. (4) Such part of any security required under this section as the court may determine is to be forfeited to the Crown if the person giving it fails to fulfil the obligation to ensure the child is of good behaviour. (5) The court may specify which parent or parents are subject to any condition imposed under subsection (1).",
+    "token_count": 372,
+    "char_count": 1824,
+    "graph_stats": {
+      "total_nodes": 12,
+      "llm_extracted_nodes": 11,
+      "total_relationships": 18,
+      "llm_extracted_relationships": 7,
+      "mentions_relationships": 11
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Court",
+      "type": "Entity",
+      "properties": {
+        "name": "a court",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Child",
+      "type": "Entity",
+      "properties": {
+        "name": "a child",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Finds A Child Guilty Of An Offence",
+      "type": "Entity",
+      "properties": {
+        "name": "finds a child guilty of an offence",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Release The Child On Condition",
+      "type": "Entity",
+      "properties": {
+        "name": "release the child on condition",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "One Or More Parents Of The Child",
+      "type": "Entity",
+      "properties": {
+        "name": "one or more parents of the child",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Give An Undertaking",
+      "type": "Entity",
+      "properties": {
+        "name": "give an undertaking",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Give A Supplementary Undertaking To The Court",
+      "type": "Entity",
+      "properties": {
+        "name": "give a supplementary undertaking to the court",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Give Security For The Good Behaviour Of The Child",
+      "type": "Entity",
+      "properties": {
+        "name": "give security for the good behaviour of the child",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "No Security Is To Be Required From A Parent",
+      "type": "Entity",
+      "properties": {
+        "name": "No security is to be required from a parent",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Court Must Not Take Any Action Against A Child",
+      "type": "Entity",
+      "properties": {
+        "name": "court must not take any action against a child",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Such Part Of Any Security Required Under This Section As The Court May Determine Is To Be Forfeited To The Crown",
+      "type": "Entity",
+      "properties": {
+        "name": "Such part of any security required under this section as the court may determine is to be forfeited to the Crown",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Finds A Child Guilty Of An Offence",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Court",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Release The Child On Condition",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "One Or More Parents Of The Child",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Give An Undertaking",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "One Or More Parents Of The Child",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Give A Supplementary Undertaking To The Court",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "One Or More Parents Of The Child",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Give Security For The Good Behaviour Of The Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "No Security Is To Be Required From A Parent",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Give Security For The Good Behaviour Of The Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Court Must Not Take Any Action Against A Child",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "A Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Finds A Child Guilty Of An Offence",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Release The Child On Condition",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "One Or More Parents Of The Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Give An Undertaking",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Give A Supplementary Undertaking To The Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Give Security For The Good Behaviour Of The Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "No Security Is To Be Required From A Parent",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Court Must Not Take Any Action Against A Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Such Part Of Any Security Required Under This Section As The Court May Determine Is To Be Forfeited To The Crown",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

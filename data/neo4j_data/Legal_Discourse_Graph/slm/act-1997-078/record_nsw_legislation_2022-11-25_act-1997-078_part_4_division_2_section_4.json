@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+    "text_hash": "d7d34230df9802741bbfda66ba55ff5d",
+    "text": "Public notice of draft local crime prevention plans (1) A council must give public notice of a draft local crime prevention plan and place it on public exhibition in accordance with this section. (2) The period of public exhibition of the draft plan must not be less than 28 days. (3) The public notice must specify a period of not less than 42 days after the date on which the draft plan is placed on public exhibition during which submissions may be made to the council. (4) The council must, in accordance with its notice, publicly exhibit the draft plan together with any other matter that it considers appropriate or necessary to better enable the draft plan and its implications to be understood.",
+    "token_count": 139,
+    "char_count": 702,
+    "graph_stats": {
+      "total_nodes": 10,
+      "llm_extracted_nodes": 9,
+      "total_relationships": 16,
+      "llm_extracted_relationships": 7,
+      "mentions_relationships": 9
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Council",
+      "type": "Entity",
+      "properties": {
+        "name": "council",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Draft Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "draft local crime prevention plan",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Public Notice",
+      "type": "Entity",
+      "properties": {
+        "name": "public notice",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Public Exhibition",
+      "type": "Entity",
+      "properties": {
+        "name": "public exhibition",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Period Of Public Exhibition",
+      "type": "Entity",
+      "properties": {
+        "name": "period of public exhibition",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Submissions",
+      "type": "Entity",
+      "properties": {
+        "name": "submissions",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Period Of Not Less Than 42 Days",
+      "type": "Entity",
+      "properties": {
+        "name": "period of not less than 42 days",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Other Matter",
+      "type": "Entity",
+      "properties": {
+        "name": "other matter",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Implications",
+      "type": "Entity",
+      "properties": {
+        "name": "implications",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Public Notice",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Public Notice",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Draft Local Crime Prevention Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Draft Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Public Exhibition",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Public Exhibition",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Period Of Public Exhibition",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Period Of Not Less Than 42 Days",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Submissions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Other Matter",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Draft Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Implications",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Draft Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Public Notice",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Public Exhibition",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Period Of Public Exhibition",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Submissions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Period Of Not Less Than 42 Days",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Other Matter",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Implications",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

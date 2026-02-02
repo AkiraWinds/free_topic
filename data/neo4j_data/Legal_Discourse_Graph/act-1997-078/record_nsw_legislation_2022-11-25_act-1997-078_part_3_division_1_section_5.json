@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_5",
+    "text_hash": "df9b983ae767ee0009ec47f49fd50933",
+    "text": "Publication As soon as practicable after making, amending or revoking an order declaring an area (or a portion of an area) to be an operational area, the Attorney General is to cause a copy of the relevant order to be published in the Gazette and in a newspaper circulating generally in the area (or the portion of the area).",
+    "token_count": 68,
+    "char_count": 325,
+    "graph_stats": {
+      "total_nodes": 4,
+      "llm_extracted_nodes": 3,
+      "total_relationships": 4,
+      "llm_extracted_relationships": 1,
+      "mentions_relationships": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_5",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_5",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "An Order Declaring An Area To Be An Operational Area",
+      "type": "Entity",
+      "properties": {
+        "name": "an order declaring an area to be an operational area",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "the Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Copy Of The Relevant Order To Be Published In The Gazette And In A Newspaper",
+      "type": "Entity",
+      "properties": {
+        "name": "a copy of the relevant order to be published in the Gazette and in a newspaper",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "A Copy Of The Relevant Order To Be Published In The Gazette And In A Newspaper",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "An Order Declaring An Area To Be An Operational Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Copy Of The Relevant Order To Be Published In The Gazette And In A Newspaper",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

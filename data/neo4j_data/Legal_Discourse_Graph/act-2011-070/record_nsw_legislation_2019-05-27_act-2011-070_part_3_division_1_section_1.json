@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_1",
+    "text_hash": "32b9dea193a25766cc56037946ba6dc8",
+    "text": "Unauthorised provision of education and care service (1) A person must not provide a State regulated education and care service unless: (a) the person is an approved provider in respect of that service, and (b) the service is an approved education and care service. Maximum penalty: $22,000. (2) A nominated supervisor of a State regulated education and care service who is not the approved provider of the service does not commit an offence against this section in respect of anything done in the course of supervising that service in accordance with this Act. (3) An employee or other person who provides or assists in providing a State regulated education and care service does not commit an offence against this section if the employee or other person is acting in accordance with directions given by the approved provider of the service.",
+    "token_count": 162,
+    "char_count": 842,
+    "graph_stats": {
+      "total_nodes": 8,
+      "llm_extracted_nodes": 7,
+      "total_relationships": 13,
+      "llm_extracted_relationships": 6,
+      "mentions_relationships": 7
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a person",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Must Not Provide A State Regulated Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "must not provide a State regulated education and care service",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Is An Approved Provider In Respect Of That Service",
+      "type": "Entity",
+      "properties": {
+        "name": "is an approved provider in respect of that service",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Service Is An Approved Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "the service is an approved education and care service",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "A Nominated Supervisor Of A State Regulated Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "a nominated supervisor of a State regulated education and care service",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "An Employee Or Other Person Who Provides Or Assists In Providing A State Regulated Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "an employee or other person who provides or assists in providing a State regulated education and care service",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Is Acting In Accordance With Directions Given By The Approved Provider Of The Service",
+      "type": "Entity",
+      "properties": {
+        "name": "is acting in accordance with directions given by the approved provider of the service",
+        "discourse_role": "TEST"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Must Not Provide A State Regulated Education And Care Service",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Is An Approved Provider In Respect Of That Service",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Service Is An Approved Education And Care Service",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Nominated Supervisor Of A State Regulated Education And Care Service",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Must Not Provide A State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "An Employee Or Other Person Who Provides Or Assists In Providing A State Regulated Education And Care Service",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Must Not Provide A State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Is Acting In Accordance With Directions Given By The Approved Provider Of The Service",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "An Employee Or Other Person Who Provides Or Assists In Providing A State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Must Not Provide A State Regulated Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Is An Approved Provider In Respect Of That Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Service Is An Approved Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Nominated Supervisor Of A State Regulated Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "An Employee Or Other Person Who Provides Or Assists In Providing A State Regulated Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Is Acting In Accordance With Directions Given By The Approved Provider Of The Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

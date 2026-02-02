@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_2",
+    "text_hash": "32708d60408605871e1c908dc86aca3a",
+    "text": "Application of Children (Education and Care Services National Law Application) Act 2010 (1) Sections 7 to 16 of the Children (Education and Care Services National Law Application) Act 2010 apply to the National Law Alignment Provisions in the same way as they apply to the National Law, subject to any modifications provided for by this Act or the regulations under this Act. (2) Section 5 of the Children (Education and Care Services National Law Application) Act 2010 does not apply in respect of the National Law Alignment Provisions.",
+    "token_count": 112,
+    "char_count": 537,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Sections 7 To 16 Of The Children (Education And Care Services National Law Application) Act 2010",
+      "type": "Entity",
+      "properties": {
+        "name": "Sections 7 to 16 of the Children (Education and Care Services National Law Application) Act 2010",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Modifications Provided For By This Act Or The Regulations Under This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "modifications provided for by this Act or the regulations under this Act",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Section 5 Of The Children (Education And Care Services National Law Application) Act 2010",
+      "type": "Entity",
+      "properties": {
+        "name": "Section 5 of the Children (Education and Care Services National Law Application) Act 2010",
+        "discourse_role": "SUBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Sections 7 To 16 Of The Children (Education And Care Services National Law Application) Act 2010",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Sections 7 To 16 Of The Children (Education And Care Services National Law Application) Act 2010",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Modifications Provided For By This Act Or The Regulations Under This Act",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Sections 7 To 16 Of The Children (Education And Care Services National Law Application) Act 2010",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Section 5 Of The Children (Education And Care Services National Law Application) Act 2010",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Sections 7 To 16 Of The Children (Education And Care Services National Law Application) Act 2010",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Modifications Provided For By This Act Or The Regulations Under This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 5 Of The Children (Education And Care Services National Law Application) Act 2010",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_5",
+    "text_hash": "61a698e22f6e8cfddc1ca4444b6a0099",
+    "text": "Adoption of local crime prevention plan (1) After considering all submissions received by it concerning the draft local crime prevention plan, the council may decide to amend the draft plan or to adopt it without amendment as a local crime prevention plan for the area or part of the area concerned. (2) If the council decides to amend the draft plan, it may publicly exhibit the amended plan or it may adopt the amended draft plan without public exhibition as a local crime prevention plan for the area or part of the area concerned.",
+    "token_count": 103,
+    "char_count": 534,
+    "graph_stats": {
+      "total_nodes": 8,
+      "llm_extracted_nodes": 7,
+      "total_relationships": 12,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 7
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_5",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_5",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Council",
+      "type": "Entity",
+      "properties": {
+        "name": "council",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Draft Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "draft local crime prevention plan",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Amend The Draft Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "amend the draft plan",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Adopt It Without Amendment",
+      "type": "Entity",
+      "properties": {
+        "name": "adopt it without amendment",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Amended Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "amended plan",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Adopt The Amended Draft Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "adopt the amended draft plan",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Publicly Exhibit The Amended Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "publicly exhibit the amended plan",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Amend The Draft Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Council",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Adopt It Without Amendment",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Amend The Draft Plan",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Amended Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Publicly Exhibit The Amended Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Adopt The Amended Draft Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Draft Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Amend The Draft Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Adopt It Without Amendment",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Amended Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Adopt The Amended Draft Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Publicly Exhibit The Amended Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+    "text_hash": "b69c88080d04bdd1745a347ca0f1d6f8",
+    "text": "Objects of Part The objects of this Part are— (a) to work towards a safer environment by fostering community involvement in the development of local crime prevention plans prepared on the initiative of local government councils (with the assistance, at the request of the councils, of the Attorney General) for measures to be taken within their areas to reduce crime, and (b) to assist in the funding of the development of safer community compacts and of certain initiatives under safer community compacts through grants made by the Attorney General.",
+    "token_count": 102,
+    "char_count": 550,
+    "graph_stats": {
+      "total_nodes": 10,
+      "llm_extracted_nodes": 9,
+      "total_relationships": 13,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 9
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Objects Of Part",
+      "type": "Entity",
+      "properties": {
+        "name": "Objects of Part",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Safer Environment",
+      "type": "Entity",
+      "properties": {
+        "name": "safer environment",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Community Involvement In The Development Of Local Crime Prevention Plans",
+      "type": "Entity",
+      "properties": {
+        "name": "community involvement in the development of local crime prevention plans",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Local Government Councils",
+      "type": "Entity",
+      "properties": {
+        "name": "local government councils",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "Measures To Be Taken Within Their Areas To Reduce Crime",
+      "type": "Entity",
+      "properties": {
+        "name": "measures to be taken within their areas to reduce crime",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Crime Prevention Plans",
+      "type": "Entity",
+      "properties": {
+        "name": "crime prevention plans",
+        "discourse_role": "DEFINITION"
+      }
+    },
+    {
+      "id": "Definition",
+      "type": "Entity",
+      "properties": {
+        "name": "definition",
+        "discourse_role": "DEFINITION",
+        "definition": "prepared on the initiative of local government councils (with the assistance, at the request of the councils, of the Attorney General) for measures to be taken within their areas to reduce crime"
+      }
+    },
+    {
+      "id": "Safer Community Compacts",
+      "type": "Entity",
+      "properties": {
+        "name": "safer community compacts",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "Attorney General",
+        "discourse_role": "PROBE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Objects Of Part",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Safer Environment",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Government Councils",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Measures To Be Taken Within Their Areas To Reduce Crime",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Safer Community Compacts",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Measures To Be Taken Within Their Areas To Reduce Crime",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Definition",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Crime Prevention Plans",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Objects Of Part",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Safer Environment",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Community Involvement In The Development Of Local Crime Prevention Plans",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Government Councils",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Measures To Be Taken Within Their Areas To Reduce Crime",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Crime Prevention Plans",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Definition",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Safer Community Compacts",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

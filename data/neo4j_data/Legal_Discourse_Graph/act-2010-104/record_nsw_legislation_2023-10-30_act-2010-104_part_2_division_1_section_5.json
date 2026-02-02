@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_5",
+    "text_hash": "280ab988f320e7dd0b9f3fe7f22f677b",
+    "text": "Relevant tribunal or court For the purposes of the definition of relevant tribunal or court in section 5 of the Children (Education and Care Services) National Law (NSW)— (a) the District Court is declared to be the relevant tribunal or court for this jurisdiction for the purposes of section 181 of that Law, and (b) the Civil and Administrative Tribunal is declared to be the relevant tribunal or court for this jurisdiction for the purposes of Part 8 of that Law.",
+    "token_count": 95,
+    "char_count": 466,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_5",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_5",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Relevant Tribunal Or Court",
+      "type": "Entity",
+      "properties": {
+        "name": "relevant tribunal or court",
+        "discourse_role": "DEFINITION",
+        "definition": "relevant tribunal or court in section 5 of the Children (Education and Care Services) National Law (NSW)"
+      }
+    },
+    {
+      "id": "District Court",
+      "type": "Entity",
+      "properties": {
+        "name": "District Court",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Civil And Administrative Tribunal",
+      "type": "Entity",
+      "properties": {
+        "name": "Civil and Administrative Tribunal",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Section 181 Of That Law",
+      "type": "Entity",
+      "properties": {
+        "name": "section 181 of that Law",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Part 8 Of That Law",
+      "type": "Entity",
+      "properties": {
+        "name": "Part 8 of that Law",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Relevant Tribunal Or Court",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "District Court",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Relevant Tribunal Or Court",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Civil And Administrative Tribunal",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "District Court",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Section 181 Of That Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Civil And Administrative Tribunal",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Part 8 Of That Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Relevant Tribunal Or Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "District Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Civil And Administrative Tribunal",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 181 Of That Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Part 8 Of That Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

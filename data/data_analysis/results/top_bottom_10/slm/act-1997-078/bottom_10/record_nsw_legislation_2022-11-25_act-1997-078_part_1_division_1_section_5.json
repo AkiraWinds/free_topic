@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_5",
+    "text_hash": "93734cb0a20d4bb1c36fabf4aa25612a",
+    "text": "Notes Notes included in this Act do not form part of this Act.",
+    "token_count": 14,
+    "char_count": 62,
+    "graph_stats": {
+      "total_nodes": 3,
+      "llm_extracted_nodes": 2,
+      "total_relationships": 3,
+      "llm_extracted_relationships": 1,
+      "mentions_relationships": 2
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_5",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_5",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Notes",
+      "type": "Entity",
+      "properties": {
+        "name": "Notes",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "this Act",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Notes",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Notes",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

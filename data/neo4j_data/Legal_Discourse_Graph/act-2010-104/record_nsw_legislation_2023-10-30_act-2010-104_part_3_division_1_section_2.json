@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_3_division_1_section_2",
+    "text_hash": "2f6ae918f92d56778d4fb6fec7feb4a2",
+    "text": "Regulations The Governor may make regulations, not inconsistent with this Act, for or with respect to any matter that by this Act is required or permitted to be prescribed or that is necessary or convenient to be prescribed for carrying out or giving effect to this Act.",
+    "token_count": 51,
+    "char_count": 270,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_3_division_1_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_3_division_1_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Governor",
+      "type": "Entity",
+      "properties": {
+        "name": "The Governor",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Make Regulations",
+      "type": "Entity",
+      "properties": {
+        "name": "make regulations",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Not Inconsistent With This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "not inconsistent with this Act",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Any Matter That By This Act Is Required Or Permitted To Be Prescribed",
+      "type": "Entity",
+      "properties": {
+        "name": "any matter that by this Act is required or permitted to be prescribed",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Necessary Or Convenient To Be Prescribed For Carrying Out Or Giving Effect To This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "necessary or convenient to be prescribed for carrying out or giving effect to this Act",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Not Inconsistent With This Act",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "The Governor",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Governor",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Make Regulations",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Make Regulations",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Any Matter That By This Act Is Required Or Permitted To Be Prescribed",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Make Regulations",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Necessary Or Convenient To Be Prescribed For Carrying Out Or Giving Effect To This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Governor",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Make Regulations",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Not Inconsistent With This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Matter That By This Act Is Required Or Permitted To Be Prescribed",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Necessary Or Convenient To Be Prescribed For Carrying Out Or Giving Effect To This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

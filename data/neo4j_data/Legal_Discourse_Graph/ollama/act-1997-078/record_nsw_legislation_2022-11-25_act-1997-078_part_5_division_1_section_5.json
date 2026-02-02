@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_5",
+    "text_hash": "939c8d286b91ba04aeb68f325f687e1f",
+    "text": "Repeals The Children (Parental Responsibility) Act 1994 and the Children (Parental Responsibility) Regulation 1995 are repealed.",
+    "token_count": 29,
+    "char_count": 128,
+    "graph_stats": {
+      "total_nodes": 3,
+      "llm_extracted_nodes": 2,
+      "total_relationships": 2,
+      "llm_extracted_relationships": 0,
+      "mentions_relationships": 2
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_5",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_5",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Children (Parental Responsibility) Act 1994",
+      "type": "Entity",
+      "properties": {
+        "name": "The Children (Parental Responsibility) Act 1994",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Children (Parental Responsibility) Regulation 1995",
+      "type": "Entity",
+      "properties": {
+        "name": "the Children (Parental Responsibility) Regulation 1995",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Children (Parental Responsibility) Act 1994",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Children (Parental Responsibility) Regulation 1995",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

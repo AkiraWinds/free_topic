@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_6",
+    "text_hash": "51c9caa95b20d8b23574de49031b08d6",
+    "text": "Regulatory Authority For the purposes of the definition of Regulatory Authority in section 5 of the Children (Education and Care Services) National Law (NSW), the Secretary of the Department of Education is declared to be the Regulatory Authority for this jurisdiction for the purposes of that Law.",
+    "token_count": 55,
+    "char_count": 298,
+    "graph_stats": {
+      "total_nodes": 4,
+      "llm_extracted_nodes": 3,
+      "total_relationships": 5,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_6",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_6",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Regulatory Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "Regulatory Authority",
+        "discourse_role": "DEFINITION",
+        "definition": "the Secretary of the Department of Education is declared to be the Regulatory Authority for this jurisdiction for the purposes of that Law"
+      }
+    },
+    {
+      "id": "Secretary Of The Department Of Education",
+      "type": "Entity",
+      "properties": {
+        "name": "Secretary of the Department of Education",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Children (Education And Care Services) National Law (Nsw)",
+      "type": "Entity",
+      "properties": {
+        "name": "Children (Education and Care Services) National Law (NSW)",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Regulatory Authority",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Secretary Of The Department Of Education",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Secretary Of The Department Of Education",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regulatory Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Secretary Of The Department Of Education",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

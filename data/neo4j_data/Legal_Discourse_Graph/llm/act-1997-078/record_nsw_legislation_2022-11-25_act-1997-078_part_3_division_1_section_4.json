@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_4",
+    "text_hash": "3b39caaf40d96461d3df8bd65e8b2251",
+    "text": "Amendment or revocation of declaration (1) The Attorney General may, by order, amend or revoke an order declaring an area (or a portion of an area) to be an operational area. (2) An order under subsection (1) may be made at the request of the council for the area to which the declaration relates or on the Attorney General's own initiative. (3) The Attorney General is to consult with the Minister for Community Services and the Minister for Police before revoking or, unless the Attorney General considers the amendments are not substantial, amending an order declaring an area to be an operational area.",
+    "token_count": 126,
+    "char_count": 606,
+    "graph_stats": {
+      "total_nodes": 8,
+      "llm_extracted_nodes": 7,
+      "total_relationships": 13,
+      "llm_extracted_relationships": 6,
+      "mentions_relationships": 7
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Amend Or Revoke An Order",
+      "type": "Entity",
+      "properties": {
+        "name": "amend or revoke an order",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Order Declaring An Area To Be An Operational Area",
+      "type": "Entity",
+      "properties": {
+        "name": "order declaring an area to be an operational area",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Request Of The Council For The Area",
+      "type": "Entity",
+      "properties": {
+        "name": "request of the council for the area",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Attorney General'S Own Initiative",
+      "type": "Entity",
+      "properties": {
+        "name": "Attorney General's own initiative",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Consult With The Minister For Community Services And The Minister For Police",
+      "type": "Entity",
+      "properties": {
+        "name": "consult with the Minister for Community Services and the Minister for Police",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Amendments Are Not Substantial",
+      "type": "Entity",
+      "properties": {
+        "name": "amendments are not substantial",
+        "discourse_role": "EXCEPTION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Amend Or Revoke An Order",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Attorney General",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Order Declaring An Area To Be An Operational Area",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Amend Or Revoke An Order",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Request Of The Council For The Area",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Amend Or Revoke An Order",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Attorney General'S Own Initiative",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Amend Or Revoke An Order",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Consult With The Minister For Community Services And The Minister For Police",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Amend Or Revoke An Order",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Amendments Are Not Substantial",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Consult With The Minister For Community Services And The Minister For Police",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Amend Or Revoke An Order",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Order Declaring An Area To Be An Operational Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Request Of The Council For The Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attorney General'S Own Initiative",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Consult With The Minister For Community Services And The Minister For Police",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Amendments Are Not Substantial",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+    "text_hash": "9aa4455b5da427d08f6872ff4052da25",
+    "text": "Exclusion of legislation of this jurisdiction (1) The following Acts of this jurisdiction do not apply to the Children (Education and Care Services) National Law (NSW) or to instruments made under that Law— (a) the Government Information (Public Access) Act 2009, (b) the Health Records and Information Privacy Act 2002, (c) the Interpretation Act 1987, (d) the Privacy and Personal Information Protection Act 1998, (e) the Subordinate Legislation Act 1989. (2) The following Acts of this jurisdiction do not apply to the Children (Education and Care Services) National Law (NSW) or to instruments made under that Law, except to the extent that the Law and those instruments apply to the Regulatory Authority and the employees, decisions, actions and records of the Regulatory Authority— (a) the Government Sector Finance Act 2018, (b) the Ombudsman Act 1974, (c) the Government Sector Audit Act 1983, (d) the Government Sector Employment Act 2013. (3) However, Part 4 of the Children's Guardian Act 2019 does apply in respect of approved education and care services under the Children (Education and Care Services) National Law (NSW).",
+    "token_count": 260,
+    "char_count": 1135,
+    "graph_stats": {
+      "total_nodes": 14,
+      "llm_extracted_nodes": 13,
+      "total_relationships": 24,
+      "llm_extracted_relationships": 11,
+      "mentions_relationships": 13
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Exclusion Of Legislation Of This Jurisdiction",
+      "type": "Entity",
+      "properties": {
+        "name": "Exclusion of legislation of this jurisdiction",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Children (Education And Care Services) National Law (Nsw)",
+      "type": "Entity",
+      "properties": {
+        "name": "Children (Education and Care Services) National Law (NSW)",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Government Information (Public Access) Act 2009",
+      "type": "Entity",
+      "properties": {
+        "name": "Government Information (Public Access) Act 2009",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Health Records And Information Privacy Act 2002",
+      "type": "Entity",
+      "properties": {
+        "name": "Health Records and Information Privacy Act 2002",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Interpretation Act 1987",
+      "type": "Entity",
+      "properties": {
+        "name": "Interpretation Act 1987",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Privacy And Personal Information Protection Act 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "Privacy and Personal Information Protection Act 1998",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Subordinate Legislation Act 1989",
+      "type": "Entity",
+      "properties": {
+        "name": "Subordinate Legislation Act 1989",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Government Sector Finance Act 2018",
+      "type": "Entity",
+      "properties": {
+        "name": "Government Sector Finance Act 2018",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Ombudsman Act 1974",
+      "type": "Entity",
+      "properties": {
+        "name": "Ombudsman Act 1974",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Government Sector Audit Act 1983",
+      "type": "Entity",
+      "properties": {
+        "name": "Government Sector Audit Act 1983",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Government Sector Employment Act 2013",
+      "type": "Entity",
+      "properties": {
+        "name": "Government Sector Employment Act 2013",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Part 4 Of The Children'S Guardian Act 2019",
+      "type": "Entity",
+      "properties": {
+        "name": "Part 4 of the Children's Guardian Act 2019",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Approved Education And Care Services Under The Children (Education And Care Services) National Law (Nsw)",
+      "type": "Entity",
+      "properties": {
+        "name": "approved education and care services under the Children (Education and Care Services) National Law (NSW)",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Exclusion Of Legislation Of This Jurisdiction",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Government Information (Public Access) Act 2009",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Health Records And Information Privacy Act 2002",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Interpretation Act 1987",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Privacy And Personal Information Protection Act 1998",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Subordinate Legislation Act 1989",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Government Sector Finance Act 2018",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Ombudsman Act 1974",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Government Sector Audit Act 1983",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Government Sector Employment Act 2013",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Part 4 Of The Children'S Guardian Act 2019",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Approved Education And Care Services Under The Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Exclusion Of Legislation Of This Jurisdiction",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Government Information (Public Access) Act 2009",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Health Records And Information Privacy Act 2002",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Interpretation Act 1987",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Privacy And Personal Information Protection Act 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Subordinate Legislation Act 1989",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Government Sector Finance Act 2018",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Ombudsman Act 1974",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Government Sector Audit Act 1983",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Government Sector Employment Act 2013",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Part 4 Of The Children'S Guardian Act 2019",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approved Education And Care Services Under The Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

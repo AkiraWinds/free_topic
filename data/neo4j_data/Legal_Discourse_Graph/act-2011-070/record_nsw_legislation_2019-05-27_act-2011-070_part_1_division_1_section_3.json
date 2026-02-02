@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_3",
+    "text_hash": "9fb28bd10313ed41a8836d217173b717",
+    "text": "Definitions (1) In this Act: approved education and care service means a State regulated education and care service for which a service approval exists. approved provider means: (a) a person who holds a provider approval granted under the National Law Alignment Provisions, or (b) a person who is taken to be an approved provider under Division 3 of Part 4. education and care service—see section 4. exempt premises—see section 5. mobile education and care service—see section 4. National Law means the Children (Education and Care Services) National Law (NSW). National Law Alignment Provisions—see section 17. occasional education and care service—see section 4. provider approval means a provider approval under the National Law Alignment Provisions. Regulatory Authority means the Regulatory Authority for this jurisdiction within the meaning of the National Law. service approval means a service approval under the National Law Alignment Provisions. State regulated education and care service—see section 4. (2) Notes included in this Act do not form part of this Act.",
+    "token_count": 215,
+    "char_count": 1073,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Approved Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "approved education and care service",
+        "discourse_role": "DEFINITION",
+        "definition": "a State regulated education and care service for which a service approval exists"
+      }
+    },
+    {
+      "id": "Approved Provider",
+      "type": "Entity",
+      "properties": {
+        "name": "approved provider",
+        "discourse_role": "DEFINITION",
+        "definition": "a person who holds a provider approval granted under the National Law Alignment Provisions, or a person who is taken to be an approved provider under Division 3 of Part 4"
+      }
+    },
+    {
+      "id": "National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law",
+        "discourse_role": "DEFINITION",
+        "definition": "the Children (Education and Care Services) National Law (NSW)"
+      }
+    },
+    {
+      "id": "Provider Approval",
+      "type": "Entity",
+      "properties": {
+        "name": "provider approval",
+        "discourse_role": "DEFINITION",
+        "definition": "a provider approval under the National Law Alignment Provisions"
+      }
+    },
+    {
+      "id": "Regulatory Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "Regulatory Authority",
+        "discourse_role": "DEFINITION",
+        "definition": "the Regulatory Authority for this jurisdiction within the meaning of the National Law"
+      }
+    },
+    {
+      "id": "Service Approval",
+      "type": "Entity",
+      "properties": {
+        "name": "service approval",
+        "discourse_role": "DEFINITION",
+        "definition": "a service approval under the National Law Alignment Provisions"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Approved Education And Care Service",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Service Approval",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Approved Provider",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Provider Approval",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Regulatory Authority",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approved Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approved Provider",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Provider Approval",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regulatory Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service Approval",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_1",
+    "text_hash": "b191d9cc75316ea046fbcba4b1ff2efa",
+    "text": "References to regulations For the purposes of the National Law Alignment Provisions, a reference in the National Law to the regulations made under that Law or to a matter prescribed under that Law is to be read as a reference to the regulations made under this Act or to a matter prescribed by the regulations under this Act, as the case requires.",
+    "token_count": 66,
+    "char_count": 347,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 11,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Regulations Made Under That Law",
+      "type": "Entity",
+      "properties": {
+        "name": "regulations made under that Law",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Matter Prescribed Under That Law",
+      "type": "Entity",
+      "properties": {
+        "name": "matter prescribed under that Law",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Regulations Made Under This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "regulations made under this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Matter Prescribed By The Regulations Under This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "matter prescribed by the regulations under this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "DEFINITION",
+        "definition": "For the purposes of the National Law Alignment Provisions, a reference in the National Law to the regulations made under that Law or to a matter prescribed under that Law is to be read as a reference to the regulations made under this Act or to a matter prescribed by the regulations under this Act, as the case requires."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "National Law",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Regulations Made Under That Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Law",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Matter Prescribed Under That Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Regulations Made Under That Law",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "Regulations Made Under This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Matter Prescribed Under That Law",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "Matter Prescribed By The Regulations Under This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "National Law Alignment Provisions",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regulations Made Under That Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Matter Prescribed Under That Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regulations Made Under This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Matter Prescribed By The Regulations Under This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

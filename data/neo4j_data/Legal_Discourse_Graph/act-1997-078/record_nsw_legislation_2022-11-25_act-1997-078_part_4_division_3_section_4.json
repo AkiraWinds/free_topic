@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+    "text_hash": "3908664218bc683bcab02be34bf27c88",
+    "text": "Duration and revocation of approval (1) An approval of a draft local crime prevention plan, or local crime prevention plan adopted by a council, as a safer community compact remains in force (unless sooner revoked) for 3 years after it is given. (2) The Attorney General may revoke an approval by written notice given to the council concerned. (3) The Attorney General may revoke an approval— (a) if the Attorney General considers any provisions of the safer community compact are no longer suitable for the needs of the area to which it applies, or (b) if the Attorney General considers the safer community compact is not being implemented in a satisfactory manner, or (c) on any other ground the Attorney General considers appropriate.",
+    "token_count": 147,
+    "char_count": 737,
+    "graph_stats": {
+      "total_nodes": 10,
+      "llm_extracted_nodes": 9,
+      "total_relationships": 15,
+      "llm_extracted_relationships": 6,
+      "mentions_relationships": 9
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "An Approval Of A Draft Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "an approval of a draft local crime prevention plan",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Local Crime Prevention Plan Adopted By A Council",
+      "type": "Entity",
+      "properties": {
+        "name": "local crime prevention plan adopted by a council",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "safer community compact",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Remains In Force For 3 Years After It Is Given",
+      "type": "Entity",
+      "properties": {
+        "name": "remains in force for 3 years after it is given",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "The Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "The Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "May Revoke An Approval By Written Notice Given To The Council Concerned",
+      "type": "Entity",
+      "properties": {
+        "name": "may revoke an approval by written notice given to the council concerned",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "If The Attorney General Considers Any Provisions Of The Safer Community Compact Are No Longer Suitable For The Needs Of The Area To Which It Applies",
+      "type": "Entity",
+      "properties": {
+        "name": "if the Attorney General considers any provisions of the safer community compact are no longer suitable for the needs of the area to which it applies",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "If The Attorney General Considers The Safer Community Compact Is Not Being Implemented In A Satisfactory Manner",
+      "type": "Entity",
+      "properties": {
+        "name": "if the Attorney General considers the safer community compact is not being implemented in a satisfactory manner",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "On Any Other Ground The Attorney General Considers Appropriate",
+      "type": "Entity",
+      "properties": {
+        "name": "on any other ground the Attorney General considers appropriate",
+        "discourse_role": "TEST"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "An Approval Of A Draft Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Remains In Force For 3 Years After It Is Given",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan Adopted By A Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Remains In Force For 3 Years After It Is Given",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "May Revoke An Approval By Written Notice Given To The Council Concerned",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "If The Attorney General Considers Any Provisions Of The Safer Community Compact Are No Longer Suitable For The Needs Of The Area To Which It Applies",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "May Revoke An Approval By Written Notice Given To The Council Concerned",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "If The Attorney General Considers The Safer Community Compact Is Not Being Implemented In A Satisfactory Manner",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "May Revoke An Approval By Written Notice Given To The Council Concerned",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "On Any Other Ground The Attorney General Considers Appropriate",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "May Revoke An Approval By Written Notice Given To The Council Concerned",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "An Approval Of A Draft Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Crime Prevention Plan Adopted By A Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Remains In Force For 3 Years After It Is Given",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "May Revoke An Approval By Written Notice Given To The Council Concerned",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "If The Attorney General Considers Any Provisions Of The Safer Community Compact Are No Longer Suitable For The Needs Of The Area To Which It Applies",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "If The Attorney General Considers The Safer Community Compact Is Not Being Implemented In A Satisfactory Manner",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "On Any Other Ground The Attorney General Considers Appropriate",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

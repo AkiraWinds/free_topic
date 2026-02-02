@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+    "text_hash": "ae6ee3df574776f5ddafae814fd80a65",
+    "text": "Reviewable decisions (1) For the purposes of the National Law Alignment Provisions, a reference in section 192 of the National Law to a reviewable decision for external review includes, in addition to the decisions listed in that section, any decision of the Regulatory Authority of a kind specified by the regulations to be a reviewable decision for external review. (2) The Minister is not to recommend the making of a regulation containing provisions for the purposes of this section unless the Minister certifies that the Minister administering the Civil and Administrative Tribunal Act 2013 has agreed to the provisions. (3) For the purposes of the National Law Alignment Provisions, the note at the end of section 192 of the National Law is to be disregarded.",
+    "token_count": 149,
+    "char_count": 765,
+    "graph_stats": {
+      "total_nodes": 11,
+      "llm_extracted_nodes": 10,
+      "total_relationships": 18,
+      "llm_extracted_relationships": 8,
+      "mentions_relationships": 10
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Reviewable Decisions",
+      "type": "Entity",
+      "properties": {
+        "name": "Reviewable decisions",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Section 192 Of The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "section 192 of the National Law",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "A Reviewable Decision For External Review",
+      "type": "Entity",
+      "properties": {
+        "name": "a reviewable decision for external review",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Decisions Listed In That Section",
+      "type": "Entity",
+      "properties": {
+        "name": "decisions listed in that section",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Any Decision Of The Regulatory Authority Of A Kind Specified By The Regulations To Be A Reviewable Decision For External Review",
+      "type": "Entity",
+      "properties": {
+        "name": "any decision of the Regulatory Authority of a kind specified by the regulations to be a reviewable decision for external review",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "The Minister",
+      "type": "Entity",
+      "properties": {
+        "name": "The Minister",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Making Of A Regulation Containing Provisions For The Purposes Of This Section",
+      "type": "Entity",
+      "properties": {
+        "name": "the making of a regulation containing provisions for the purposes of this section",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "The Minister Certifies That The Minister Administering The Civil And Administrative Tribunal Act 2013 Has Agreed To The Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "the Minister certifies that the Minister administering the Civil and Administrative Tribunal Act 2013 has agreed to the provisions",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Note At The End Of Section 192 Of The National Law Is To Be Disregarded",
+      "type": "Entity",
+      "properties": {
+        "name": "the note at the end of section 192 of the National Law is to be disregarded",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Reviewable Decisions",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Reviewable Decisions",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Section 192 Of The National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Reviewable Decisions",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "A Reviewable Decision For External Review",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Reviewable Decisions",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Decisions Listed In That Section",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Reviewable Decisions",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Any Decision Of The Regulatory Authority Of A Kind Specified By The Regulations To Be A Reviewable Decision For External Review",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Minister",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "The Making Of A Regulation Containing Provisions For The Purposes Of This Section",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Minister Certifies That The Minister Administering The Civil And Administrative Tribunal Act 2013 Has Agreed To The Provisions",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "The Minister",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Reviewable Decisions",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "The Note At The End Of Section 192 Of The National Law Is To Be Disregarded",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Reviewable Decisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 192 Of The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Reviewable Decision For External Review",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Decisions Listed In That Section",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Decision Of The Regulatory Authority Of A Kind Specified By The Regulations To Be A Reviewable Decision For External Review",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Minister",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Making Of A Regulation Containing Provisions For The Purposes Of This Section",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Minister Certifies That The Minister Administering The Civil And Administrative Tribunal Act 2013 Has Agreed To The Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Note At The End Of Section 192 Of The National Law Is To Be Disregarded",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

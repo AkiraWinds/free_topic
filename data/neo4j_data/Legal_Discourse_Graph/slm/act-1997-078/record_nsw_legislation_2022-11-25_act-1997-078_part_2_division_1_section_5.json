@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_5",
+    "text_hash": "44e895bc80c55770518c2151a5ac9626",
+    "text": "Family counselling A court may require a child that it finds guilty of an offence and the child's parent or parents to undergo such specified counselling as the court considers would be beneficial in assisting the progress of the child.",
+    "token_count": 41,
+    "char_count": 236,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_5",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_5",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Court",
+      "type": "Entity",
+      "properties": {
+        "name": "a court",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Child",
+      "type": "Entity",
+      "properties": {
+        "name": "a child",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "The Child'S Parent Or Parents",
+      "type": "Entity",
+      "properties": {
+        "name": "the child's parent or parents",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Specified Counselling",
+      "type": "Entity",
+      "properties": {
+        "name": "specified counselling",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Guilty Of An Offence",
+      "type": "Entity",
+      "properties": {
+        "name": "guilty of an offence",
+        "discourse_role": "TEST"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Guilty Of An Offence",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Court",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Specified Counselling",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Child",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Specified Counselling",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Child'S Parent Or Parents",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Specified Counselling",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Child'S Parent Or Parents",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Specified Counselling",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Guilty Of An Offence",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

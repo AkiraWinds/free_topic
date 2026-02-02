@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+    "text_hash": "d8a7abce92d7506c9d9a521d1c474258",
+    "text": "Public availability of local crime prevention plans (1) Within 14 days after adopting a local crime prevention plan for an area, the council is to publish the plan in— (a) a newspaper circulating generally in the area, and (b) the Gazette. (2) Within 14 days after amending or revoking a local crime prevention plan, the council is to give notice of the revocation, or cause a copy of the amendments to be published in— (a) a newspaper circulating generally in the area, and (b) the Gazette.",
+    "token_count": 112,
+    "char_count": 491,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 13,
+      "llm_extracted_relationships": 7,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Council",
+      "type": "Entity",
+      "properties": {
+        "name": "council",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "local crime prevention plan",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Newspaper",
+      "type": "Entity",
+      "properties": {
+        "name": "newspaper",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Gazette",
+      "type": "Entity",
+      "properties": {
+        "name": "Gazette",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Amendments",
+      "type": "Entity",
+      "properties": {
+        "name": "amendments",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Revocation",
+      "type": "Entity",
+      "properties": {
+        "name": "revocation",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Local Crime Prevention Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Newspaper",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Gazette",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Revocation",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Revocation",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Newspaper",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Revocation",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Gazette",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Amendments",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Newspaper",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Gazette",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Amendments",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Revocation",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

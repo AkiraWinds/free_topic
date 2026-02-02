@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_7",
+    "text_hash": "65b9eecd5089f9a7e69badcbbf908ead",
+    "text": "Further modifications The regulations may make further provision for the application of the National Law to and in respect of State regulated education and care services, including by making further modifications to the National Law for the purposes of the National Law Alignment Provisions.",
+    "token_count": 47,
+    "char_count": 291,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_7",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_7",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Regulations",
+      "type": "Entity",
+      "properties": {
+        "name": "the regulations",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Further Provision For The Application Of The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "further provision for the application of the National Law",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "State Regulated Education And Care Services",
+      "type": "Entity",
+      "properties": {
+        "name": "State regulated education and care services",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Further Modifications To The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "further modifications to the National Law",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Regulations",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Further Provision For The Application Of The National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Further Provision For The Application Of The National Law",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Regulations",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Further Modifications To The National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Further Modifications To The National Law",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Regulations",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Further Provision For The Application Of The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Further Modifications To The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

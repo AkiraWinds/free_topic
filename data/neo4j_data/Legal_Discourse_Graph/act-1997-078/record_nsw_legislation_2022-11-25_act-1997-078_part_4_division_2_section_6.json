@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_6",
+    "text_hash": "5555c20d39ec29570df6def3184d1e1c",
+    "text": "Duration of local crime prevention plan Unless it is sooner revoked, a local crime prevention plan has effect for such period as is specified by the council when it adopts the plan.",
+    "token_count": 34,
+    "char_count": 181,
+    "graph_stats": {
+      "total_nodes": 4,
+      "llm_extracted_nodes": 3,
+      "total_relationships": 5,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_6",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_6",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "local crime prevention plan",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Is Sooner Revoked",
+      "type": "Entity",
+      "properties": {
+        "name": "is sooner revoked",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Has Effect For Such Period As Is Specified By The Council When It Adopts The Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "has effect for such period as is specified by the council when it adopts the plan",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Is Sooner Revoked",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Has Effect For Such Period As Is Specified By The Council When It Adopts The Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Has Effect For Such Period As Is Specified By The Council When It Adopts The Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Is Sooner Revoked",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Has Effect For Such Period As Is Specified By The Council When It Adopts The Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

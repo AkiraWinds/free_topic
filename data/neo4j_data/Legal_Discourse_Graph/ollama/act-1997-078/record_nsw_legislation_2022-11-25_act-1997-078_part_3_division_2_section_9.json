@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+    "text_hash": "538b31c260b52eb16425b3a6a54f6874",
+    "text": "Exercise of functions under Division by police officer (1) A police officer may exercise functions under this Division without further authority than that conferred by this Division, and is to act in conformity with any relevant directions issued by the Commissioner of Police. (2) The regulations may limit the circumstances, and regulate the manner, in which functions conferred on police officers by this Division may be exercised.",
+    "token_count": 78,
+    "char_count": 434,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 6,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Division",
+      "type": "Entity",
+      "properties": {
+        "name": "Division",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "Functions Under Division",
+      "type": "Entity",
+      "properties": {
+        "name": "functions under Division",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Regulations",
+      "type": "Entity",
+      "properties": {
+        "name": "regulations",
+        "discourse_role": "TEST"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Functions Under Division",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Regulations",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Police Officer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Division",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Functions Under Division",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regulations",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_1",
+    "text_hash": "0ed27e9fe72bd00efded3ba4c9c906de",
+    "text": "Regulations (1) The Governor may make regulations, not inconsistent with this Act, for or with respect to any matter that by this Act is required or permitted to be prescribed or that is necessary or convenient to be prescribed for carrying out or giving effect to this Act. (2) Without limiting subsection (1), the regulations may make provision for or with respect to the following matters: (a) any matter for which national regulations can be made by the Ministerial Council under the National Law, Note— See, in particular, section 301 of the National Law. (b) (Repealed) (c) exempting specified occasional or mobile education and care services, or occasional or mobile education and care services of a specified class, from the requirement that they be provided by an approved provider or the subject of a service approval (or both) and regulating the services so exempted (including, without limitation, establishing standards to be met by those services). (3) A regulation may create an offence punishable by a penalty not exceeding $2,000.",
+    "token_count": 213,
+    "char_count": 1047,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Governor",
+      "type": "Entity",
+      "properties": {
+        "name": "The Governor",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Make Regulations",
+      "type": "Entity",
+      "properties": {
+        "name": "make regulations",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Any Matter That By This Act Is Required Or Permitted To Be Prescribed",
+      "type": "Entity",
+      "properties": {
+        "name": "any matter that by this Act is required or permitted to be prescribed",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Exempting Specified Occasional Or Mobile Education And Care Services",
+      "type": "Entity",
+      "properties": {
+        "name": "exempting specified occasional or mobile education and care services",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "The Requirement That They Be Provided By An Approved Provider Or The Subject Of A Service Approval",
+      "type": "Entity",
+      "properties": {
+        "name": "the requirement that they be provided by an approved provider or the subject of a service approval",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Create An Offence Punishable By A Penalty Not Exceeding $2,000",
+      "type": "Entity",
+      "properties": {
+        "name": "create an offence punishable by a penalty not exceeding $2,000",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Governor",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Make Regulations",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Make Regulations",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Any Matter That By This Act Is Required Or Permitted To Be Prescribed",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Exempting Specified Occasional Or Mobile Education And Care Services",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "The Requirement That They Be Provided By An Approved Provider Or The Subject Of A Service Approval",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Governor",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Make Regulations",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Matter That By This Act Is Required Or Permitted To Be Prescribed",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Exempting Specified Occasional Or Mobile Education And Care Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Requirement That They Be Provided By An Approved Provider Or The Subject Of A Service Approval",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Create An Offence Punishable By A Penalty Not Exceeding $2,000",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

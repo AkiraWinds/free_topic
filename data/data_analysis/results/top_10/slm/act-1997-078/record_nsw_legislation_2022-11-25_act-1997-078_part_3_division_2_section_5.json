@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+    "text_hash": "163e41c97bbfa4e42a00d2fcdb485a68",
+    "text": "Action that may be taken (1) A police officer who removes a person to whom this Division applies from any public place may escort (or arrange for another police officer to escort) the person to the residence of a parent of the person or, if the person has a carer, his or her care residence and leave the person there. (2) A police officer who escorts a person to the residence of a parent of the person or his or her care residence must not leave the person at that residence unless— (a) the parent or carer of the person or some other responsible adult is present at the residence and is able and willing to care for the person, or (b) the police officer is satisfied that the person may safely be left at the residence in the absence of a responsible adult. (3) If the police officer is unable to escort the person to, or leave the person, at a place referred to in subsection (2), the police officer may escort (or arrange for another police officer to escort) the person to the residence of a close relative nominated by the person and leave the person there. (4) A police officer who escorts a person to the residence of a close relative must not leave the person at that residence unless the relative or some other responsible adult is present at the residence and is able and willing to care for the person. (5) If for any reason a police officer is unable to escort a person to, or leave a person at, a place referred to in subsection (2) or (4), he or she may— (a) place the person in the care of the Director-General of the Department of Community Services, or (b) if the police officer is unable to place the person in the care of the Director-General, place the person in the care of an approved person who is able and willing to have the care of the person. (6) A person in whose care a person is placed under subsection (5) may keep the person in his or her care for such period not exceeding 24 hours (or such shorter period as may be prescribed by the regulations) as may be necessary for arrangements to be made to return the person to the care of a parent or carer. (7) If, on the expiration of the period referred to in subsection (6), a person has not been returned to the care of a parent or carer, the person is to be released or dealt with according to law. (8) The Director-General of the Department of Community Services may place a person who is placed in the care of the Director-General under this section in the care of any person in whose care a child might be placed under the Children and Young Persons (Care and Protection) Act 1998.",
+    "token_count": 558,
+    "char_count": 2567,
+    "graph_stats": {
+      "total_nodes": 10,
+      "llm_extracted_nodes": 9,
+      "total_relationships": 18,
+      "llm_extracted_relationships": 9,
+      "mentions_relationships": 9
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a person",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Residence Of A Parent",
+      "type": "Entity",
+      "properties": {
+        "name": "residence of a parent",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Care Residence",
+      "type": "Entity",
+      "properties": {
+        "name": "care residence",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "A Close Relative",
+      "type": "Entity",
+      "properties": {
+        "name": "a close relative",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Director-General Of The Department Of Community Services",
+      "type": "Entity",
+      "properties": {
+        "name": "Director-General of the Department of Community Services",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "An Approved Person",
+      "type": "Entity",
+      "properties": {
+        "name": "an approved person",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "24 Hours",
+      "type": "Entity",
+      "properties": {
+        "name": "24 hours",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Children And Young Persons (Care And Protection) Act 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "Children and Young Persons (Care and Protection) Act 1998",
+        "discourse_role": "DEFINITION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Residence Of A Parent",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Care Residence",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "A Close Relative",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Person",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Director-General Of The Department Of Community Services",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Director-General Of The Department Of Community Services",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Person",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "An Approved Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "24 Hours",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Children And Young Persons (Care And Protection) Act 1998",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Residence Of A Parent",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Care Residence",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Close Relative",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Director-General Of The Department Of Community Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "An Approved Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "24 Hours",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

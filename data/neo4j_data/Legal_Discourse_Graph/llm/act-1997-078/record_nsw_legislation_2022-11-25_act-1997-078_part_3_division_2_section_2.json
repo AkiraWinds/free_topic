@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+    "text_hash": "2d546b1c1668140016876d8aa296bed1",
+    "text": "When action may be taken under this Division (1) A police officer may remove a person to whom this Division applies from any public place in an operational area if the police officer believes on reasonable grounds that the person— (a) is not subject to the supervision or control of a responsible adult, and (b) is in the public place in circumstances that place the person at risk. (2) A police officer who removes a person from a public place under this section must escort (or arrange for another police officer to escort) the person to a place and place the person in the care of a person in accordance with section 22. (3) For the purposes of this section, a person is at risk if— (a) the person is in danger of being physically harmed or injured, or (b) the person is in danger of abuse (including assault and sexual assault, ill treatment and exposure to behaviour that may cause psychological harm to the person), or (c) the person is about to commit an offence.",
+    "token_count": 206,
+    "char_count": 970,
+    "graph_stats": {
+      "total_nodes": 8,
+      "llm_extracted_nodes": 7,
+      "total_relationships": 12,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 7
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Remove A Person From Any Public Place",
+      "type": "Entity",
+      "properties": {
+        "name": "remove a person from any public place",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "A Person To Whom This Division Applies",
+      "type": "Entity",
+      "properties": {
+        "name": "a person to whom this Division applies",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Is Not Subject To The Supervision Or Control Of A Responsible Adult",
+      "type": "Entity",
+      "properties": {
+        "name": "is not subject to the supervision or control of a responsible adult",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Is In The Public Place In Circumstances That Place The Person At Risk",
+      "type": "Entity",
+      "properties": {
+        "name": "is in the public place in circumstances that place the person at risk",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Escort The Person To A Place And Place The Person In The Care Of A Person In Accordance With Section 22",
+      "type": "Entity",
+      "properties": {
+        "name": "escort the person to a place and place the person in the care of a person in accordance with section 22",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "A Person Is At Risk",
+      "type": "Entity",
+      "properties": {
+        "name": "a person is at risk",
+        "discourse_role": "DEFINITION",
+        "definition": "the person is in danger of being physically harmed or injured, or the person is in danger of abuse (including assault and sexual assault, ill treatment and exposure to behaviour that may cause psychological harm to the person), or the person is about to commit an offence"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Is Not Subject To The Supervision Or Control Of A Responsible Adult",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person To Whom This Division Applies",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Is In The Public Place In Circumstances That Place The Person At Risk",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person To Whom This Division Applies",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Remove A Person From Any Public Place",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Escort The Person To A Place And Place The Person In The Care Of A Person In Accordance With Section 22",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Person Is At Risk",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Is In The Public Place In Circumstances That Place The Person At Risk",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Remove A Person From Any Public Place",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person To Whom This Division Applies",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Is Not Subject To The Supervision Or Control Of A Responsible Adult",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Is In The Public Place In Circumstances That Place The Person At Risk",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Escort The Person To A Place And Place The Person In The Care Of A Person In Accordance With Section 22",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person Is At Risk",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

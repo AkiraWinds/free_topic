@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_10",
+    "text_hash": "332b011bb5907f8cb72954f1ef4c5c0e",
+    "text": "Infringements law For the purposes of the definition of infringements law in section 5 of the Children (Education and Care Services) National Law (NSW), the Fines Act 1996 and the regulations made under that Act are declared to be an infringements law for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW).",
+    "token_count": 77,
+    "char_count": 356,
+    "graph_stats": {
+      "total_nodes": 2,
+      "llm_extracted_nodes": 1,
+      "total_relationships": 1,
+      "llm_extracted_relationships": 0,
+      "mentions_relationships": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_10",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_10",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Infringements Law",
+      "type": "Entity",
+      "properties": {
+        "name": "infringements law",
+        "discourse_role": "DEFINITION",
+        "definition": "the Fines Act 1996 and the regulations made under that Act are declared to be an infringements law for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_10",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Infringements Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_6",
+    "text_hash": "999d8e3d85751be1387bc21054988c38",
+    "text": "Limitations on action that may be taken (1) A police officer who removes a person to whom this Division applies from a public place must not in any circumstances escort (or arrange for another police officer to escort) the person to, or leave the person at, a police station. (2) A police officer must not leave a person to whom this Division applies at any place to which the person has been escorted under section 22 if the police officer considers it would be detrimental to the best interests of the person to do so. (3) Before escorting a person to a place under section 22, the police officer is to take into account any wishes or feelings of the person (considered in the light of the person's apparent age and understanding) that are volunteered by the person. However, nothing in this subsection permits a police officer to require a person to express his or her wishes or feelings in relation to this matter.",
+    "token_count": 187,
+    "char_count": 918,
+    "graph_stats": {
+      "total_nodes": 9,
+      "llm_extracted_nodes": 8,
+      "total_relationships": 14,
+      "llm_extracted_relationships": 6,
+      "mentions_relationships": 8
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_6",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_6",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a person",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "This Division",
+      "type": "Entity",
+      "properties": {
+        "name": "this Division",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "Public Place",
+      "type": "Entity",
+      "properties": {
+        "name": "public place",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Police Station",
+      "type": "Entity",
+      "properties": {
+        "name": "police station",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Section 22",
+      "type": "Entity",
+      "properties": {
+        "name": "section 22",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Wishes Or Feelings Of The Person",
+      "type": "Entity",
+      "properties": {
+        "name": "wishes or feelings of the person",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "The Person'S Apparent Age And Understanding",
+      "type": "Entity",
+      "properties": {
+        "name": "the person's apparent age and understanding",
+        "discourse_role": "PROBE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Public Place",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Police Station",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Section 22",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Section 22",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Wishes Or Feelings Of The Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Wishes Or Feelings Of The Person",
+      "source_type": "Entity",
+      "type": "AND",
+      "target_id": "The Person'S Apparent Age And Understanding",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Division",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Public Place",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Police Station",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 22",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Wishes Or Feelings Of The Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Person'S Apparent Age And Understanding",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

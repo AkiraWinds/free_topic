@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_2_section_1",
+    "text_hash": "4df9b545f5ceebc4d5de931a9f850658",
+    "text": "Provider approvals The National Law Alignment Provisions provide for the grant of provider approvals for State regulated education and care services and other matters relating to provider approvals. Note— See also Division 3 of Part 4, which provides for the recognition, for the purposes of this Act, of provider approvals granted under the National Law.",
+    "token_count": 64,
+    "char_count": 355,
+    "graph_stats": {
+      "total_nodes": 4,
+      "llm_extracted_nodes": 3,
+      "total_relationships": 5,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_2_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_2_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Provider Approvals",
+      "type": "Entity",
+      "properties": {
+        "name": "provider approvals",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Grant Of Provider Approvals For State Regulated Education And Care Services And Other Matters",
+      "type": "Entity",
+      "properties": {
+        "name": "grant of provider approvals for State regulated education and care services and other matters",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Recognition Of Provider Approvals Granted Under The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "recognition of provider approvals granted under the National Law",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Provider Approvals",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Grant Of Provider Approvals For State Regulated Education And Care Services And Other Matters",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Provider Approvals",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Recognition Of Provider Approvals Granted Under The National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Provider Approvals",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Grant Of Provider Approvals For State Regulated Education And Care Services And Other Matters",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Recognition Of Provider Approvals Granted Under The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

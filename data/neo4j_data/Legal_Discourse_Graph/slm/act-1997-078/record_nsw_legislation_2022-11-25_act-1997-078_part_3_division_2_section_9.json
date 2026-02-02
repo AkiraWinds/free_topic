@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+    "text_hash": "538b31c260b52eb16425b3a6a54f6874",
+    "text": "Exercise of functions under Division by police officer (1) A police officer may exercise functions under this Division without further authority than that conferred by this Division, and is to act in conformity with any relevant directions issued by the Commissioner of Police. (2) The regulations may limit the circumstances, and regulate the manner, in which functions conferred on police officers by this Division may be exercised.",
+    "token_count": 78,
+    "char_count": 434,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 11,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Functions Under This Division",
+      "type": "Entity",
+      "properties": {
+        "name": "functions under this Division",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Authority Conferred By This Division",
+      "type": "Entity",
+      "properties": {
+        "name": "authority conferred by this Division",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Relevant Directions Issued By The Commissioner Of Police",
+      "type": "Entity",
+      "properties": {
+        "name": "relevant directions issued by the Commissioner of Police",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Circumstances",
+      "type": "Entity",
+      "properties": {
+        "name": "circumstances",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Manner Of Exercising Functions Conferred On Police Officers",
+      "type": "Entity",
+      "properties": {
+        "name": "manner of exercising functions conferred on police officers",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Authority Conferred By This Division",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "A Police Officer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Functions Under This Division",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Circumstances",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Functions Under This Division",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Manner Of Exercising Functions Conferred On Police Officers",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Functions Under This Division",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Relevant Directions Issued By The Commissioner Of Police",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Police Officer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Functions Under This Division",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Authority Conferred By This Division",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Relevant Directions Issued By The Commissioner Of Police",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Circumstances",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Manner Of Exercising Functions Conferred On Police Officers",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

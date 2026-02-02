@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_5",
+    "text_hash": "bf6f5923d1b320f45fa83c67a609e171",
+    "text": "Fees (1) The amount of a fee payable under the National Law Alignment Provisions in respect of a State regulated education and care service is the fee payable under the National Law in respect of an education and care service other than a family day care service. (2) The Regulatory Authority may waive, reduce, defer or refund any fee payable or paid to it under the National Law Alignment Provisions if there are exceptional circumstances.",
+    "token_count": 85,
+    "char_count": 441,
+    "graph_stats": {
+      "total_nodes": 9,
+      "llm_extracted_nodes": 8,
+      "total_relationships": 14,
+      "llm_extracted_relationships": 6,
+      "mentions_relationships": 8
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_5",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_5",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Fee",
+      "type": "Entity",
+      "properties": {
+        "name": "fee",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "State Regulated Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "State regulated education and care service",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "Education And Care Service Other Than A Family Day Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "education and care service other than a family day care service",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "Regulatory Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "Regulatory Authority",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Waive, Reduce, Defer Or Refund Any Fee",
+      "type": "Entity",
+      "properties": {
+        "name": "waive, reduce, defer or refund any fee",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Exceptional Circumstances",
+      "type": "Entity",
+      "properties": {
+        "name": "exceptional circumstances",
+        "discourse_role": "EXCEPTION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Fee",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Fee",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Fee",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Fee",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Education And Care Service Other Than A Family Day Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Regulatory Authority",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Waive, Reduce, Defer Or Refund Any Fee",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Exceptional Circumstances",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Waive, Reduce, Defer Or Refund Any Fee",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Fee",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Education And Care Service Other Than A Family Day Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regulatory Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Waive, Reduce, Defer Or Refund Any Fee",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Exceptional Circumstances",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

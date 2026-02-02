@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_3",
+    "text_hash": "1aace453d59f24635698ea04ef2fd89e",
+    "text": "Application of State Records Act 1998 To avoid any doubt, it is declared that the State Records Act 1998 applies to the Regulatory Authority for this jurisdiction and its records.",
+    "token_count": 36,
+    "char_count": 179,
+    "graph_stats": {
+      "total_nodes": 4,
+      "llm_extracted_nodes": 3,
+      "total_relationships": 5,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "State Records Act 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "State Records Act 1998",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Regulatory Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "Regulatory Authority",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Its Records",
+      "type": "Entity",
+      "properties": {
+        "name": "its records",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "State Records Act 1998",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Regulatory Authority",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "State Records Act 1998",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Its Records",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Records Act 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regulatory Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Its Records",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

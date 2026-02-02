@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+    "text_hash": "85119ede8227d0a70dc2a9cb16075b24",
+    "text": "Service waivers and temporary waivers The National Law Alignment Provisions provide for the grant of service waivers and temporary waivers for State regulated education and care services and other matters relating to waivers. Note— Under Divisions 5 and 6 of Part 3 of the National Law, an approved provider of an education and care service may apply for a service (ie permanent) or temporary waiver from a requirement that the service comply with certain elements of the National Quality Standard (set out in the national regulations) or certain specified provisions of the national regulations.",
+    "token_count": 112,
+    "char_count": 596,
+    "graph_stats": {
+      "total_nodes": 11,
+      "llm_extracted_nodes": 10,
+      "total_relationships": 13,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 10
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Service Waivers",
+      "type": "Entity",
+      "properties": {
+        "name": "service waivers",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Temporary Waivers",
+      "type": "Entity",
+      "properties": {
+        "name": "temporary waivers",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "The National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "The National Law Alignment Provisions",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Grant Of Service Waivers And Temporary Waivers",
+      "type": "Entity",
+      "properties": {
+        "name": "grant of service waivers and temporary waivers",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "State Regulated Education And Care Services",
+      "type": "Entity",
+      "properties": {
+        "name": "State regulated education and care services",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Other Matters Relating To Waivers",
+      "type": "Entity",
+      "properties": {
+        "name": "other matters relating to waivers",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Approved Provider Of An Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "approved provider of an education and care service",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Apply For A Service Or Temporary Waiver",
+      "type": "Entity",
+      "properties": {
+        "name": "apply for a service or temporary waiver",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Requirement That The Service Comply With Certain Elements Of The National Quality Standard",
+      "type": "Entity",
+      "properties": {
+        "name": "requirement that the service comply with certain elements of the National Quality Standard",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Certain Specified Provisions Of The National Regulations",
+      "type": "Entity",
+      "properties": {
+        "name": "certain specified provisions of the national regulations",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The National Law Alignment Provisions",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Grant Of Service Waivers And Temporary Waivers",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Approved Provider Of An Education And Care Service",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Apply For A Service Or Temporary Waiver",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Apply For A Service Or Temporary Waiver",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Requirement That The Service Comply With Certain Elements Of The National Quality Standard",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service Waivers",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Temporary Waivers",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Grant Of Service Waivers And Temporary Waivers",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Other Matters Relating To Waivers",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approved Provider Of An Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Apply For A Service Or Temporary Waiver",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Requirement That The Service Comply With Certain Elements Of The National Quality Standard",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_3_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Certain Specified Provisions Of The National Regulations",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

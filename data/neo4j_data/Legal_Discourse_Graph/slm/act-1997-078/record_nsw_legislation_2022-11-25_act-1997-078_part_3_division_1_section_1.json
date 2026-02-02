@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_1",
+    "text_hash": "c3a661339314f8b755787120729a5eb3",
+    "text": "Object of Division The object of this Division is to provide for the declaration of the areas (or portions of areas) in which the powers conferred by Division 2 of this Part on police officers to remove children from public places may be exercised. Note— An area is defined in section 3 to mean a local government area and to include a part of a local government area.",
+    "token_count": 76,
+    "char_count": 368,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 7,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Object Of Division",
+      "type": "Entity",
+      "properties": {
+        "name": "Object of Division",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Powers Conferred By Division 2 Of This Part On Police Officers To Remove Children From Public Places",
+      "type": "Entity",
+      "properties": {
+        "name": "powers conferred by Division 2 of this Part on police officers to remove children from public places",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Areas",
+      "type": "Entity",
+      "properties": {
+        "name": "areas",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Local Government Area",
+      "type": "Entity",
+      "properties": {
+        "name": "local government area",
+        "discourse_role": "DEFINITION",
+        "definition": "a local government area and to include a part of a local government area"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Areas",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Object Of Division",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Object Of Division",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Powers Conferred By Division 2 Of This Part On Police Officers To Remove Children From Public Places",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Government Area",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Areas",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Object Of Division",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Powers Conferred By Division 2 Of This Part On Police Officers To Remove Children From Public Places",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Areas",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Government Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

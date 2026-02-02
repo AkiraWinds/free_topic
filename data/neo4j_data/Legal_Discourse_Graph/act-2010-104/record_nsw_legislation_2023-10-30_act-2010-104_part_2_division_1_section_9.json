@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_9",
+    "text_hash": "cdf2a3ca29ba40538ca37b71e4f1a837",
+    "text": "Former education and care services law For the purposes of the definition of former education and care services law in section 5 of the Children (Education and Care Services) National Law (NSW), the following provisions of the Children and Young Persons (Care and Protection) Act 1998 are declared to be a former education and care services law for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW)— (a) Chapters 12 and 12A of the Children and Young Persons (Care and Protection) Act 1998, (b) Chapters 1, 2, 15, 16 and 17 and Schedule 3 of the Children and Young Persons (Care and Protection) Act 1998 in so far as they relate to Chapters 12 and 12A of that Act, (c) the regulations made under the Children and Young Persons (Care and Protection) Act 1998 in so far as they relate to a provision referred to in paragraph (a) or (b).",
+    "token_count": 210,
+    "char_count": 883,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 7,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_9",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_9",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Former Education And Care Services Law",
+      "type": "Entity",
+      "properties": {
+        "name": "former education and care services law",
+        "discourse_role": "DEFINITION"
+      }
+    },
+    {
+      "id": "Chapters 12 And 12A Of The Children And Young Persons (Care And Protection) Act 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "Chapters 12 and 12A of the Children and Young Persons (Care and Protection) Act 1998",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Chapters 1, 2, 15, 16 And 17 And Schedule 3 Of The Children And Young Persons (Care And Protection) Act 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "Chapters 1, 2, 15, 16 and 17 and Schedule 3 of the Children and Young Persons (Care and Protection) Act 1998",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "The Regulations Made Under The Children And Young Persons (Care And Protection) Act 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "the regulations made under the Children and Young Persons (Care and Protection) Act 1998",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Former Education And Care Services Law",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Chapters 12 And 12A Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Former Education And Care Services Law",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Chapters 1, 2, 15, 16 And 17 And Schedule 3 Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Former Education And Care Services Law",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "The Regulations Made Under The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Former Education And Care Services Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Chapters 12 And 12A Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Chapters 1, 2, 15, 16 And 17 And Schedule 3 Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_9",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Regulations Made Under The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

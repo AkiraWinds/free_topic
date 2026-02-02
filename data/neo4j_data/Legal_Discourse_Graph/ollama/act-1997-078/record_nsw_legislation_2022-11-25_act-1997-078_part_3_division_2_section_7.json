@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_7",
+    "text_hash": "811b54e07a8b01865b2b3c1e0e3d91e2",
+    "text": "Approved person (1) The Director-General of the Department of Community Services may designate persons who reside in or in the vicinity of an operational area to be approved persons with whom a person to whom this Division applies (or a person within a specified class of such persons) removed from a public place in a specified operational area may be placed under section 22 (5) (b). (2) In deciding which persons should be designated under this section in respect of an Aboriginal child, the Director-General is to take into account (so far as they are applicable) the principles for placement of Aboriginal children set out in section 13 of the Children and Young Persons (Care and Protection) Act 1998. (3) In deciding which persons should be designated under this section in respect of children other than Aboriginal children, the Director-General is to take into account the principle that children with a particular cultural heritage should preferably be placed with persons who are of a similar background or who understand their special needs.",
+    "token_count": 199,
+    "char_count": 1053,
+    "graph_stats": {
+      "total_nodes": 8,
+      "llm_extracted_nodes": 7,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 7
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_7",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_7",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Approved Person",
+      "type": "Entity",
+      "properties": {
+        "name": "Approved person",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Director-General Of The Department Of Community Services",
+      "type": "Entity",
+      "properties": {
+        "name": "The Director-General of the Department of Community Services",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Persons Who Reside In Or In The Vicinity Of An Operational Area",
+      "type": "Entity",
+      "properties": {
+        "name": "persons who reside in or in the vicinity of an operational area",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "A Person To Whom This Division Applies (Or A Person Within A Specified Class Of Such Persons)",
+      "type": "Entity",
+      "properties": {
+        "name": "a person to whom this Division applies (or a person within a specified class of such persons)",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "Section 22 (5) (B)",
+      "type": "Entity",
+      "properties": {
+        "name": "section 22 (5) (b)",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Aboriginal Child",
+      "type": "Entity",
+      "properties": {
+        "name": "Aboriginal child",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "Children Other Than Aboriginal Children",
+      "type": "Entity",
+      "properties": {
+        "name": "children other than Aboriginal children",
+        "discourse_role": "CLASS"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Director-General Of The Department Of Community Services",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Approved Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Approved Person",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Section 22 (5) (B)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approved Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Director-General Of The Department Of Community Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Persons Who Reside In Or In The Vicinity Of An Operational Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person To Whom This Division Applies (Or A Person Within A Specified Class Of Such Persons)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 22 (5) (B)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Aboriginal Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children Other Than Aboriginal Children",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

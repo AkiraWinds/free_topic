@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_6",
+    "text_hash": "515c61484aaf484dffe9f1c33ed11d19",
+    "text": "Objectives and principles underlying the provision of State regulated education and care services (1) The National Law Alignment Provisions provide for the objectives and guiding principles that apply to the provision of State regulated education and care services. (2) A reference in sections 3 and 4 of the National Law to the national education and care services quality framework is to be read, for the purposes of the National Law Alignment Provisions, as a reference to the framework for the provision of State regulated education and care services established by this Act.",
+    "token_count": 104,
+    "char_count": 579,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 10,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_6",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_6",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "National Law Alignment Provisions",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Objectives And Guiding Principles",
+      "type": "Entity",
+      "properties": {
+        "name": "objectives and guiding principles",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "State Regulated Education And Care Services",
+      "type": "Entity",
+      "properties": {
+        "name": "State regulated education and care services",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Sections 3 And 4 Of The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "sections 3 and 4 of the National Law",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "National Education And Care Services Quality Framework",
+      "type": "Entity",
+      "properties": {
+        "name": "national education and care services quality framework",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Framework For The Provision Of State Regulated Education And Care Services",
+      "type": "Entity",
+      "properties": {
+        "name": "framework for the provision of State regulated education and care services",
+        "discourse_role": "DEFINITION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "National Law Alignment Provisions",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Objectives And Guiding Principles",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Objectives And Guiding Principles",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Sections 3 And 4 Of The National Law",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "National Education And Care Services Quality Framework",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Framework For The Provision Of State Regulated Education And Care Services",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Objectives And Guiding Principles",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Regulated Education And Care Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Sections 3 And 4 Of The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "National Education And Care Services Quality Framework",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Framework For The Provision Of State Regulated Education And Care Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

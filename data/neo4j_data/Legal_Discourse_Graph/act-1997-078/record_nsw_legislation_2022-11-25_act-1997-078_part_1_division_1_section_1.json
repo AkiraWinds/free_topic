@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_1",
+    "text_hash": "4b7163ba5aca6a0acbac06ed1bc8da3d",
+    "text": "Name of Act This Act is the Children (Protection and Parental Responsibility) Act 1997.",
+    "token_count": 20,
+    "char_count": 87,
+    "graph_stats": {
+      "total_nodes": 2,
+      "llm_extracted_nodes": 1,
+      "total_relationships": 1,
+      "llm_extracted_relationships": 0,
+      "mentions_relationships": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Children (Protection And Parental Responsibility) Act 1997",
+      "type": "Entity",
+      "properties": {
+        "name": "Children (Protection and Parental Responsibility) Act 1997",
+        "discourse_role": "DEFINITION",
+        "definition": "This Act is the Children (Protection and Parental Responsibility) Act 1997."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children (Protection And Parental Responsibility) Act 1997",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

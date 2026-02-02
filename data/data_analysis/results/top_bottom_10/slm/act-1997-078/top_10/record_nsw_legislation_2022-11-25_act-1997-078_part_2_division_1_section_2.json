@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_2",
+    "text_hash": "6ada23700595016f8aedcd98829309bb",
+    "text": "Attendance of parents and other persons at proceedings (1) A court exercising criminal jurisdiction in relation to a child may require the attendance, at the place at which the proceedings are being or are to be conducted, of— (a) one or more of the child's parents, or (b) if the child is in statutory out-of-home care under which the Minister has parental responsibility for the child— (i) the Minister, or (ii) a representative of the Minister, including an officer or employee of a designated agency, or (c) if the child is in statutory out-of-home care under which the Secretary has parental responsibility for the child— (i) the Secretary, or (ii) a representative of the Secretary, including an officer or employee of a designated agency. (2) For subsection (1)(a), the court may specify which parent or parents are to attend. (3) In this section— designated agency has the same meaning as in the Children's Guardian Act 2019.",
+    "token_count": 201,
+    "char_count": 933,
+    "graph_stats": {
+      "total_nodes": 9,
+      "llm_extracted_nodes": 8,
+      "total_relationships": 15,
+      "llm_extracted_relationships": 7,
+      "mentions_relationships": 8
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Court",
+      "type": "Entity",
+      "properties": {
+        "name": "court",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Child",
+      "type": "Entity",
+      "properties": {
+        "name": "child",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Parents",
+      "type": "Entity",
+      "properties": {
+        "name": "parents",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Minister",
+      "type": "Entity",
+      "properties": {
+        "name": "Minister",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Representative Of The Minister",
+      "type": "Entity",
+      "properties": {
+        "name": "representative of the Minister",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Secretary",
+      "type": "Entity",
+      "properties": {
+        "name": "Secretary",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Representative Of The Secretary",
+      "type": "Entity",
+      "properties": {
+        "name": "representative of the Secretary",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Designated Agency",
+      "type": "Entity",
+      "properties": {
+        "name": "designated agency",
+        "discourse_role": "DEFINITION",
+        "definition": "has the same meaning as in the Children's Guardian Act 2019"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Court",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Child",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Parents",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Child",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Minister",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Child",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Representative Of The Minister",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Child",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Secretary",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Child",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Representative Of The Secretary",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Designated Agency",
+      "source_type": "Entity",
+      "type": "SAME_ENTITY",
+      "target_id": "Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Parents",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Minister",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Representative Of The Minister",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Secretary",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Representative Of The Secretary",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Designated Agency",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

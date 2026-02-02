@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+    "text_hash": "aeec2256753ec839091f9b8a891aa7dd",
+    "text": "Meaning of \"State regulated education and care service\" (1) For the purposes of this Act, each of the following is a State regulated education and care service: (a) a mobile education and care service, being an education and care service that visits specific premises, areas or places at specified times for the purpose of providing the care, (b) an occasional education and care service, being an education and care service that is provided at fixed premises (other than the home of the approved provider of the service) primarily on an ad hoc or casual basis and that does not usually offer full-time or all day education and care to children on an ongoing basis. (2) An education and care service is a service that provides education or care (other than residential care), or both education and care, whether directly or indirectly, for one or more children under the age of 6 years and who do not ordinarily attend school (disregarding any children who are related to the person providing the care). (3) However, a State regulated education and care service does not include any of the following: (a) a service that is an education and care service within the meaning of the National Law (disregarding this Act), (b) a service provided by a designated agency within the meaning of the Children and Young Persons (Care and Protection) Act 1998, (c) a babysitting, playgroup or child-minding service that is organised informally by the parents of the children concerned, (d) a service provided for fewer than 5 children (disregarding any children who are related to the person providing the service) at the premises at which at least one of the children resides, being a service that is not advertised, (e) a service involving medical or clinical care provided by a hospital, (f) a regular child-minding service: (i) that is provided in connection with a hospital, health service or a recreational or commercial facility, and (ii) that is provided by or on behalf of the person conducting the hospital, health service or recreational or commercial facility, and (iii) that is provided to care for children only: (A) while a sibling of the child being cared for is being treated at the hospital or health service, or (B) while the children's parents or authorised carers are visiting or being treated at the hospital or health service or are using the recreational or commercial facility, (g) a service principally conducted to provide instruction in a particular activity, Note— Instruction in sport, dance, music, culture, language or religion are examples. (h) a service under which formal education in accordance with the school curriculum set out in Part 3 of the Education Act 1990 is provided by a government school or a registered non-government school within the meaning of that Act, (i) a service provided at exempt premises, but only if the service is established, registered or licensed as part of the institution operating on those premises, (j) a service excluded from the operation of this Act by the regulations. (4) In this section: hospital means: (a) a private health facility licensed under the Private Health Facilities Act 2007, or (b) a declared mental health facility or a private mental health facility within the meaning of the Mental Health Act 2007, or (c) a public hospital within the meaning of the Health Services Act 1997.",
+    "token_count": 690,
+    "char_count": 3355,
+    "graph_stats": {
+      "total_nodes": 16,
+      "llm_extracted_nodes": 15,
+      "total_relationships": 29,
+      "llm_extracted_relationships": 14,
+      "mentions_relationships": 15
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "State Regulated Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "State regulated education and care service",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Mobile Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "mobile education and care service",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Occasional Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "occasional education and care service",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "education and care service",
+        "discourse_role": "DEFINITION",
+        "definition": "a service that provides education or care (other than residential care), or both education and care, whether directly or indirectly, for one or more children under the age of 6 years and who do not ordinarily attend school (disregarding any children who are related to the person providing the care)"
+      }
+    },
+    {
+      "id": "Service That Is An Education And Care Service Within The Meaning Of The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "service that is an education and care service within the meaning of the National Law",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Service Provided By A Designated Agency Within The Meaning Of The Children And Young Persons (Care And Protection) Act 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "service provided by a designated agency within the meaning of the Children and Young Persons (Care and Protection) Act 1998",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Babysitting, Playgroup Or Child-Minding Service That Is Organised Informally By The Parents Of The Children Concerned",
+      "type": "Entity",
+      "properties": {
+        "name": "babysitting, playgroup or child-minding service that is organised informally by the parents of the children concerned",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Service Provided For Fewer Than 5 Children At The Premises At Which At Least One Of The Children Resides, Being A Service That Is Not Advertised",
+      "type": "Entity",
+      "properties": {
+        "name": "service provided for fewer than 5 children at the premises at which at least one of the children resides, being a service that is not advertised",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Service Involving Medical Or Clinical Care Provided By A Hospital",
+      "type": "Entity",
+      "properties": {
+        "name": "service involving medical or clinical care provided by a hospital",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Regular Child-Minding Service Provided In Connection With A Hospital, Health Service Or A Recreational Or Commercial Facility",
+      "type": "Entity",
+      "properties": {
+        "name": "regular child-minding service provided in connection with a hospital, health service or a recreational or commercial facility",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Service Principally Conducted To Provide Instruction In A Particular Activity",
+      "type": "Entity",
+      "properties": {
+        "name": "service principally conducted to provide instruction in a particular activity",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Service Under Which Formal Education In Accordance With The School Curriculum Set Out In Part 3 Of The Education Act 1990 Is Provided By A Government School Or A Registered Non-Government School",
+      "type": "Entity",
+      "properties": {
+        "name": "service under which formal education in accordance with the school curriculum set out in Part 3 of the Education Act 1990 is provided by a government school or a registered non-government school",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Service Provided At Exempt Premises, But Only If The Service Is Established, Registered Or Licensed As Part Of The Institution Operating On Those Premises",
+      "type": "Entity",
+      "properties": {
+        "name": "service provided at exempt premises, but only if the service is established, registered or licensed as part of the institution operating on those premises",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Service Excluded From The Operation Of This Act By The Regulations",
+      "type": "Entity",
+      "properties": {
+        "name": "service excluded from the operation of this Act by the regulations",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "Hospital",
+      "type": "Entity",
+      "properties": {
+        "name": "hospital",
+        "discourse_role": "DEFINITION",
+        "definition": "a private health facility licensed under the Private Health Facilities Act 2007, or a declared mental health facility or a private mental health facility within the meaning of the Mental Health Act 2007, or a public hospital within the meaning of the Health Services Act 1997"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "State Regulated Education And Care Service",
+      "source_type": "Entity",
+      "type": "AND",
+      "target_id": "Mobile Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "State Regulated Education And Care Service",
+      "source_type": "Entity",
+      "type": "AND",
+      "target_id": "Occasional Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Education And Care Service",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Service That Is An Education And Care Service Within The Meaning Of The National Law",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Service Provided By A Designated Agency Within The Meaning Of The Children And Young Persons (Care And Protection) Act 1998",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Babysitting, Playgroup Or Child-Minding Service That Is Organised Informally By The Parents Of The Children Concerned",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Service Provided For Fewer Than 5 Children At The Premises At Which At Least One Of The Children Resides, Being A Service That Is Not Advertised",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Service Involving Medical Or Clinical Care Provided By A Hospital",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Regular Child-Minding Service Provided In Connection With A Hospital, Health Service Or A Recreational Or Commercial Facility",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Service Principally Conducted To Provide Instruction In A Particular Activity",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Service Under Which Formal Education In Accordance With The School Curriculum Set Out In Part 3 Of The Education Act 1990 Is Provided By A Government School Or A Registered Non-Government School",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Service Provided At Exempt Premises, But Only If The Service Is Established, Registered Or Licensed As Part Of The Institution Operating On Those Premises",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Service Excluded From The Operation Of This Act By The Regulations",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Hospital",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Service Involving Medical Or Clinical Care Provided By A Hospital",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Mobile Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Occasional Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service That Is An Education And Care Service Within The Meaning Of The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service Provided By A Designated Agency Within The Meaning Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Babysitting, Playgroup Or Child-Minding Service That Is Organised Informally By The Parents Of The Children Concerned",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service Provided For Fewer Than 5 Children At The Premises At Which At Least One Of The Children Resides, Being A Service That Is Not Advertised",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service Involving Medical Or Clinical Care Provided By A Hospital",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Regular Child-Minding Service Provided In Connection With A Hospital, Health Service Or A Recreational Or Commercial Facility",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service Principally Conducted To Provide Instruction In A Particular Activity",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service Under Which Formal Education In Accordance With The School Curriculum Set Out In Part 3 Of The Education Act 1990 Is Provided By A Government School Or A Registered Non-Government School",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service Provided At Exempt Premises, But Only If The Service Is Established, Registered Or Licensed As Part Of The Institution Operating On Those Premises",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Service Excluded From The Operation Of This Act By The Regulations",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_1_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Hospital",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

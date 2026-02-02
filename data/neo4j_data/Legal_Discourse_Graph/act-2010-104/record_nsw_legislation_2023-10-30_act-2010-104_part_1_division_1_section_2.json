@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_2",
+    "text_hash": "968c6563222bbc701e7ad23c3d453603",
+    "text": "Commencement (1) This Act commences on a day or days to be appointed by proclamation. (2) Different days may be appointed under subsection (1) for the commencement of different provisions of the Education and Care Services National Law set out in the Schedule to the Education and Care Services National Law Act 2010 of Victoria.",
+    "token_count": 67,
+    "char_count": 329,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "This Act",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Commences On A Day Or Days To Be Appointed By Proclamation",
+      "type": "Entity",
+      "properties": {
+        "name": "commences on a day or days to be appointed by proclamation",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Different Days May Be Appointed Under Subsection (1) For The Commencement Of Different Provisions Of The Education And Care Services National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "Different days may be appointed under subsection (1) for the commencement of different provisions of the Education and Care Services National Law",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Education And Care Services National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "Education and Care Services National Law",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Schedule To The Education And Care Services National Law Act 2010 Of Victoria",
+      "type": "Entity",
+      "properties": {
+        "name": "Schedule to the Education and Care Services National Law Act 2010 of Victoria",
+        "discourse_role": "CLASS"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "This Act",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Commences On A Day Or Days To Be Appointed By Proclamation",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Commences On A Day Or Days To Be Appointed By Proclamation",
+      "source_type": "Entity",
+      "type": "FOLLOWED_BY",
+      "target_id": "Different Days May Be Appointed Under Subsection (1) For The Commencement Of Different Provisions Of The Education And Care Services National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Different Days May Be Appointed Under Subsection (1) For The Commencement Of Different Provisions Of The Education And Care Services National Law",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Education And Care Services National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Education And Care Services National Law",
+      "source_type": "Entity",
+      "type": "SAME_CLASS",
+      "target_id": "Schedule To The Education And Care Services National Law Act 2010 Of Victoria",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Commences On A Day Or Days To Be Appointed By Proclamation",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Different Days May Be Appointed Under Subsection (1) For The Commencement Of Different Provisions Of The Education And Care Services National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Education And Care Services National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Schedule To The Education And Care Services National Law Act 2010 Of Victoria",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

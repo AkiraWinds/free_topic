@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+    "text_hash": "d7d34230df9802741bbfda66ba55ff5d",
+    "text": "Public notice of draft local crime prevention plans (1) A council must give public notice of a draft local crime prevention plan and place it on public exhibition in accordance with this section. (2) The period of public exhibition of the draft plan must not be less than 28 days. (3) The public notice must specify a period of not less than 42 days after the date on which the draft plan is placed on public exhibition during which submissions may be made to the council. (4) The council must, in accordance with its notice, publicly exhibit the draft plan together with any other matter that it considers appropriate or necessary to better enable the draft plan and its implications to be understood.",
+    "token_count": 139,
+    "char_count": 702,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 10,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Council",
+      "type": "Entity",
+      "properties": {
+        "name": "a council",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Public Notice Of A Draft Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "public notice of a draft local crime prevention plan",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Place It On Public Exhibition",
+      "type": "Entity",
+      "properties": {
+        "name": "place it on public exhibition",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Period Of Public Exhibition Of The Draft Plan Must Not Be Less Than 28 Days",
+      "type": "Entity",
+      "properties": {
+        "name": "period of public exhibition of the draft plan must not be less than 28 days",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Period Of Not Less Than 42 Days After The Date On Which The Draft Plan Is Placed On Public Exhibition During Which Submissions May Be Made To The Council",
+      "type": "Entity",
+      "properties": {
+        "name": "period of not less than 42 days after the date on which the draft plan is placed on public exhibition during which submissions may be made to the council",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Publicly Exhibit The Draft Plan Together With Any Other Matter That It Considers Appropriate Or Necessary To Better Enable The Draft Plan And Its Implications To Be Understood",
+      "type": "Entity",
+      "properties": {
+        "name": "publicly exhibit the draft plan together with any other matter that it considers appropriate or necessary to better enable the draft plan and its implications to be understood",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Period Of Public Exhibition Of The Draft Plan Must Not Be Less Than 28 Days",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Public Notice Of A Draft Local Crime Prevention Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Period Of Not Less Than 42 Days After The Date On Which The Draft Plan Is Placed On Public Exhibition During Which Submissions May Be Made To The Council",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Public Notice Of A Draft Local Crime Prevention Plan",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Place It On Public Exhibition",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Publicly Exhibit The Draft Plan Together With Any Other Matter That It Considers Appropriate Or Necessary To Better Enable The Draft Plan And Its Implications To Be Understood",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Public Notice Of A Draft Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Place It On Public Exhibition",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Period Of Public Exhibition Of The Draft Plan Must Not Be Less Than 28 Days",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Period Of Not Less Than 42 Days After The Date On Which The Draft Plan Is Placed On Public Exhibition During Which Submissions May Be Made To The Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Publicly Exhibit The Draft Plan Together With Any Other Matter That It Considers Appropriate Or Necessary To Better Enable The Draft Plan And Its Implications To Be Understood",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_7",
+    "text_hash": "8c873170139dffede21e1d2a27c29acc",
+    "text": "Savings, transitional and other provisions Schedule 2 has effect.",
+    "token_count": 12,
+    "char_count": 65,
+    "graph_stats": {
+      "total_nodes": 3,
+      "llm_extracted_nodes": 2,
+      "total_relationships": 2,
+      "llm_extracted_relationships": 0,
+      "mentions_relationships": 2
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_7",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_7",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Savings",
+      "type": "Entity",
+      "properties": {
+        "name": "Savings",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Transitional And Other Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "transitional and other provisions",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Savings",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Transitional And Other Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

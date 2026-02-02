@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_3",
+    "text_hash": "1216e7e7be086836f89eceb1bf81d5da",
+    "text": "Duration of declaration (1) An order declaring an area (or a portion of an area) to be an operational area takes effect on a day specified in the order, being a day that is later than the day it is published in accordance with section 17. (2) Unless it is sooner revoked, the declaration of an operational area remains in force for such period as is specified in the order. (3) The declaration of a portion of an area as an operational area does not prevent the declaration of further portions of the same area as operational areas. (4) The council of an area (or a portion of an area) declared to be an operational area must report to the Attorney General when requested to do so by the Attorney General on the implementation, and effectiveness, of the powers conferred by Division 2 of this Part.",
+    "token_count": 169,
+    "char_count": 798,
+    "graph_stats": {
+      "total_nodes": 8,
+      "llm_extracted_nodes": 7,
+      "total_relationships": 12,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 7
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "An Order Declaring An Area To Be An Operational Area",
+      "type": "Entity",
+      "properties": {
+        "name": "an order declaring an area to be an operational area",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Takes Effect On A Day Specified In The Order",
+      "type": "Entity",
+      "properties": {
+        "name": "takes effect on a day specified in the order",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "A Day That Is Later Than The Day It Is Published In Accordance With Section 17",
+      "type": "Entity",
+      "properties": {
+        "name": "a day that is later than the day it is published in accordance with section 17",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Declaration Of An Operational Area Remains In Force For Such Period As Is Specified In The Order",
+      "type": "Entity",
+      "properties": {
+        "name": "the declaration of an operational area remains in force for such period as is specified in the order",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "The Declaration Of A Portion Of An Area As An Operational Area Does Not Prevent The Declaration Of Further Portions Of The Same Area As Operational Areas",
+      "type": "Entity",
+      "properties": {
+        "name": "the declaration of a portion of an area as an operational area does not prevent the declaration of further portions of the same area as operational areas",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "The Council Of An Area Declared To Be An Operational Area",
+      "type": "Entity",
+      "properties": {
+        "name": "the council of an area declared to be an operational area",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Must Report To The Attorney General When Requested To Do So By The Attorney General On The Implementation, And Effectiveness, Of The Powers Conferred By Division 2 Of This Part",
+      "type": "Entity",
+      "properties": {
+        "name": "must report to the Attorney General when requested to do so by the Attorney General on the implementation, and effectiveness, of the powers conferred by Division 2 of this Part",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "A Day That Is Later Than The Day It Is Published In Accordance With Section 17",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "An Order Declaring An Area To Be An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "An Order Declaring An Area To Be An Operational Area",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Takes Effect On A Day Specified In The Order",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "An Order Declaring An Area To Be An Operational Area",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "The Declaration Of An Operational Area Remains In Force For Such Period As Is Specified In The Order",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Declaration Of A Portion Of An Area As An Operational Area Does Not Prevent The Declaration Of Further Portions Of The Same Area As Operational Areas",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "The Declaration Of An Operational Area Remains In Force For Such Period As Is Specified In The Order",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Council Of An Area Declared To Be An Operational Area",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Must Report To The Attorney General When Requested To Do So By The Attorney General On The Implementation, And Effectiveness, Of The Powers Conferred By Division 2 Of This Part",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "An Order Declaring An Area To Be An Operational Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Takes Effect On A Day Specified In The Order",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Day That Is Later Than The Day It Is Published In Accordance With Section 17",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Declaration Of An Operational Area Remains In Force For Such Period As Is Specified In The Order",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Declaration Of A Portion Of An Area As An Operational Area Does Not Prevent The Declaration Of Further Portions Of The Same Area As Operational Areas",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Council Of An Area Declared To Be An Operational Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Must Report To The Attorney General When Requested To Do So By The Attorney General On The Implementation, And Effectiveness, Of The Powers Conferred By Division 2 Of This Part",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

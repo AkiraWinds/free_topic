@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+    "text_hash": "6c5e046838c55837d8791fb206ec3d4e",
+    "text": "Effect of approval (1) A local crime prevention plan, or a draft local crime prevention plan that is subsequently adopted by the council, that is approved by the Attorney General as a safer community compact comprises a safer community compact for so long as the approval of it remains in force. (2) The Attorney General may, on application by the council for an area for which there is or is proposed to be a safer community compact, grant such financial assistance as the Attorney General considers appropriate to the council. (3) The financial assistance is to be provided out of money to be appropriated by Parliament or that is otherwise legally available for the purposes of this Part. (4) In this section— financial assistance means assistance to cover— (a) expenses incurred in undertaking any initiative proposed by a safer community compact, and (b) any expenses incurred, or to be incurred, in developing a proposed safer community compact, or monitoring a safer community compact.",
+    "token_count": 190,
+    "char_count": 992,
+    "graph_stats": {
+      "total_nodes": 10,
+      "llm_extracted_nodes": 9,
+      "total_relationships": 16,
+      "llm_extracted_relationships": 7,
+      "mentions_relationships": 9
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "local crime prevention plan",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Draft Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "draft local crime prevention plan",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "safer community compact",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Financial Assistance",
+      "type": "Entity",
+      "properties": {
+        "name": "financial assistance",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Parliament",
+      "type": "Entity",
+      "properties": {
+        "name": "Parliament",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Expenses Incurred In Undertaking Any Initiative Proposed By A Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "expenses incurred in undertaking any initiative proposed by a safer community compact",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Expenses Incurred In Developing A Proposed Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "expenses incurred in developing a proposed safer community compact",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Expenses Incurred In Monitoring A Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "expenses incurred in monitoring a safer community compact",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Draft Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Financial Assistance",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Financial Assistance",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Expenses Incurred In Undertaking Any Initiative Proposed By A Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Financial Assistance",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Expenses Incurred In Developing A Proposed Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Financial Assistance",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Expenses Incurred In Monitoring A Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Parliament",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Financial Assistance",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Draft Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Financial Assistance",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Parliament",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Expenses Incurred In Undertaking Any Initiative Proposed By A Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Expenses Incurred In Developing A Proposed Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Expenses Incurred In Monitoring A Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_5_division_1_section_1",
+    "text_hash": "fde47bfa438af6ec6de33701727d3830",
+    "text": "–35 (Repealed)",
+    "token_count": 6,
+    "char_count": 14,
+    "graph_stats": {
+      "total_nodes": 1,
+      "llm_extracted_nodes": 0,
+      "total_relationships": 0,
+      "llm_extracted_relationships": 0,
+      "mentions_relationships": 0
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_5_division_1_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_5_division_1_section_1",
+        "discourse_role": "SECTION"
+      }
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+    "text_hash": "f350fa68004effbfe60dbceff87a262b",
+    "text": "Parents contributing to children's offences (1) A parent who, by wilful default, has contributed directly or in a material respect to the commission of an offence of which the child has been found guilty, is guilty of an offence. Maximum penalty—10 penalty units. (2) The court may require a parent convicted of an offence under subsection (1) to undergo counselling or do such other things that would in the opinion of the court advance the welfare and best interests of the child instead of, or in addition to, imposing a penalty.",
+    "token_count": 108,
+    "char_count": 532,
+    "graph_stats": {
+      "total_nodes": 10,
+      "llm_extracted_nodes": 9,
+      "total_relationships": 15,
+      "llm_extracted_relationships": 6,
+      "mentions_relationships": 9
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Parent",
+      "type": "Entity",
+      "properties": {
+        "name": "a parent",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Children'S Offences",
+      "type": "Entity",
+      "properties": {
+        "name": "children's offences",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Wilful Default",
+      "type": "Entity",
+      "properties": {
+        "name": "wilful default",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "An Offence Of Which The Child Has Been Found Guilty",
+      "type": "Entity",
+      "properties": {
+        "name": "an offence of which the child has been found guilty",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Maximum Penalty—10 Penalty Units",
+      "type": "Entity",
+      "properties": {
+        "name": "maximum penalty—10 penalty units",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "The Court",
+      "type": "Entity",
+      "properties": {
+        "name": "the court",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Parent Convicted Of An Offence Under Subsection (1)",
+      "type": "Entity",
+      "properties": {
+        "name": "a parent convicted of an offence under subsection (1)",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Counselling Or Do Such Other Things",
+      "type": "Entity",
+      "properties": {
+        "name": "counselling or do such other things",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Welfare And Best Interests Of The Child",
+      "type": "Entity",
+      "properties": {
+        "name": "welfare and best interests of the child",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Wilful Default",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "An Offence Of Which The Child Has Been Found Guilty",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Parent",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "An Offence Of Which The Child Has Been Found Guilty",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Parent",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Maximum Penalty—10 Penalty Units",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Court",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "A Parent Convicted Of An Offence Under Subsection (1)",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Court",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Counselling Or Do Such Other Things",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Parent Convicted Of An Offence Under Subsection (1)",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Welfare And Best Interests Of The Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Parent",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children'S Offences",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Wilful Default",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "An Offence Of Which The Child Has Been Found Guilty",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Maximum Penalty—10 Penalty Units",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Parent Convicted Of An Offence Under Subsection (1)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Counselling Or Do Such Other Things",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_6",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Welfare And Best Interests Of The Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

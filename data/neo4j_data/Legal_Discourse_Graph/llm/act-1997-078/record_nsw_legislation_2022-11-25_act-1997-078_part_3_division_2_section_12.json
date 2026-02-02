@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_12",
+    "text_hash": "e90a01fbd46e8f888be82d67d1c47930",
+    "text": "Removal of concealed weapons (1) A police officer who believes on reasonable grounds that a person to whom this Division applies may be carrying a concealed weapon may— (a) frisk search the person, and (b) take possession of any weapon found in the person's possession if the police officer considers it may endanger the person, the police officer or any other person if the person is permitted to keep it in his or her possession. (2) In this section— frisk search means— (a) a search of a person conducted by quickly running the hands over the person's outer garments, and (b) an examination of anything worn or carried by the person that is conveniently and voluntarily removed by the person. weapon includes— (a) a firearm, or an imitation firearm, within the meaning of the Firearms Act 1996, or (b) a prohibited weapon within the meaning of the Weapons Prohibition Act 1998, or (c) a syringe, or (d) a glass bottle or other instrument adapted for use for causing injury to a person.",
+    "token_count": 214,
+    "char_count": 988,
+    "graph_stats": {
+      "total_nodes": 8,
+      "llm_extracted_nodes": 7,
+      "total_relationships": 12,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 7
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_12",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_12",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Person To Whom This Division Applies",
+      "type": "Entity",
+      "properties": {
+        "name": "a person to whom this Division applies",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "May Be Carrying A Concealed Weapon",
+      "type": "Entity",
+      "properties": {
+        "name": "may be carrying a concealed weapon",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Frisk Search The Person",
+      "type": "Entity",
+      "properties": {
+        "name": "frisk search the person",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Take Possession Of Any Weapon Found",
+      "type": "Entity",
+      "properties": {
+        "name": "take possession of any weapon found",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Frisk Search",
+      "type": "Entity",
+      "properties": {
+        "name": "frisk search",
+        "discourse_role": "DEFINITION",
+        "definition": "a search of a person conducted by quickly running the hands over the person's outer garments, and an examination of anything worn or carried by the person that is conveniently and voluntarily removed by the person."
+      }
+    },
+    {
+      "id": "Weapon",
+      "type": "Entity",
+      "properties": {
+        "name": "weapon",
+        "discourse_role": "DEFINITION",
+        "definition": "a firearm, or an imitation firearm, within the meaning of the Firearms Act 1996, or a prohibited weapon within the meaning of the Weapons Prohibition Act 1998, or a syringe, or a glass bottle or other instrument adapted for use for causing injury to a person."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "May Be Carrying A Concealed Weapon",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person To Whom This Division Applies",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Frisk Search The Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Take Possession Of Any Weapon Found",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Frisk Search",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Frisk Search The Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Weapon",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Take Possession Of Any Weapon Found",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_12",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_12",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person To Whom This Division Applies",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_12",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "May Be Carrying A Concealed Weapon",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_12",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Frisk Search The Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_12",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Take Possession Of Any Weapon Found",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_12",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Frisk Search",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_12",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Weapon",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_7",
+    "text_hash": "a4f8fa4744db10a2cd51e06908195d66",
+    "text": "Children's services law (1) For the purposes of the definition of children's services law in section 5 of the Children (Education and Care Services) National Law (NSW), each of the following is declared to be a children's services law for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW)— (a) the Children (Education and Care Services) Supplementary Provisions Act 2011, (b) the regulations made under that Act. (2) For the purposes of the definition of children's services regulator in section 5 of the Children (Education and Care Services) National Law (NSW), the Secretary of the Department of Education is declared to be a children's services regulator for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW).",
+    "token_count": 167,
+    "char_count": 813,
+    "graph_stats": {
+      "total_nodes": 3,
+      "llm_extracted_nodes": 2,
+      "total_relationships": 2,
+      "llm_extracted_relationships": 0,
+      "mentions_relationships": 2
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_7",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_7",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Children'S Services Law",
+      "type": "Entity",
+      "properties": {
+        "name": "children's services law",
+        "discourse_role": "DEFINITION",
+        "definition": "each of the following is declared to be a children's services law for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW)— (a) the Children (Education and Care Services) Supplementary Provisions Act 2011, (b) the regulations made under that Act."
+      }
+    },
+    {
+      "id": "Children'S Services Regulator",
+      "type": "Entity",
+      "properties": {
+        "name": "children's services regulator",
+        "discourse_role": "DEFINITION",
+        "definition": "the Secretary of the Department of Education is declared to be a children's services regulator for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children'S Services Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children'S Services Regulator",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

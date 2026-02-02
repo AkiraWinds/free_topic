@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+    "text_hash": "163e41c97bbfa4e42a00d2fcdb485a68",
+    "text": "Action that may be taken (1) A police officer who removes a person to whom this Division applies from any public place may escort (or arrange for another police officer to escort) the person to the residence of a parent of the person or, if the person has a carer, his or her care residence and leave the person there. (2) A police officer who escorts a person to the residence of a parent of the person or his or her care residence must not leave the person at that residence unless— (a) the parent or carer of the person or some other responsible adult is present at the residence and is able and willing to care for the person, or (b) the police officer is satisfied that the person may safely be left at the residence in the absence of a responsible adult. (3) If the police officer is unable to escort the person to, or leave the person, at a place referred to in subsection (2), the police officer may escort (or arrange for another police officer to escort) the person to the residence of a close relative nominated by the person and leave the person there. (4) A police officer who escorts a person to the residence of a close relative must not leave the person at that residence unless the relative or some other responsible adult is present at the residence and is able and willing to care for the person. (5) If for any reason a police officer is unable to escort a person to, or leave a person at, a place referred to in subsection (2) or (4), he or she may— (a) place the person in the care of the Director-General of the Department of Community Services, or (b) if the police officer is unable to place the person in the care of the Director-General, place the person in the care of an approved person who is able and willing to have the care of the person. (6) A person in whose care a person is placed under subsection (5) may keep the person in his or her care for such period not exceeding 24 hours (or such shorter period as may be prescribed by the regulations) as may be necessary for arrangements to be made to return the person to the care of a parent or carer. (7) If, on the expiration of the period referred to in subsection (6), a person has not been returned to the care of a parent or carer, the person is to be released or dealt with according to law. (8) The Director-General of the Department of Community Services may place a person who is placed in the care of the Director-General under this section in the care of any person in whose care a child might be placed under the Children and Young Persons (Care and Protection) Act 1998.",
+    "token_count": 558,
+    "char_count": 2567,
+    "graph_stats": {
+      "total_nodes": 14,
+      "llm_extracted_nodes": 13,
+      "total_relationships": 24,
+      "llm_extracted_relationships": 11,
+      "mentions_relationships": 13
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Removes A Person To Whom This Division Applies From Any Public Place",
+      "type": "Entity",
+      "properties": {
+        "name": "removes a person to whom this Division applies from any public place",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Escorts A Person To The Residence Of A Parent Or Carer",
+      "type": "Entity",
+      "properties": {
+        "name": "escorts a person to the residence of a parent or carer",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "A Parent Or Carer Is Present And Able And Willing To Care For The Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a parent or carer is present and able and willing to care for the person",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Person May Safely Be Left At The Residence In The Absence Of A Responsible Adult",
+      "type": "Entity",
+      "properties": {
+        "name": "the person may safely be left at the residence in the absence of a responsible adult",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Escorts A Person To The Residence Of A Close Relative",
+      "type": "Entity",
+      "properties": {
+        "name": "escorts a person to the residence of a close relative",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "A Close Relative Or Responsible Adult Is Present And Able And Willing To Care For The Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a close relative or responsible adult is present and able and willing to care for the person",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Places The Person In The Care Of The Director-General Of The Department Of Community Services",
+      "type": "Entity",
+      "properties": {
+        "name": "places the person in the care of the Director-General of the Department of Community Services",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Places The Person In The Care Of An Approved Person",
+      "type": "Entity",
+      "properties": {
+        "name": "places the person in the care of an approved person",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Keeps The Person In His Or Her Care For A Period Not Exceeding 24 Hours",
+      "type": "Entity",
+      "properties": {
+        "name": "keeps the person in his or her care for a period not exceeding 24 hours",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "A Person Has Not Been Returned To The Care Of A Parent Or Carer",
+      "type": "Entity",
+      "properties": {
+        "name": "a person has not been returned to the care of a parent or carer",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Person Is To Be Released Or Dealt With According To Law",
+      "type": "Entity",
+      "properties": {
+        "name": "the person is to be released or dealt with according to law",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Places A Person In The Care Of Any Person Under The Children And Young Persons (Care And Protection) Act 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "places a person in the care of any person under the Children and Young Persons (Care and Protection) Act 1998",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Removes A Person To Whom This Division Applies From Any Public Place",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Escorts A Person To The Residence Of A Parent Or Carer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Parent Or Carer Is Present And Able And Willing To Care For The Person",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Escorts A Person To The Residence Of A Parent Or Carer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Person May Safely Be Left At The Residence In The Absence Of A Responsible Adult",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Escorts A Person To The Residence Of A Parent Or Carer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Escorts A Person To The Residence Of A Close Relative",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Close Relative Or Responsible Adult Is Present And Able And Willing To Care For The Person",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Escorts A Person To The Residence Of A Close Relative",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Places The Person In The Care Of The Director-General Of The Department Of Community Services",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Places The Person In The Care Of An Approved Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Places The Person In The Care Of An Approved Person",
+      "source_type": "Entity",
+      "type": "CONDITIONAL_CONSEQUENCE",
+      "target_id": "Keeps The Person In His Or Her Care For A Period Not Exceeding 24 Hours",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Person Has Not Been Returned To The Care Of A Parent Or Carer",
+      "source_type": "Entity",
+      "type": "CONDITIONAL_CONSEQUENCE",
+      "target_id": "The Person Is To Be Released Or Dealt With According To Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Places The Person In The Care Of The Director-General Of The Department Of Community Services",
+      "source_type": "Entity",
+      "type": "CONTINUATION",
+      "target_id": "Places A Person In The Care Of Any Person Under The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Removes A Person To Whom This Division Applies From Any Public Place",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Escorts A Person To The Residence Of A Parent Or Carer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Parent Or Carer Is Present And Able And Willing To Care For The Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Person May Safely Be Left At The Residence In The Absence Of A Responsible Adult",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Escorts A Person To The Residence Of A Close Relative",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Close Relative Or Responsible Adult Is Present And Able And Willing To Care For The Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Places The Person In The Care Of The Director-General Of The Department Of Community Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Places The Person In The Care Of An Approved Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Keeps The Person In His Or Her Care For A Period Not Exceeding 24 Hours",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person Has Not Been Returned To The Care Of A Parent Or Carer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Person Is To Be Released Or Dealt With According To Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_5",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Places A Person In The Care Of Any Person Under The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

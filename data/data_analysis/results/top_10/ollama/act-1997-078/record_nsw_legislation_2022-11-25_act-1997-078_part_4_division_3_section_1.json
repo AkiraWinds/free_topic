@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_1",
+    "text_hash": "ee11cceb518143cff2e4ef5a077acbe6",
+    "text": "Approval of local crime prevention plan (1) The Attorney General may, at the request of a council for an area, approve a draft local crime prevention plan prepared, or local crime prevention plan adopted, by the council as a safer community compact. (2) In deciding whether to approve a draft local crime prevention plan prepared, or local crime prevention plan adopted, by a council, as a safer community compact the Attorney General is to have regard to the following— (a) whether the plan was prepared in accordance with, and has contents consistent with, any guidelines issued by the Attorney General under section 32, (b) whether the contents of the plan are appropriate having regard to the extent and nature of crime in the area (or part of the area) for which it is made or proposed to be made, (c) whether the council has adequately consulted with the local community concerned, including young people and the Aboriginal community, (d) the likely effect of the plan on crime and on the local community, including young people and the Aboriginal community, (e) any other matter the Attorney General considers relevant. (3) The Attorney General is to consult, and have regard to the views of, the Minister for Community Services and the Minister for Police before giving an approval under this section. (4) The Attorney General may approve any amendments to a plan approved under this section.",
+    "token_count": 277,
+    "char_count": 1400,
+    "graph_stats": {
+      "total_nodes": 9,
+      "llm_extracted_nodes": 8,
+      "total_relationships": 12,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 8
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "The Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Council For An Area",
+      "type": "Entity",
+      "properties": {
+        "name": "a council for an area",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "Draft Local Crime Prevention Plan Prepared, Or Local Crime Prevention Plan Adopted, By The Council",
+      "type": "Entity",
+      "properties": {
+        "name": "draft local crime prevention plan prepared, or local crime prevention plan adopted, by the council",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "safer community compact",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Guidelines Issued By The Attorney General Under Section 32",
+      "type": "Entity",
+      "properties": {
+        "name": "guidelines issued by the Attorney General under section 32",
+        "discourse_role": "DEFINITION"
+      }
+    },
+    {
+      "id": "The Local Community Concerned, Including Young People And The Aboriginal Community",
+      "type": "Entity",
+      "properties": {
+        "name": "the local community concerned, including young people and the Aboriginal community",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "The Minister For Community Services And The Minister For Police",
+      "type": "Entity",
+      "properties": {
+        "name": "the Minister for Community Services and the Minister for Police",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "Amendments To A Plan Approved Under This Section",
+      "type": "Entity",
+      "properties": {
+        "name": "amendments to a plan approved under this section",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Attorney General",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Draft Local Crime Prevention Plan Prepared, Or Local Crime Prevention Plan Adopted, By The Council",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Draft Local Crime Prevention Plan Prepared, Or Local Crime Prevention Plan Adopted, By The Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Guidelines Issued By The Attorney General Under Section 32",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "The Attorney General",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Council For An Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Draft Local Crime Prevention Plan Prepared, Or Local Crime Prevention Plan Adopted, By The Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Guidelines Issued By The Attorney General Under Section 32",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Local Community Concerned, Including Young People And The Aboriginal Community",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Minister For Community Services And The Minister For Police",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Amendments To A Plan Approved Under This Section",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

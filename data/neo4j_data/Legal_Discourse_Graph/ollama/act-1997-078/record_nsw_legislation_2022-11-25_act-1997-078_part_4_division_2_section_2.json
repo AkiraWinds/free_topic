@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_2",
+    "text_hash": "c5e89fdf94c7d5e616672d978e707310",
+    "text": "Guidelines The Attorney General may from time to time issue guidelines with respect to the preparation and content of local crime prevention plans.",
+    "token_count": 25,
+    "char_count": 147,
+    "graph_stats": {
+      "total_nodes": 4,
+      "llm_extracted_nodes": 3,
+      "total_relationships": 4,
+      "llm_extracted_relationships": 1,
+      "mentions_relationships": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "The Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Guidelines",
+      "type": "Entity",
+      "properties": {
+        "name": "guidelines",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Local Crime Prevention Plans",
+      "type": "Entity",
+      "properties": {
+        "name": "local crime prevention plans",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Guidelines",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Guidelines",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Crime Prevention Plans",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

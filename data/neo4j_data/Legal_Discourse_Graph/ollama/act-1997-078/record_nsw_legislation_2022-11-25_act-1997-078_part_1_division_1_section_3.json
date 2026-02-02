@@ -1,0 +1,420 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+    "text_hash": "ec13989ea4742ba1d8ad9aaaa8ea15d5",
+    "text": "Definitions In this Act— Aboriginal means a person who— (a) is a member of the Aboriginal race of Australia, and (b) identifies as an Aboriginal, and (c) is accepted by the Aboriginal community as an Aboriginal. Aboriginal child means a child of an Aboriginal. approved person means a person chosen from a list of persons designated by the Director-General of the Department of Community Services under section 24. area has the same meaning as it has in the Local Government Act 1993 and includes part of an area. care residence of a person means the place where the person resides under the care or in the custody of a carer. carer of a person means any person who has residential care and control of a child under out-of-home care arrangements made under the Children and Young Persons (Care and Protection) Act 1998. child means a person who is under the age of 18 years. council has the same meaning as it has in the Local Government Act 1993. court means a court exercising criminal jurisdiction. crime prevention includes, but is not limited to, strategies, initiatives and services that are likely to develop or enhance a safer community. cultural heritage includes beliefs, morals, laws, customs, religion, superstitions, art, language, diet, dress and race. Department means the Attorney General's Department. exercise a function includes perform a duty. function includes a power, authority or duty. local crime prevention plan means a local crime prevention plan adopted by a council under Part 4 and in force in relation to an area. operational area means an area in respect of which a declaration under section 14 is in force. parent of a child includes— (a) a guardian of the child, and (b) a person who has custody of the child, but does not include the Minister administering the Children and Young Persons (Care and Protection) Act 1998 or the Director-General of the Department of Community Services, or the father or mother of the child if the father or mother has neither guardianship nor custody of the child. public place means— (a) a place (whether or not covered by water), or (b) a part of premises, that is open to the public, or is used by the public, whether or not on payment of money or other consideration, whether or not it is ordinarily so open or used and whether or not the public to whom it is open consists of only a limited class of persons. safer community compact—see section 39. Torres Strait Islander means a descendant of an indigenous inhabitant of the Torres Strait Islands. Torres Strait Islander child means a child of a Torres Strait Islander.",
+    "token_count": 539,
+    "char_count": 2591,
+    "graph_stats": {
+      "total_nodes": 23,
+      "llm_extracted_nodes": 22,
+      "total_relationships": 25,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 22
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Aboriginal",
+      "type": "Entity",
+      "properties": {
+        "name": "Aboriginal",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a person who— (a) is a member of the Aboriginal race of Australia, and (b) identifies as an Aboriginal, and (c) is accepted by the Aboriginal community as an Aboriginal.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Aboriginal Child",
+      "type": "Entity",
+      "properties": {
+        "name": "a child of an Aboriginal",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Approved Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a person chosen from a list of persons designated by the Director-General of the Department of Community Services under section 24.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Area",
+      "type": "Entity",
+      "properties": {
+        "name": "an area",
+        "definition": "has the same meaning as it has in the Local Government Act 1993 and includes part of an area.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Care Residence",
+      "type": "Entity",
+      "properties": {
+        "name": "the place where the person resides under the care or in the custody of a carer",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Carer",
+      "type": "Entity",
+      "properties": {
+        "name": "any person who has residential care and control of a child under out-of-home care arrangements made under the Children and Young Persons (Care and Protection) Act 1998",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Child",
+      "type": "Entity",
+      "properties": {
+        "name": "a person who is under the age of 18 years",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Council",
+      "type": "Entity",
+      "properties": {
+        "name": "a council",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Court",
+      "type": "Entity",
+      "properties": {
+        "name": "a court exercising criminal jurisdiction",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Crime Prevention",
+      "type": "Entity",
+      "properties": {
+        "name": "strategies, initiatives and services that are likely to develop or enhance a safer community",
+        "definition": "includes, but is not limited to.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Cultural Heritage",
+      "type": "Entity",
+      "properties": {
+        "name": "beliefs, morals, laws, customs, religion, superstitions, art, language, diet, dress and race",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Department",
+      "type": "Entity",
+      "properties": {
+        "name": "the Attorney General's Department",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Exercise A Function",
+      "type": "Entity",
+      "properties": {
+        "name": "perform a duty",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Function",
+      "type": "Entity",
+      "properties": {
+        "name": "a power, authority or duty",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "a local crime prevention plan adopted by a council under Part 4 and in force in relation to an area",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Operational Area",
+      "type": "Entity",
+      "properties": {
+        "name": "an area in respect of which a declaration under section 14 is in force",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Parent Of A Child",
+      "type": "Entity",
+      "properties": {
+        "name": "a guardian of the child, and (b) a person who has custody of the child",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Public Place",
+      "type": "Entity",
+      "properties": {
+        "name": "a place (whether or not covered by water), or a part of premises, that is open to the public, or is used by the public",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "a safer community",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Torres Strait Islander",
+      "type": "Entity",
+      "properties": {
+        "name": "a descendant of an indigenous inhabitant of the Torres Strait Islands",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Torres Strait Islander Child",
+      "type": "Entity",
+      "properties": {
+        "name": "a child of a Torres Strait Islander",
+        "definition": "has the same meaning as it has in the Local Government Act 1993.",
+        "discourse_role": "SUBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Aboriginal",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Approved Person",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Aboriginal Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Area",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Public Place",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Aboriginal",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Aboriginal Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Approved Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Care Residence",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Carer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Crime Prevention",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Cultural Heritage",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Department",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Exercise A Function",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Function",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Operational Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Parent Of A Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Public Place",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Torres Strait Islander",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Torres Strait Islander Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

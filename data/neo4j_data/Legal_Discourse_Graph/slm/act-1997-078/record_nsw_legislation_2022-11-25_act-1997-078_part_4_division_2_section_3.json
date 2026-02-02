@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+    "text_hash": "2d349aef36bb5c3f6ffe39903f1e9613",
+    "text": "Content of draft local crime prevention plan Without limiting the matters for which a local crime prevention plan may make provision, it may include provisions relating to the following— (a) Aboriginal community development, (b) non-English speaking background community development, (c) crime prevention, (d) drug and alcohol management, (e) open space planning and management, (f) parental education and family support programs, (g) youth development strategies, (h) consultation, (i) arrangements for reporting and co-ordination, (j) any matter specified in guidelines issued by the Attorney General.",
+    "token_count": 118,
+    "char_count": 603,
+    "graph_stats": {
+      "total_nodes": 12,
+      "llm_extracted_nodes": 11,
+      "total_relationships": 21,
+      "llm_extracted_relationships": 10,
+      "mentions_relationships": 11
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "local crime prevention plan",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Aboriginal Community Development",
+      "type": "Entity",
+      "properties": {
+        "name": "Aboriginal community development",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Non-English Speaking Background Community Development",
+      "type": "Entity",
+      "properties": {
+        "name": "non-English speaking background community development",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Crime Prevention",
+      "type": "Entity",
+      "properties": {
+        "name": "crime prevention",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Drug And Alcohol Management",
+      "type": "Entity",
+      "properties": {
+        "name": "drug and alcohol management",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Open Space Planning And Management",
+      "type": "Entity",
+      "properties": {
+        "name": "open space planning and management",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Parental Education And Family Support Programs",
+      "type": "Entity",
+      "properties": {
+        "name": "parental education and family support programs",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Youth Development Strategies",
+      "type": "Entity",
+      "properties": {
+        "name": "youth development strategies",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Consultation",
+      "type": "Entity",
+      "properties": {
+        "name": "consultation",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Arrangements For Reporting And Co-Ordination",
+      "type": "Entity",
+      "properties": {
+        "name": "arrangements for reporting and co-ordination",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Guidelines Issued By The Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "guidelines issued by the Attorney General",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_HAS_PROPERTY",
+      "target_id": "Aboriginal Community Development",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_HAS_PROPERTY",
+      "target_id": "Non-English Speaking Background Community Development",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_HAS_PROPERTY",
+      "target_id": "Crime Prevention",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_HAS_PROPERTY",
+      "target_id": "Drug And Alcohol Management",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_HAS_PROPERTY",
+      "target_id": "Open Space Planning And Management",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_HAS_PROPERTY",
+      "target_id": "Parental Education And Family Support Programs",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_HAS_PROPERTY",
+      "target_id": "Youth Development Strategies",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_HAS_PROPERTY",
+      "target_id": "Consultation",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_HAS_PROPERTY",
+      "target_id": "Arrangements For Reporting And Co-Ordination",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "ENTITY_HAS_PROPERTY",
+      "target_id": "Guidelines Issued By The Attorney General",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Aboriginal Community Development",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Non-English Speaking Background Community Development",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Crime Prevention",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Drug And Alcohol Management",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Open Space Planning And Management",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Parental Education And Family Support Programs",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Youth Development Strategies",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Consultation",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Arrangements For Reporting And Co-Ordination",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Guidelines Issued By The Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

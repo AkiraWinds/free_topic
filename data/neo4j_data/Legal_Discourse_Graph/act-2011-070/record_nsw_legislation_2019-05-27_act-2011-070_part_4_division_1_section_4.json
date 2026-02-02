@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_4",
+    "text_hash": "1a1ee89d5a1624fc224dd94a325db42d",
+    "text": "Extension does not affect operation of National Law in respect of nationally regulated education and care services To avoid doubt, a provider approval or service approval granted under the National Law Alignment Provisions in respect of a State regulated education and care service is not a provider approval or service approval (as the case requires) for the purposes of the National Law.",
+    "token_count": 67,
+    "char_count": 389,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 8,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Extension",
+      "type": "Entity",
+      "properties": {
+        "name": "Extension",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Operation Of National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "operation of National Law",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Nationally Regulated Education And Care Services",
+      "type": "Entity",
+      "properties": {
+        "name": "nationally regulated education and care services",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "Provider Approval Or Service Approval Granted Under The National Law Alignment Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "provider approval or service approval granted under the National Law Alignment Provisions",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "State Regulated Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "State regulated education and care service",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "Provider Approval Or Service Approval For The Purposes Of The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "provider approval or service approval for the purposes of the National Law",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Extension",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Operation Of National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Provider Approval Or Service Approval Granted Under The National Law Alignment Provisions",
+      "source_type": "Entity",
+      "type": "SAME_CLASS",
+      "target_id": "Provider Approval Or Service Approval For The Purposes Of The National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Extension",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Operation Of National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Nationally Regulated Education And Care Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Provider Approval Or Service Approval Granted Under The National Law Alignment Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Regulated Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_1_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Provider Approval Or Service Approval For The Purposes Of The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

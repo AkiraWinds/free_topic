@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_1",
+    "text_hash": "9f3ed471797171103e17d412195396d4",
+    "text": "Children to whom Division applies This Division applies to a person— (a) who is in a public place in an operational area, and (b) who a police officer believes on reasonable grounds is a child under the age of 16 years.",
+    "token_count": 49,
+    "char_count": 219,
+    "graph_stats": {
+      "total_nodes": 4,
+      "llm_extracted_nodes": 3,
+      "total_relationships": 5,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Person",
+      "type": "Entity",
+      "properties": {
+        "name": "a person",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Is In A Public Place In An Operational Area",
+      "type": "Entity",
+      "properties": {
+        "name": "is in a public place in an operational area",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "A Police Officer Believes On Reasonable Grounds Is A Child Under The Age Of 16 Years",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer believes on reasonable grounds is a child under the age of 16 years",
+        "discourse_role": "TEST"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Is In A Public Place In An Operational Area",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer Believes On Reasonable Grounds Is A Child Under The Age Of 16 Years",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Is In A Public Place In An Operational Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer Believes On Reasonable Grounds Is A Child Under The Age Of 16 Years",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

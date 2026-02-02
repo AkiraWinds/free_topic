@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_3",
+    "text_hash": "e13798945ca8676709a0a3db23a58fc5",
+    "text": "Relationship to Children and Young Persons (Care and Protection) Act 1998 (1) This Division has effect in addition to and does not derogate from the Children and Young Persons (Care and Protection) Act 1998. (2) In particular, and without limiting subsection (1), nothing in this Division limits the powers conferred under section 39, 43 or 44 or Chapter 15 of the Children and Young Persons (Care and Protection) Act 1998. (3) Before taking action under section 22 in relation to a person to whom this Division applies, a police officer is to consider whether it would be more appropriate to take action under the Children and Young Persons (Care and Protection) Act 1998 to best meet the needs of the person. (4) Section 27 (Mandatory reporting) of the Children and Young Persons (Care and Protection) Act 1998 applies to a police officer while exercising functions under this Division.",
+    "token_count": 195,
+    "char_count": 888,
+    "graph_stats": {
+      "total_nodes": 9,
+      "llm_extracted_nodes": 8,
+      "total_relationships": 13,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 8
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "This Division",
+      "type": "Entity",
+      "properties": {
+        "name": "this Division",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Children And Young Persons (Care And Protection) Act 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "Children and Young Persons (Care and Protection) Act 1998",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Powers Conferred Under Section 39, 43 Or 44 Or Chapter 15",
+      "type": "Entity",
+      "properties": {
+        "name": "powers conferred under section 39, 43 or 44 or Chapter 15",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Action Under Section 22",
+      "type": "Entity",
+      "properties": {
+        "name": "action under section 22",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "A Person To Whom This Division Applies",
+      "type": "Entity",
+      "properties": {
+        "name": "a person to whom this Division applies",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Action Under The Children And Young Persons (Care And Protection) Act 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "action under the Children and Young Persons (Care and Protection) Act 1998",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Section 27 (Mandatory Reporting)",
+      "type": "Entity",
+      "properties": {
+        "name": "Section 27 (Mandatory reporting)",
+        "discourse_role": "TEST"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "This Division",
+      "source_type": "Entity",
+      "type": "AND",
+      "target_id": "Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "This Division",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Powers Conferred Under Section 39, 43 Or 44 Or Chapter 15",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Action Under Section 22",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Action Under The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Section 27 (Mandatory Reporting)",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Police Officer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Division",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Powers Conferred Under Section 39, 43 Or 44 Or Chapter 15",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Action Under Section 22",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person To Whom This Division Applies",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Action Under The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Section 27 (Mandatory Reporting)",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

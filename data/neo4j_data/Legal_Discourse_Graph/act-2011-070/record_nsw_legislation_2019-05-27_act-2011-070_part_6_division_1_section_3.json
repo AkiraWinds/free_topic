@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_3",
+    "text_hash": "a30dedb71832de7cddc1f7e797b4ffd5",
+    "text": "Application of State Records Act 1998 to certain services (1) The State Records Act 1998 does not apply to a private children's service and such a service is not a public office for the purposes of that Act. (2) In this section: private children's service means a State regulated education and care service provided to the community by any person or body other than: (a) a department, office, commission, board, corporation, agency, service or instrumentality exercising any function of any branch of the Government of the State, or (b) a council or county council under the Local Government Act 1993.",
+    "token_count": 126,
+    "char_count": 601,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "State Records Act 1998",
+      "type": "Entity",
+      "properties": {
+        "name": "State Records Act 1998",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Private Children'S Service",
+      "type": "Entity",
+      "properties": {
+        "name": "private children's service",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Does Not Apply",
+      "type": "Entity",
+      "properties": {
+        "name": "does not apply",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Public Office",
+      "type": "Entity",
+      "properties": {
+        "name": "public office",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Private Children'S Service Definition",
+      "type": "Entity",
+      "properties": {
+        "name": "private children's service",
+        "discourse_role": "DEFINITION",
+        "definition": "a State regulated education and care service provided to the community by any person or body other than a department, office, commission, board, corporation, agency, service or instrumentality exercising any function of any branch of the Government of the State, or a council or county council under the Local Government Act 1993"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "State Records Act 1998",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Does Not Apply",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Does Not Apply",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Private Children'S Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Does Not Apply",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Public Office",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Private Children'S Service Definition",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Private Children'S Service",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "State Records Act 1998",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Private Children'S Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Does Not Apply",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Public Office",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Private Children'S Service Definition",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

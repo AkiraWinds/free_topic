@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+    "text_hash": "d57c9cc0fa3f32f9d2394b8c34719ddd",
+    "text": "Ancillary provisions (1) Rules of court may be made for or with respect to the attendance of parents and children required under this Act to attend a place and undertakings required to be given under this Part. (2) (Repealed) (3) Without affecting the generality of subsection (1), the provisions of Parts 3 and 4 of Chapter 4 of the Criminal Procedure Act 1986 relating to warrants and subpoenas for the attendance of witnesses in proceedings before the Local Court for offences punishable on summary conviction apply to the attendance of any person required under this Act to attend (before the Local Court or the Children's Court) at a place in the same way as those provisions apply to the attendance of witnesses in proceedings for such offences. (4) A court may exercise all or any one or more of the functions under sections 7, 8, 9 and 10 in any particular matter.",
+    "token_count": 186,
+    "char_count": 872,
+    "graph_stats": {
+      "total_nodes": 11,
+      "llm_extracted_nodes": 10,
+      "total_relationships": 13,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 10
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Ancillary Provisions",
+      "type": "Entity",
+      "properties": {
+        "name": "Ancillary provisions",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Rules Of Court",
+      "type": "Entity",
+      "properties": {
+        "name": "Rules of court",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Parents And Children Required Under This Act To Attend A Place",
+      "type": "Entity",
+      "properties": {
+        "name": "parents and children required under this Act to attend a place",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Undertakings Required To Be Given Under This Part",
+      "type": "Entity",
+      "properties": {
+        "name": "undertakings required to be given under this Part",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Warrants And Subpoenas For The Attendance Of Witnesses In Proceedings Before The Local Court",
+      "type": "Entity",
+      "properties": {
+        "name": "warrants and subpoenas for the attendance of witnesses in proceedings before the Local Court",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "The Criminal Procedure Act 1986",
+      "type": "Entity",
+      "properties": {
+        "name": "the Criminal Procedure Act 1986",
+        "discourse_role": "DEFINITION"
+      }
+    },
+    {
+      "id": "Chapter 4 Of The Criminal Procedure Act 1986",
+      "type": "Entity",
+      "properties": {
+        "name": "Chapter 4 of the Criminal Procedure Act 1986",
+        "discourse_role": "DEFINITION"
+      }
+    },
+    {
+      "id": "Parts 3 And 4 Of Chapter 4",
+      "type": "Entity",
+      "properties": {
+        "name": "Parts 3 and 4 of Chapter 4",
+        "discourse_role": "DEFINITION"
+      }
+    },
+    {
+      "id": "The Local Court",
+      "type": "Entity",
+      "properties": {
+        "name": "the Local Court",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "The Children'S Court",
+      "type": "Entity",
+      "properties": {
+        "name": "the Children's Court",
+        "discourse_role": "CLASS"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Ancillary Provisions",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Rules Of Court",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Ancillary Provisions",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Warrants And Subpoenas For The Attendance Of Witnesses In Proceedings Before The Local Court",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Ancillary Provisions",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Parts 3 And 4 Of Chapter 4 Of The Criminal Procedure Act 1986",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Ancillary Provisions",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Rules Of Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Parents And Children Required Under This Act To Attend A Place",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Undertakings Required To Be Given Under This Part",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Warrants And Subpoenas For The Attendance Of Witnesses In Proceedings Before The Local Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Criminal Procedure Act 1986",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Chapter 4 Of The Criminal Procedure Act 1986",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Parts 3 And 4 Of Chapter 4",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Local Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Children'S Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

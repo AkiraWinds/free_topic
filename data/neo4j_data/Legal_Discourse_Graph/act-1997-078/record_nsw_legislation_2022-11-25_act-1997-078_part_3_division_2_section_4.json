@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+    "text_hash": "5be54117f620fb831bbc92d4d1cbe6ab",
+    "text": "Guiding principles when taking action under this Division (1) A police officer who removes a person to whom this Division applies from a public place under this Division is to use his or her best endeavours to escort the person to the home of a parent, relative or other person who is responsible for caring for the person and to leave the person in the care of the parent, relative or other responsible person. (2) Despite subsection (1), the police officer's paramount duty is to ensure that any action taken in respect of a person to whom this Division applies who is removed from a public place under this Division is in the best interests of the person and the police officer is to take such action as the police officer considers appropriate in the circumstances to promote the person's best interests.",
+    "token_count": 155,
+    "char_count": 808,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 4,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Removes A Person To Whom This Division Applies From A Public Place",
+      "type": "Entity",
+      "properties": {
+        "name": "removes a person to whom this Division applies from a public place",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Use His Or Her Best Endeavours To Escort The Person To The Home Of A Parent, Relative Or Other Person Who Is Responsible For Caring For The Person And To Leave The Person In The Care Of The Parent, Relative Or Other Responsible Person",
+      "type": "Entity",
+      "properties": {
+        "name": "use his or her best endeavours to escort the person to the home of a parent, relative or other person who is responsible for caring for the person and to leave the person in the care of the parent, relative or other responsible person",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "The Police Officer'S Paramount Duty Is To Ensure That Any Action Taken In Respect Of A Person To Whom This Division Applies Who Is Removed From A Public Place Under This Division Is In The Best Interests Of The Person",
+      "type": "Entity",
+      "properties": {
+        "name": "the police officer's paramount duty is to ensure that any action taken in respect of a person to whom this Division applies who is removed from a public place under this Division is in the best interests of the person",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "To Take Such Action As The Police Officer Considers Appropriate In The Circumstances To Promote The Person'S Best Interests",
+      "type": "Entity",
+      "properties": {
+        "name": "to take such action as the police officer considers appropriate in the circumstances to promote the person's best interests",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Removes A Person To Whom This Division Applies From A Public Place",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Police Officer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Use His Or Her Best Endeavours To Escort The Person To The Home Of A Parent, Relative Or Other Person Who Is Responsible For Caring For The Person And To Leave The Person In The Care Of The Parent, Relative Or Other Responsible Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "The Police Officer'S Paramount Duty Is To Ensure That Any Action Taken In Respect Of A Person To Whom This Division Applies Who Is Removed From A Public Place Under This Division Is In The Best Interests Of The Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "To Take Such Action As The Police Officer Considers Appropriate In The Circumstances To Promote The Person'S Best Interests",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Removes A Person To Whom This Division Applies From A Public Place",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Use His Or Her Best Endeavours To Escort The Person To The Home Of A Parent, Relative Or Other Person Who Is Responsible For Caring For The Person And To Leave The Person In The Care Of The Parent, Relative Or Other Responsible Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Police Officer'S Paramount Duty Is To Ensure That Any Action Taken In Respect Of A Person To Whom This Division Applies Who Is Removed From A Public Place Under This Division Is In The Best Interests Of The Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_4",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "To Take Such Action As The Police Officer Considers Appropriate In The Circumstances To Promote The Person'S Best Interests",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

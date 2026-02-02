@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_3",
+    "text_hash": "22719ab02f18f4343f70214d53f6c5d9",
+    "text": "Definitions (1) In this Act— Children (Education and Care Services) National Law (NSW) means the provisions applying in this jurisdiction because of section 4. (2) Terms used in this Act and also in the Education and Care Services National Law set out in the Schedule to the Education and Care Services National Law Act 2010 of Victoria have the same meanings in this Act as they have in that Law.",
+    "token_count": 85,
+    "char_count": 397,
+    "graph_stats": {
+      "total_nodes": 3,
+      "llm_extracted_nodes": 2,
+      "total_relationships": 3,
+      "llm_extracted_relationships": 1,
+      "mentions_relationships": 2
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Children (Education And Care Services) National Law (Nsw)",
+      "type": "Entity",
+      "properties": {
+        "name": "Children (Education and Care Services) National Law (NSW)",
+        "discourse_role": "DEFINITION",
+        "definition": "the provisions applying in this jurisdiction because of section 4"
+      }
+    },
+    {
+      "id": "Terms Used In This Act And Also In The Education And Care Services National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "Terms used in this Act and also in the Education and Care Services National Law",
+        "discourse_role": "DEFINITION",
+        "definition": "have the same meanings in this Act as they have in that Law"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Children (Education And Care Services) National Law (Nsw)",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Terms Used In This Act And Also In The Education And Care Services National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children (Education And Care Services) National Law (Nsw)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_1_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Terms Used In This Act And Also In The Education And Care Services National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

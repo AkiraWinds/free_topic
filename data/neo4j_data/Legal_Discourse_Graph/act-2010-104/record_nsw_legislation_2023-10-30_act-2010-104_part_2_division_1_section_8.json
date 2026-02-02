@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_8",
+    "text_hash": "acc292e1740a7dda315fb1d969526bbd",
+    "text": "Education law For the purposes of the definition of education law in section 5 of the Children (Education and Care Services) National Law (NSW), the following Acts and the regulations made under those Acts are declared to be an education law for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW)— (a) the Education Act 1990, (b) the Institute of Teachers Act 2004, (c) the Teaching Service Act 1980, (d) the Technical and Further Education Commission Act 1990, (e) the Education (School Administrative and Support Staff) Act 1987.",
+    "token_count": 132,
+    "char_count": 580,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 11,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_8",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_8",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Education Law",
+      "type": "Entity",
+      "properties": {
+        "name": "education law",
+        "discourse_role": "DEFINITION"
+      }
+    },
+    {
+      "id": "Education Act 1990",
+      "type": "Entity",
+      "properties": {
+        "name": "Education Act 1990",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Institute Of Teachers Act 2004",
+      "type": "Entity",
+      "properties": {
+        "name": "Institute of Teachers Act 2004",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Teaching Service Act 1980",
+      "type": "Entity",
+      "properties": {
+        "name": "Teaching Service Act 1980",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Technical And Further Education Commission Act 1990",
+      "type": "Entity",
+      "properties": {
+        "name": "Technical and Further Education Commission Act 1990",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Education (School Administrative And Support Staff) Act 1987",
+      "type": "Entity",
+      "properties": {
+        "name": "Education (School Administrative and Support Staff) Act 1987",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Education Law",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Education Act 1990",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Education Law",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Institute Of Teachers Act 2004",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Education Law",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Teaching Service Act 1980",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Education Law",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Technical And Further Education Commission Act 1990",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Education Law",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Education (School Administrative And Support Staff) Act 1987",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Education Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Education Act 1990",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Institute Of Teachers Act 2004",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Teaching Service Act 1980",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Technical And Further Education Commission Act 1990",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Education (School Administrative And Support Staff) Act 1987",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

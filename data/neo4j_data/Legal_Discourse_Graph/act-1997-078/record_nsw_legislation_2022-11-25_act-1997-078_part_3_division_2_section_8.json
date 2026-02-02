@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_8",
+    "text_hash": "e6c15684f43e7b2f97316e88ef3f6a03",
+    "text": "Notification requirements (1) A police officer who places a person to whom this Division applies in the care of a person other than a parent or carer of the person, or who leaves a person at a residence in the absence of a parent or carer, is required to notify a parent of the person or, if the person has a carer, the person's carer, if the parent or carer is known and notification is practicable. (2) This section does not require a police officer to notify a person's parent of the person's whereabouts if— (a) the person volunteers to the police officer that he or she does not wish his or her parent to be so notified, and (b) the police officer is satisfied that it would not be in the person's best interests to so notify the parent.",
+    "token_count": 163,
+    "char_count": 742,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 11,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_8",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_8",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "a police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Places A Person In The Care Of A Person Other Than A Parent Or Carer",
+      "type": "Entity",
+      "properties": {
+        "name": "places a person in the care of a person other than a parent or carer",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Leaves A Person At A Residence In The Absence Of A Parent Or Carer",
+      "type": "Entity",
+      "properties": {
+        "name": "leaves a person at a residence in the absence of a parent or carer",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Is Required To Notify A Parent Or Carer",
+      "type": "Entity",
+      "properties": {
+        "name": "is required to notify a parent or carer",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "A Person Volunteers That He Or She Does Not Wish His Or Her Parent To Be Notified",
+      "type": "Entity",
+      "properties": {
+        "name": "a person volunteers that he or she does not wish his or her parent to be notified",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "The Police Officer Is Satisfied That It Would Not Be In The Person'S Best Interests To Notify The Parent",
+      "type": "Entity",
+      "properties": {
+        "name": "the police officer is satisfied that it would not be in the person's best interests to notify the parent",
+        "discourse_role": "EXCEPTION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Places A Person In The Care Of A Person Other Than A Parent Or Carer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Leaves A Person At A Residence In The Absence Of A Parent Or Carer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Is Required To Notify A Parent Or Carer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Person Volunteers That He Or She Does Not Wish His Or Her Parent To Be Notified",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Is Required To Notify A Parent Or Carer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Police Officer Is Satisfied That It Would Not Be In The Person'S Best Interests To Notify The Parent",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "Is Required To Notify A Parent Or Carer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Places A Person In The Care Of A Person Other Than A Parent Or Carer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Leaves A Person At A Residence In The Absence Of A Parent Or Carer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Is Required To Notify A Parent Or Carer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person Volunteers That He Or She Does Not Wish His Or Her Parent To Be Notified",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Police Officer Is Satisfied That It Would Not Be In The Person'S Best Interests To Notify The Parent",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

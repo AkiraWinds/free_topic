@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+    "text_hash": "baeb2ed828e6a0581b83d0b1af55a326",
+    "text": "Undertakings by children (1) A court that finds a child guilty of an offence may, instead of dealing with the child in any other way permitted by law, release the child on condition that the child give an undertaking— (a) to submit to parental or other supervision as ordered by the court, or (b) to participate in a specified program, or to attend a specified activity centre, or (c) to reside with a parent or other person, as directed by the court, or (d) to do such other thing as may be specified by the court. (2) If it appears to a court that a child has failed to comply with an undertaking given by the child under this section, the court may direct that the child, and one or more parents of the child, be served with a notice to appear before the court at a specified time and place. The court may specify which parents are to attend. (3) If the court is satisfied that the child has failed to comply with the undertaking concerned, the court— (a) may cancel the undertaking, or (b) may continue or vary the undertaking, but must not extend the period of the undertaking. (4) If the court cancels the undertaking, the court— (a) may release the child, or (b) may impose any penalty that it could have imposed, or exercise any other function that it could have exercised, on finding the child guilty of the offence concerned.",
+    "token_count": 297,
+    "char_count": 1335,
+    "graph_stats": {
+      "total_nodes": 16,
+      "llm_extracted_nodes": 15,
+      "total_relationships": 28,
+      "llm_extracted_relationships": 13,
+      "mentions_relationships": 15
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Court",
+      "type": "Entity",
+      "properties": {
+        "name": "a court",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Child",
+      "type": "Entity",
+      "properties": {
+        "name": "a child",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Finds A Child Guilty Of An Offence",
+      "type": "Entity",
+      "properties": {
+        "name": "finds a child guilty of an offence",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Release The Child On Condition",
+      "type": "Entity",
+      "properties": {
+        "name": "release the child on condition",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Submit To Parental Or Other Supervision",
+      "type": "Entity",
+      "properties": {
+        "name": "submit to parental or other supervision",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Participate In A Specified Program",
+      "type": "Entity",
+      "properties": {
+        "name": "participate in a specified program",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Attend A Specified Activity Centre",
+      "type": "Entity",
+      "properties": {
+        "name": "attend a specified activity centre",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Reside With A Parent Or Other Person",
+      "type": "Entity",
+      "properties": {
+        "name": "reside with a parent or other person",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Do Such Other Thing As May Be Specified By The Court",
+      "type": "Entity",
+      "properties": {
+        "name": "do such other thing as may be specified by the court",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Failed To Comply With An Undertaking",
+      "type": "Entity",
+      "properties": {
+        "name": "failed to comply with an undertaking",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Be Served With A Notice To Appear Before The Court",
+      "type": "Entity",
+      "properties": {
+        "name": "be served with a notice to appear before the court",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Cancel The Undertaking",
+      "type": "Entity",
+      "properties": {
+        "name": "cancel the undertaking",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Continue Or Vary The Undertaking",
+      "type": "Entity",
+      "properties": {
+        "name": "continue or vary the undertaking",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Release The Child",
+      "type": "Entity",
+      "properties": {
+        "name": "release the child",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Impose Any Penalty",
+      "type": "Entity",
+      "properties": {
+        "name": "impose any penalty",
+        "discourse_role": "CONSEQUENCE"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Finds A Child Guilty Of An Offence",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Court",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Release The Child On Condition",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Release The Child On Condition",
+      "source_type": "Entity",
+      "type": "OR",
+      "target_id": "Submit To Parental Or Other Supervision",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Release The Child On Condition",
+      "source_type": "Entity",
+      "type": "OR",
+      "target_id": "Participate In A Specified Program",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Release The Child On Condition",
+      "source_type": "Entity",
+      "type": "OR",
+      "target_id": "Attend A Specified Activity Centre",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Release The Child On Condition",
+      "source_type": "Entity",
+      "type": "OR",
+      "target_id": "Reside With A Parent Or Other Person",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Release The Child On Condition",
+      "source_type": "Entity",
+      "type": "OR",
+      "target_id": "Do Such Other Thing As May Be Specified By The Court",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Failed To Comply With An Undertaking",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Failed To Comply With An Undertaking",
+      "source_type": "Entity",
+      "type": "CONDITIONAL_CONSEQUENCE",
+      "target_id": "Be Served With A Notice To Appear Before The Court",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Failed To Comply With An Undertaking",
+      "source_type": "Entity",
+      "type": "CONDITIONAL_CONSEQUENCE",
+      "target_id": "Cancel The Undertaking",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Failed To Comply With An Undertaking",
+      "source_type": "Entity",
+      "type": "CONDITIONAL_CONSEQUENCE",
+      "target_id": "Continue Or Vary The Undertaking",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Cancel The Undertaking",
+      "source_type": "Entity",
+      "type": "CONDITIONAL_CONSEQUENCE",
+      "target_id": "Release The Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Cancel The Undertaking",
+      "source_type": "Entity",
+      "type": "CONDITIONAL_CONSEQUENCE",
+      "target_id": "Impose Any Penalty",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Finds A Child Guilty Of An Offence",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Release The Child On Condition",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Submit To Parental Or Other Supervision",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Participate In A Specified Program",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attend A Specified Activity Centre",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Reside With A Parent Or Other Person",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Do Such Other Thing As May Be Specified By The Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Failed To Comply With An Undertaking",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Be Served With A Notice To Appear Before The Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Cancel The Undertaking",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Continue Or Vary The Undertaking",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Release The Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Impose Any Penalty",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_3",
+    "text_hash": "fae7f79c99d74fdee6e9ff43bb0338a1",
+    "text": "Council to report periodically on implementation of compact The council of an area for which there is a safer community compact is to assess and report to the Minister, as and when required by the Minister, on the implementation, and effectiveness in reducing crime, of the compact.",
+    "token_count": 52,
+    "char_count": 282,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 6,
+      "llm_extracted_relationships": 2,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_3",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_3",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Council",
+      "type": "Entity",
+      "properties": {
+        "name": "Council",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Report Periodically On Implementation Of Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "report periodically on implementation of compact",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "safer community compact",
+        "discourse_role": "DEFINITION"
+      }
+    },
+    {
+      "id": "The Minister",
+      "type": "Entity",
+      "properties": {
+        "name": "the Minister",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Report Periodically On Implementation Of Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Minister",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Safer Community Compact",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Report Periodically On Implementation Of Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_3_section_3",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Minister",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

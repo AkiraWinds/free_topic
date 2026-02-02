@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_2",
+    "text_hash": "6bfe781168aa1c5d5f1bfc9402d3c5ce",
+    "text": "References to matters that relate to national scheme only For the purposes of the National Law Alignment Provisions, any of the following references in the National Law are to be disregarded: (a) references to the National Authority, (b) references to the Ministerial Council (except in relation to the National Quality Standard), (c) references to the highest rating level for an education and care service, (d) (Repealed) (e) references to associated children's services, (f) (Repealed) (g) references to family day care services.",
+    "token_count": 112,
+    "char_count": 532,
+    "graph_stats": {
+      "total_nodes": 6,
+      "llm_extracted_nodes": 5,
+      "total_relationships": 6,
+      "llm_extracted_relationships": 1,
+      "mentions_relationships": 5
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "References To The National Authority",
+      "type": "Entity",
+      "properties": {
+        "name": "references to the National Authority",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "References To The Ministerial Council",
+      "type": "Entity",
+      "properties": {
+        "name": "references to the Ministerial Council",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "References To The Highest Rating Level For An Education And Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "references to the highest rating level for an education and care service",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "References To Associated Children'S Services",
+      "type": "Entity",
+      "properties": {
+        "name": "references to associated children's services",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "References To Family Day Care Services",
+      "type": "Entity",
+      "properties": {
+        "name": "references to family day care services",
+        "discourse_role": "EXCEPTION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "References To The Ministerial Council",
+      "source_type": "Entity",
+      "type": "EXCEPTS",
+      "target_id": "National Quality Standard",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "References To The National Authority",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "References To The Ministerial Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "References To The Highest Rating Level For An Education And Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "References To Associated Children'S Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_4_division_3_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "References To Family Day Care Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

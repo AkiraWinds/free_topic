@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_2",
+    "text_hash": "ddecd198b517569bc136af3ac23f4996",
+    "text": "Adoption of other publications (1) The regulations may apply, adopt or incorporate, wholly or in part and with or without modifications, any standard, rule, code, specification or other document prescribed or published by any person or body (whether of New South Wales or elsewhere) and as in force at a particular time or from time to time. (2) In particular, the regulations may apply, adopt or incorporate, wholly or in part and with or without modification, any of the national regulations made by the Ministerial Council under the National Law, as in force at a particular time or as in force from time to time.",
+    "token_count": 126,
+    "char_count": 616,
+    "graph_stats": {
+      "total_nodes": 5,
+      "llm_extracted_nodes": 4,
+      "total_relationships": 7,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Regulations",
+      "type": "Entity",
+      "properties": {
+        "name": "the regulations",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Apply, Adopt Or Incorporate",
+      "type": "Entity",
+      "properties": {
+        "name": "apply, adopt or incorporate",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Any Standard, Rule, Code, Specification Or Other Document Prescribed Or Published By Any Person Or Body",
+      "type": "Entity",
+      "properties": {
+        "name": "any standard, rule, code, specification or other document prescribed or published by any person or body",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Any Of The National Regulations Made By The Ministerial Council Under The National Law",
+      "type": "Entity",
+      "properties": {
+        "name": "any of the national regulations made by the Ministerial Council under the National Law",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Regulations",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Apply, Adopt Or Incorporate",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Apply, Adopt Or Incorporate",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Any Standard, Rule, Code, Specification Or Other Document Prescribed Or Published By Any Person Or Body",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Apply, Adopt Or Incorporate",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Any Of The National Regulations Made By The Ministerial Council Under The National Law",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Regulations",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Apply, Adopt Or Incorporate",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Standard, Rule, Code, Specification Or Other Document Prescribed Or Published By Any Person Or Body",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2019-05-27/act-2011-070_part_6_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Of The National Regulations Made By The Ministerial Council Under The National Law",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

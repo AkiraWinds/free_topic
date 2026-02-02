@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+    "text_hash": "a11645be08efdc5c9c9dacc8bd4da3c6",
+    "text": "Review of Act (1) The Attorney General is to review this Act to determine whether the policy objectives of the Act remain valid and whether the terms of the Act remain appropriate for securing those objectives. (2) The review is to be undertaken as soon as possible after the period of 3 years from the date of assent to this Act. (3) A report on the outcome of the review is to be tabled in each House of Parliament within 12 months after the end of the period of 3 years. Schedule 1 Amendment (Section 48) Community Welfare Act 1987 No 52 Section 5 Delegation Omit section 5 (3). Insert instead— (3) In this section, a reference to the community welfare legislation includes a reference to each of the following Acts (and to any instrument under the Act) even though the Act may not be administered by the Minister within the Department— Children (Criminal Proceedings) Act 1987 Children (Protection and Parental Responsibility) Act 1997 Schedule 2 Savings, transitional and other provisions (Section 49)",
+    "token_count": 221,
+    "char_count": 1006,
+    "graph_stats": {
+      "total_nodes": 17,
+      "llm_extracted_nodes": 16,
+      "total_relationships": 22,
+      "llm_extracted_relationships": 6,
+      "mentions_relationships": 16
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "The Attorney General",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "this Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "The Policy Objectives Of The Act",
+      "type": "Entity",
+      "properties": {
+        "name": "the policy objectives of the Act",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Terms Of The Act",
+      "type": "Entity",
+      "properties": {
+        "name": "the terms of the Act",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Those Objectives",
+      "type": "Entity",
+      "properties": {
+        "name": "those objectives",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Review",
+      "type": "Entity",
+      "properties": {
+        "name": "the review",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Outcome Of The Review",
+      "type": "Entity",
+      "properties": {
+        "name": "the outcome of the review",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "This Act Remains Valid",
+      "type": "Entity",
+      "properties": {
+        "name": "this Act remains valid",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Terms Of The Act Remain Appropriate",
+      "type": "Entity",
+      "properties": {
+        "name": "the terms of the Act remain appropriate",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Securing Those Objectives",
+      "type": "Entity",
+      "properties": {
+        "name": "securing those objectives",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "The Period Of 3 Years From The Date Of Assent To This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "the period of 3 years from the date of assent to this Act",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "A Report On The Outcome Of The Review",
+      "type": "Entity",
+      "properties": {
+        "name": "a report on the outcome of the review",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "The Community Welfare Act 1987 No 52",
+      "type": "Entity",
+      "properties": {
+        "name": "the Community Welfare Act 1987 No 52",
+        "discourse_role": "DEFINITION"
+      }
+    },
+    {
+      "id": "A Reference To The Community Welfare Legislation",
+      "type": "Entity",
+      "properties": {
+        "name": "a reference to the community welfare legislation",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Children (Criminal Proceedings) Act 1987 And The Children (Protection And Parental Responsibility) Act 1997",
+      "type": "Entity",
+      "properties": {
+        "name": "the Children (Criminal Proceedings) Act 1987 and the Children (Protection and Parental Responsibility) Act 1997",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Any Instrument Under The Act",
+      "type": "Entity",
+      "properties": {
+        "name": "any instrument under the Act",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "This Act",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Policy Objectives Of The Act",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Those Objectives",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "This Act Remains Valid",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "The Terms Of The Act Remain Appropriate",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Securing Those Objectives",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Those Objectives",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Review",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "This Act Remains Valid",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Reference To The Community Welfare Legislation",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "The Community Welfare Act 1987 No 52",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Policy Objectives Of The Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Terms Of The Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Those Objectives",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Review",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Outcome Of The Review",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act Remains Valid",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Terms Of The Act Remain Appropriate",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Securing Those Objectives",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Period Of 3 Years From The Date Of Assent To This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Report On The Outcome Of The Review",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Community Welfare Act 1987 No 52",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Reference To The Community Welfare Legislation",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Children (Criminal Proceedings) Act 1987 And The Children (Protection And Parental Responsibility) Act 1997",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_5_division_1_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Instrument Under The Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

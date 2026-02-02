@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+    "text_hash": "85470235ef42ed7be9166d807346eee2",
+    "text": "Transitional (1) For the purposes of the definition of declared approved family day care service in section 305 of the Children (Education and Care Services) National Law (NSW), a family day care children's service that was an approved children's service under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998 is declared to be a declared approved family day care service for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW). (2) For the purposes of the definition of declared approved provider in section 305 of the Children (Education and Care Services) National Law (NSW), a person who was a licensed service provider under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998 is declared to be a declared approved provider for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW). (3) For the purposes of the definition of declared approved service in section 305 of the Children (Education and Care Services) National Law (NSW), a children's service that held a children's service approval under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998 is declared to be a declared approved service for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW). (4) For the purposes of the definition of declared certified supervisor in section 305 of the Children (Education and Care Services) National Law (NSW), a person who was an authorised supervisor under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998 is declared to be a declared certified supervisor for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW). (5) For the purposes of the definition of declared compliance notice in section 305 of the Children (Education and Care Services) National Law (NSW), a compliance notice under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998 is declared to be a declared compliance notice for the purposes of the Children (Education and Care Services) National Law (NSW). (6) For the purposes of the definition of declared enforceable undertaking in section 305 of the Children (Education and Care Services) National Law (NSW), a written undertaking in force under section 219X of the Children and Young Persons (Care and Protection) Act 1998 is declared to be a declared enforceable undertaking for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW). (7) For the purposes of the definition of declared nominated supervisor in section 305 of the Children (Education and Care Services) National Law (NSW), a person who was an authorised supervisor under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998 is declared to be a declared nominated supervisor for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW). (8) For the purposes of the definition of declared out of scope service in section 305 of the Children (Education and Care Services) National Law (NSW), an out of school hours care service under the Children and Young Persons (Care and Protection) Act 1998 is declared to be a declared out of scope service for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW). (9) For the purposes of the definition of former approval in section 305 of the Children (Education and Care Services) National Law (NSW), a children's services approval under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998 is declared to be a former approval for this jurisdiction for the purposes of the Children (Education and Care Services) National Law (NSW).",
+    "token_count": 788,
+    "char_count": 3855,
+    "graph_stats": {
+      "total_nodes": 10,
+      "llm_extracted_nodes": 9,
+      "total_relationships": 18,
+      "llm_extracted_relationships": 9,
+      "mentions_relationships": 9
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Declared Approved Family Day Care Service",
+      "type": "Entity",
+      "properties": {
+        "name": "declared approved family day care service",
+        "discourse_role": "DEFINITION",
+        "definition": "a family day care children's service that was an approved children's service under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998"
+      }
+    },
+    {
+      "id": "Declared Approved Provider",
+      "type": "Entity",
+      "properties": {
+        "name": "declared approved provider",
+        "discourse_role": "DEFINITION",
+        "definition": "a person who was a licensed service provider under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998"
+      }
+    },
+    {
+      "id": "Declared Approved Service",
+      "type": "Entity",
+      "properties": {
+        "name": "declared approved service",
+        "discourse_role": "DEFINITION",
+        "definition": "a children's service that held a children's service approval under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998"
+      }
+    },
+    {
+      "id": "Declared Certified Supervisor",
+      "type": "Entity",
+      "properties": {
+        "name": "declared certified supervisor",
+        "discourse_role": "DEFINITION",
+        "definition": "a person who was an authorised supervisor under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998"
+      }
+    },
+    {
+      "id": "Declared Compliance Notice",
+      "type": "Entity",
+      "properties": {
+        "name": "declared compliance notice",
+        "discourse_role": "DEFINITION",
+        "definition": "a compliance notice under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998"
+      }
+    },
+    {
+      "id": "Declared Enforceable Undertaking",
+      "type": "Entity",
+      "properties": {
+        "name": "declared enforceable undertaking",
+        "discourse_role": "DEFINITION",
+        "definition": "a written undertaking in force under section 219X of the Children and Young Persons (Care and Protection) Act 1998"
+      }
+    },
+    {
+      "id": "Declared Nominated Supervisor",
+      "type": "Entity",
+      "properties": {
+        "name": "declared nominated supervisor",
+        "discourse_role": "DEFINITION",
+        "definition": "a person who was an authorised supervisor under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998"
+      }
+    },
+    {
+      "id": "Declared Out Of Scope Service",
+      "type": "Entity",
+      "properties": {
+        "name": "declared out of scope service",
+        "discourse_role": "DEFINITION",
+        "definition": "an out of school hours care service under the Children and Young Persons (Care and Protection) Act 1998"
+      }
+    },
+    {
+      "id": "Former Approval",
+      "type": "Entity",
+      "properties": {
+        "name": "former approval",
+        "discourse_role": "DEFINITION",
+        "definition": "a children's services approval under Chapter 12 of the Children and Young Persons (Care and Protection) Act 1998"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Declared Approved Family Day Care Service",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Family Day Care Children'S Service That Was An Approved Children'S Service Under Chapter 12 Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Declared Approved Provider",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Person Who Was A Licensed Service Provider Under Chapter 12 Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Declared Approved Service",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Children'S Service That Held A Children'S Service Approval Under Chapter 12 Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Declared Certified Supervisor",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Person Who Was An Authorised Supervisor Under Chapter 12 Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Declared Compliance Notice",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Compliance Notice Under Chapter 12 Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Declared Enforceable Undertaking",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Written Undertaking In Force Under Section 219X Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Declared Nominated Supervisor",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Person Who Was An Authorised Supervisor Under Chapter 12 Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Declared Out Of Scope Service",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "An Out Of School Hours Care Service Under The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Former Approval",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Children'S Services Approval Under Chapter 12 Of The Children And Young Persons (Care And Protection) Act 1998",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Declared Approved Family Day Care Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Declared Approved Provider",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Declared Approved Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Declared Certified Supervisor",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Declared Compliance Notice",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Declared Enforceable Undertaking",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Declared Nominated Supervisor",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Declared Out Of Scope Service",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2023-10-30/act-2010-104_part_2_division_1_section_14",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Former Approval",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

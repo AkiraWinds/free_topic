@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+    "text_hash": "d8a7abce92d7506c9d9a521d1c474258",
+    "text": "Public availability of local crime prevention plans (1) Within 14 days after adopting a local crime prevention plan for an area, the council is to publish the plan in— (a) a newspaper circulating generally in the area, and (b) the Gazette. (2) Within 14 days after amending or revoking a local crime prevention plan, the council is to give notice of the revocation, or cause a copy of the amendments to be published in— (a) a newspaper circulating generally in the area, and (b) the Gazette.",
+    "token_count": 112,
+    "char_count": 491,
+    "graph_stats": {
+      "total_nodes": 9,
+      "llm_extracted_nodes": 8,
+      "total_relationships": 11,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 8
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Local Crime Prevention Plans",
+      "type": "Entity",
+      "properties": {
+        "name": "local crime prevention plans",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Council",
+      "type": "Entity",
+      "properties": {
+        "name": "council",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Plan In A Newspaper Circulating Generally In The Area",
+      "type": "Entity",
+      "properties": {
+        "name": "plan in a newspaper circulating generally in the area",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "The Gazette",
+      "type": "Entity",
+      "properties": {
+        "name": "the Gazette",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Amending Or Revoking A Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "amending or revoking a local crime prevention plan",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Notice Of The Revocation",
+      "type": "Entity",
+      "properties": {
+        "name": "notice of the revocation",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Copy Of The Amendments To Be Published In A Newspaper Circulating Generally In The Area",
+      "type": "Entity",
+      "properties": {
+        "name": "copy of the amendments to be published in a newspaper circulating generally in the area",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Definition Of Local Crime Prevention Plan",
+      "type": "Entity",
+      "properties": {
+        "name": "local crime prevention plan",
+        "discourse_role": "DEFINITION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Notice Of The Revocation",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Council",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Copy Of The Amendments To Be Published In A Newspaper Circulating Generally In The Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Definition Of Local Crime Prevention Plan",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Local Crime Prevention Plans",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Crime Prevention Plans",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Council",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Plan In A Newspaper Circulating Generally In The Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Gazette",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Amending Or Revoking A Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Notice Of The Revocation",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Copy Of The Amendments To Be Published In A Newspaper Circulating Generally In The Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_4_division_2_section_8",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Definition Of Local Crime Prevention Plan",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

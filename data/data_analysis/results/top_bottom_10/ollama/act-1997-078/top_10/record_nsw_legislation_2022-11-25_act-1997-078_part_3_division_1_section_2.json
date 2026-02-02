@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+    "text_hash": "32339fd8e8bc031f772431bd7e718b89",
+    "text": "Operational area (1) The council for an area may request the Attorney General to declare the area to be an operational area for the purposes of Division 2 of this Part. (2) The Attorney General may, by order, declare an area described in the order to be an operational area for the purposes of Division 2 of this Part in accordance with a request under subsection (1), or may declare a portion only of that area to be an operational area. (3) The Attorney General must not make an order declaring an area (or portion of an area) to be an operational area unless the Attorney General is satisfied that adequate crime prevention or youth support initiatives will be available in the area before the order takes effect. (4) In considering a request under subsection (1) to declare an area (or a portion of an area) to be an operational area, the Attorney General is to have regard to the following— (a) whether the council has adequately informed and consulted with the local community concerned, including young people and the Aboriginal community, and the views expressed, (b) the extent and nature of crime in the area, (c) the nature of any crime prevention or youth support initiatives that have been undertaken in the area, including whether any local crime prevention plan or safer community compact is in force for the area, or is in the course of being prepared by the council for the area, and the contents or proposed contents of that plan or compact, (d) the effect of making the declaration on young people in the area, including the availability of safe and appropriate recreational amenities for young people in the area, (e) the practicality of applying Division 2 of this Part in the area, including (but not limited to) any advice given by the Commissioner of Police relating to the operational capacity of police to carry out functions under the Division in the area, (f) without limiting paragraph (e), whether appropriate arrangements have been made, or are able to be made, to cater for the needs of young people who are removed from public places in the area under Division 2 of this Part and who are not able to be taken home, including culturally appropriate arrangements for Aboriginal and Torres Strait Islander young people, (g) whether the council has undertaken steps to include young people's needs in its local planning processes. (5) The Attorney General is to consult with the Minister for Community Services and the Minister for Police before declaring an area (or a portion of an area) to be an operational area.",
+    "token_count": 506,
+    "char_count": 2545,
+    "graph_stats": {
+      "total_nodes": 16,
+      "llm_extracted_nodes": 15,
+      "total_relationships": 20,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 15
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "The Council For An Area",
+      "type": "Entity",
+      "properties": {
+        "name": "The council for an area",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Attorney General",
+      "type": "Entity",
+      "properties": {
+        "name": "the Attorney General",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "An Operational Area",
+      "type": "Entity",
+      "properties": {
+        "name": "an operational area",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "Division 2 Of This Part",
+      "type": "Entity",
+      "properties": {
+        "name": "Division 2 of this Part",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "A Request Under Subsection (1)",
+      "type": "Entity",
+      "properties": {
+        "name": "a request under subsection (1)",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Adequate Crime Prevention Or Youth Support Initiatives",
+      "type": "Entity",
+      "properties": {
+        "name": "adequate crime prevention or youth support initiatives",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "The Local Community Concerned, Including Young People And The Aboriginal Community",
+      "type": "Entity",
+      "properties": {
+        "name": "the local community concerned, including young people and the Aboriginal community",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "Crime In The Area",
+      "type": "Entity",
+      "properties": {
+        "name": "crime in the area",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "Any Local Crime Prevention Plan Or Safer Community Compact",
+      "type": "Entity",
+      "properties": {
+        "name": "any local crime prevention plan or safer community compact",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "Young People In The Area",
+      "type": "Entity",
+      "properties": {
+        "name": "young people in the area",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "Division 2 Of This Part",
+      "type": "Entity",
+      "properties": {
+        "name": "Division 2 of this Part",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "The Commissioner Of Police",
+      "type": "Entity",
+      "properties": {
+        "name": "the Commissioner of Police",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "Young People Who Are Removed From Public Places In The Area Under Division 2 Of This Part",
+      "type": "Entity",
+      "properties": {
+        "name": "young people who are removed from public places in the area under Division 2 of this Part",
+        "discourse_role": "PROBE"
+      }
+    },
+    {
+      "id": "The Minister For Community Services",
+      "type": "Entity",
+      "properties": {
+        "name": "the Minister for Community Services",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "The Minister For Police",
+      "type": "Entity",
+      "properties": {
+        "name": "the Minister for Police",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "The Council For An Area",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Attorney General",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Request Under Subsection (1)",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Division 2 Of This Part",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Council For An Area",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "Division 2 Of This Part",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Council For An Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Attorney General",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "An Operational Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Division 2 Of This Part",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Request Under Subsection (1)",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Adequate Crime Prevention Or Youth Support Initiatives",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Local Community Concerned, Including Young People And The Aboriginal Community",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Crime In The Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Local Crime Prevention Plan Or Safer Community Compact",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Young People In The Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Division 2 Of This Part",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Commissioner Of Police",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Young People Who Are Removed From Public Places In The Area Under Division 2 Of This Part",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Minister For Community Services",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_1_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Minister For Police",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

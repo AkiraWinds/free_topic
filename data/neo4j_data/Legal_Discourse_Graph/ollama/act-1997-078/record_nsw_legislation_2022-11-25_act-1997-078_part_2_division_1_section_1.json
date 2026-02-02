@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_1",
+    "text_hash": "89a4ef62690b00e330468e6d7feaa9f4",
+    "text": "Guiding principles for courts (1) In considering how a child should be dealt with under this Part, a court is to have regard to whether the taking of the action under consideration is in the best interests of the child. (2) Without limiting the matters that the court may take into account for the purposes of subsection (1), the court is to consider— (a) the nature of the relationship of the child with the child's parent or parents, and (b) the attitude to the child, and to the responsibilities of parenthood, demonstrated by the child's parent or parents, and (c) the welfare, status and circumstances of the child and of the child's parent or parents.",
+    "token_count": 138,
+    "char_count": 657,
+    "graph_stats": {
+      "total_nodes": 8,
+      "llm_extracted_nodes": 7,
+      "total_relationships": 12,
+      "llm_extracted_relationships": 5,
+      "mentions_relationships": 7
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_1",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_1",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Court",
+      "type": "Entity",
+      "properties": {
+        "name": "a court",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "The Taking Of The Action Under Consideration",
+      "type": "Entity",
+      "properties": {
+        "name": "the taking of the action under consideration",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "The Best Interests Of The Child",
+      "type": "Entity",
+      "properties": {
+        "name": "the best interests of the child",
+        "discourse_role": "CONSEQUENCE"
+      }
+    },
+    {
+      "id": "The Nature Of The Relationship Of The Child With The Child'S Parent Or Parents",
+      "type": "Entity",
+      "properties": {
+        "name": "the nature of the relationship of the child with the child's parent or parents",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Attitude To The Child, And To The Responsibilities Of Parenthood Demonstrated By The Child'S Parent Or Parents",
+      "type": "Entity",
+      "properties": {
+        "name": "the attitude to the child, and to the responsibilities of parenthood demonstrated by the child's parent or parents",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "The Welfare, Status And Circumstances Of The Child And Of The Child'S Parent Or Parents",
+      "type": "Entity",
+      "properties": {
+        "name": "the welfare, status and circumstances of the child and of the child's parent or parents",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "A Child",
+      "type": "Entity",
+      "properties": {
+        "name": "a child",
+        "discourse_role": "SUBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "A Court",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "The Taking Of The Action Under Consideration",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Court",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "The Best Interests Of The Child",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Nature Of The Relationship Of The Child With The Child'S Parent Or Parents",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Court",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Attitude To The Child, And To The Responsibilities Of Parenthood Demonstrated By The Child'S Parent Or Parents",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Court",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "The Welfare, Status And Circumstances Of The Child And Of The Child'S Parent Or Parents",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "A Court",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Taking Of The Action Under Consideration",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Best Interests Of The Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Nature Of The Relationship Of The Child With The Child'S Parent Or Parents",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Attitude To The Child, And To The Responsibilities Of Parenthood Demonstrated By The Child'S Parent Or Parents",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "The Welfare, Status And Circumstances Of The Child And Of The Child'S Parent Or Parents",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_1",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Child",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

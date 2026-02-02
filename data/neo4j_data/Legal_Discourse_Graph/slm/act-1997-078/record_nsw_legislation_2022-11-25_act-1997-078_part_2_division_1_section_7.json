@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+    "text_hash": "d57c9cc0fa3f32f9d2394b8c34719ddd",
+    "text": "Ancillary provisions (1) Rules of court may be made for or with respect to the attendance of parents and children required under this Act to attend a place and undertakings required to be given under this Part. (2) (Repealed) (3) Without affecting the generality of subsection (1), the provisions of Parts 3 and 4 of Chapter 4 of the Criminal Procedure Act 1986 relating to warrants and subpoenas for the attendance of witnesses in proceedings before the Local Court for offences punishable on summary conviction apply to the attendance of any person required under this Act to attend (before the Local Court or the Children's Court) at a place in the same way as those provisions apply to the attendance of witnesses in proceedings for such offences. (4) A court may exercise all or any one or more of the functions under sections 7, 8, 9 and 10 in any particular matter.",
+    "token_count": 186,
+    "char_count": 872,
+    "graph_stats": {
+      "total_nodes": 12,
+      "llm_extracted_nodes": 11,
+      "total_relationships": 17,
+      "llm_extracted_relationships": 6,
+      "mentions_relationships": 11
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "Rules Of Court",
+      "type": "Entity",
+      "properties": {
+        "name": "Rules of court",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Attendance Of Parents And Children",
+      "type": "Entity",
+      "properties": {
+        "name": "attendance of parents and children",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "This Act",
+      "type": "Entity",
+      "properties": {
+        "name": "this Act",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "Provisions Of Parts 3 And 4 Of Chapter 4 Of The Criminal Procedure Act 1986",
+      "type": "Entity",
+      "properties": {
+        "name": "provisions of Parts 3 and 4 of Chapter 4 of the Criminal Procedure Act 1986",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Warrants And Subpoenas For The Attendance Of Witnesses",
+      "type": "Entity",
+      "properties": {
+        "name": "warrants and subpoenas for the attendance of witnesses",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Local Court",
+      "type": "Entity",
+      "properties": {
+        "name": "Local Court",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Offences Punishable On Summary Conviction",
+      "type": "Entity",
+      "properties": {
+        "name": "offences punishable on summary conviction",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Any Person Required Under This Act To Attend",
+      "type": "Entity",
+      "properties": {
+        "name": "any person required under this Act to attend",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Children'S Court",
+      "type": "Entity",
+      "properties": {
+        "name": "Children's Court",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Court",
+      "type": "Entity",
+      "properties": {
+        "name": "court",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "Sections 7, 8, 9 And 10",
+      "type": "Entity",
+      "properties": {
+        "name": "sections 7, 8, 9 and 10",
+        "discourse_role": "OBJECT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "Rules Of Court",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Attendance Of Parents And Children",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "This Act",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Attendance Of Parents And Children",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Provisions Of Parts 3 And 4 Of Chapter 4 Of The Criminal Procedure Act 1986",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Warrants And Subpoenas For The Attendance Of Witnesses",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Local Court",
+      "source_type": "Entity",
+      "type": "AFFECTS",
+      "target_id": "Offences Punishable On Summary Conviction",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Any Person Required Under This Act To Attend",
+      "source_type": "Entity",
+      "type": "ENTITY_REQUIRED_TO",
+      "target_id": "Local Court",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "Court",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "Sections 7, 8, 9 And 10",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Rules Of Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Attendance Of Parents And Children",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "This Act",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Provisions Of Parts 3 And 4 Of Chapter 4 Of The Criminal Procedure Act 1986",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Warrants And Subpoenas For The Attendance Of Witnesses",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Local Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Offences Punishable On Summary Conviction",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Person Required Under This Act To Attend",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Children'S Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Court",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_2_division_1_section_7",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Sections 7, 8, 9 And 10",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}

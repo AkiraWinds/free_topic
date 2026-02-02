@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "record_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+    "text_hash": "2d546b1c1668140016876d8aa296bed1",
+    "text": "When action may be taken under this Division (1) A police officer may remove a person to whom this Division applies from any public place in an operational area if the police officer believes on reasonable grounds that the person— (a) is not subject to the supervision or control of a responsible adult, and (b) is in the public place in circumstances that place the person at risk. (2) A police officer who removes a person from a public place under this section must escort (or arrange for another police officer to escort) the person to a place and place the person in the care of a person in accordance with section 22. (3) For the purposes of this section, a person is at risk if— (a) the person is in danger of being physically harmed or injured, or (b) the person is in danger of abuse (including assault and sexual assault, ill treatment and exposure to behaviour that may cause psychological harm to the person), or (c) the person is about to commit an offence.",
+    "token_count": 206,
+    "char_count": 970,
+    "graph_stats": {
+      "total_nodes": 7,
+      "llm_extracted_nodes": 6,
+      "total_relationships": 9,
+      "llm_extracted_relationships": 3,
+      "mentions_relationships": 6
+    }
+  },
+  "nodes": [
+    {
+      "id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "type": "ENTITY",
+      "properties": {
+        "name": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+        "discourse_role": "SECTION"
+      }
+    },
+    {
+      "id": "A Police Officer",
+      "type": "Entity",
+      "properties": {
+        "name": "A police officer",
+        "discourse_role": "SUBJECT"
+      }
+    },
+    {
+      "id": "A Person To Whom This Division Applies",
+      "type": "Entity",
+      "properties": {
+        "name": "a person to whom this Division applies",
+        "discourse_role": "OBJECT"
+      }
+    },
+    {
+      "id": "Any Public Place In An Operational Area",
+      "type": "Entity",
+      "properties": {
+        "name": "any public place in an operational area",
+        "discourse_role": "TEST"
+      }
+    },
+    {
+      "id": "A Responsible Adult",
+      "type": "Entity",
+      "properties": {
+        "name": "a responsible adult",
+        "discourse_role": "CLASS"
+      }
+    },
+    {
+      "id": "Circumstances That Place The Person At Risk",
+      "type": "Entity",
+      "properties": {
+        "name": "circumstances that place the person at risk",
+        "discourse_role": "EXCEPTION"
+      }
+    },
+    {
+      "id": "A Person Is At Risk",
+      "type": "Entity",
+      "properties": {
+        "name": "a person is at risk",
+        "discourse_role": "DEFINITION"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "TEST_CONCERNS",
+      "target_id": "Any Public Place In An Operational Area",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Police Officer",
+      "source_type": "Entity",
+      "type": "ENTITY_EMPOWERED_TO",
+      "target_id": "A Person To Whom This Division Applies",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "A Person Is At Risk",
+      "source_type": "Entity",
+      "type": "DEFINES",
+      "target_id": "A Police Officer",
+      "target_type": "Entity",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Police Officer",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person To Whom This Division Applies",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Any Public Place In An Operational Area",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Responsible Adult",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "Circumstances That Place The Person At Risk",
+      "target_type": "ENTITY",
+      "properties": {}
+    },
+    {
+      "source_id": "nsw_legislation:2022-11-25/act-1997-078_part_3_division_2_section_2",
+      "source_type": "ENTITY",
+      "type": "MENTIONS",
+      "target_id": "A Person Is At Risk",
+      "target_type": "ENTITY",
+      "properties": {}
+    }
+  ]
+}
